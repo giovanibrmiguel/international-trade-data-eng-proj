@@ -39,7 +39,7 @@ models:
           materialized: table
 
 # seeds: 
-#     taxi_rides_ny:
-#         taxi_zone_lookup:
+#     international_trade:
+#         location:
 #             +column_types:
-#                 locationid: numeric
+#                 location_id: numeric
