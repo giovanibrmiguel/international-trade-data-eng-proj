@@ -1,0 +1,343 @@
+[2022-07-19 23:34:36,461] {processor.py:153} INFO - Started process (PID=94468) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:34:36,464] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:34:36,466] {logging_mixin.py:115} INFO - [2022-07-19 23:34:36,466] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:34:37,122] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:34:37,188] {logging_mixin.py:115} INFO - [2022-07-19 23:34:37,187] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:34:37,213] {logging_mixin.py:115} INFO - [2022-07-19 23:34:37,213] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:34:37,241] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.792 seconds
+[2022-07-19 23:35:07,595] {processor.py:153} INFO - Started process (PID=94504) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:35:07,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:35:07,601] {logging_mixin.py:115} INFO - [2022-07-19 23:35:07,601] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:35:08,228] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:35:08,291] {logging_mixin.py:115} INFO - [2022-07-19 23:35:08,290] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:35:08,324] {logging_mixin.py:115} INFO - [2022-07-19 23:35:08,324] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:35:08,350] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.763 seconds
+[2022-07-19 23:35:39,403] {processor.py:153} INFO - Started process (PID=94542) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:35:39,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:35:39,413] {logging_mixin.py:115} INFO - [2022-07-19 23:35:39,413] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:35:40,090] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:35:40,120] {logging_mixin.py:115} INFO - [2022-07-19 23:35:40,120] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:35:40,147] {logging_mixin.py:115} INFO - [2022-07-19 23:35:40,147] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:35:40,159] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.771 seconds
+[2022-07-19 23:36:10,562] {processor.py:153} INFO - Started process (PID=94567) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:36:10,565] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:36:10,566] {logging_mixin.py:115} INFO - [2022-07-19 23:36:10,566] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:36:10,957] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:36:10,981] {logging_mixin.py:115} INFO - [2022-07-19 23:36:10,980] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:36:10,999] {logging_mixin.py:115} INFO - [2022-07-19 23:36:10,999] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:36:11,009] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.455 seconds
+[2022-07-19 23:36:41,194] {processor.py:153} INFO - Started process (PID=94598) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:36:41,197] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:36:41,202] {logging_mixin.py:115} INFO - [2022-07-19 23:36:41,202] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:36:41,773] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:36:41,799] {logging_mixin.py:115} INFO - [2022-07-19 23:36:41,799] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:36:41,822] {logging_mixin.py:115} INFO - [2022-07-19 23:36:41,822] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:36:41,832] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.645 seconds
+[2022-07-19 23:37:12,021] {processor.py:153} INFO - Started process (PID=94631) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:37:12,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:37:12,026] {logging_mixin.py:115} INFO - [2022-07-19 23:37:12,026] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:37:12,608] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:37:12,644] {logging_mixin.py:115} INFO - [2022-07-19 23:37:12,644] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:37:12,670] {logging_mixin.py:115} INFO - [2022-07-19 23:37:12,670] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:37:12,683] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.670 seconds
+[2022-07-19 23:37:43,175] {processor.py:153} INFO - Started process (PID=94657) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:37:43,178] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:37:43,180] {logging_mixin.py:115} INFO - [2022-07-19 23:37:43,180] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:37:43,735] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:37:43,776] {logging_mixin.py:115} INFO - [2022-07-19 23:37:43,775] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:37:43,794] {logging_mixin.py:115} INFO - [2022-07-19 23:37:43,794] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:37:43,807] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.642 seconds
+[2022-07-19 23:38:14,527] {processor.py:153} INFO - Started process (PID=94693) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:38:14,531] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:38:14,538] {logging_mixin.py:115} INFO - [2022-07-19 23:38:14,538] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:38:15,048] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:38:15,083] {logging_mixin.py:115} INFO - [2022-07-19 23:38:15,082] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:38:15,107] {logging_mixin.py:115} INFO - [2022-07-19 23:38:15,106] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:38:15,119] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.612 seconds
+[2022-07-19 23:38:45,374] {processor.py:153} INFO - Started process (PID=94717) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:38:45,377] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:38:45,380] {logging_mixin.py:115} INFO - [2022-07-19 23:38:45,380] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:38:45,893] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:38:45,926] {logging_mixin.py:115} INFO - [2022-07-19 23:38:45,926] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:38:45,950] {logging_mixin.py:115} INFO - [2022-07-19 23:38:45,950] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:38:45,961] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.599 seconds
+[2022-07-19 23:39:16,098] {processor.py:153} INFO - Started process (PID=94752) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:39:16,101] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:39:16,103] {logging_mixin.py:115} INFO - [2022-07-19 23:39:16,103] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:39:16,623] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:39:16,661] {logging_mixin.py:115} INFO - [2022-07-19 23:39:16,661] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:39:16,683] {logging_mixin.py:115} INFO - [2022-07-19 23:39:16,683] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:39:16,696] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.606 seconds
+[2022-07-19 23:39:46,913] {processor.py:153} INFO - Started process (PID=94775) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:39:46,916] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:39:46,918] {logging_mixin.py:115} INFO - [2022-07-19 23:39:46,918] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:39:47,595] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:39:47,649] {logging_mixin.py:115} INFO - [2022-07-19 23:39:47,648] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:39:47,678] {logging_mixin.py:115} INFO - [2022-07-19 23:39:47,678] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:39:47,691] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.786 seconds
+[2022-07-19 23:40:17,828] {processor.py:153} INFO - Started process (PID=94809) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:40:17,831] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:40:17,834] {logging_mixin.py:115} INFO - [2022-07-19 23:40:17,834] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:40:18,248] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:40:18,278] {logging_mixin.py:115} INFO - [2022-07-19 23:40:18,278] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:40:18,299] {logging_mixin.py:115} INFO - [2022-07-19 23:40:18,299] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:40:18,310] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.488 seconds
+[2022-07-19 23:40:48,595] {processor.py:153} INFO - Started process (PID=94834) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:40:48,599] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:40:48,601] {logging_mixin.py:115} INFO - [2022-07-19 23:40:48,601] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:40:49,152] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:40:49,189] {logging_mixin.py:115} INFO - [2022-07-19 23:40:49,189] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:40:49,212] {logging_mixin.py:115} INFO - [2022-07-19 23:40:49,212] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:40:49,224] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.637 seconds
+[2022-07-19 23:41:19,510] {processor.py:153} INFO - Started process (PID=94865) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:41:19,512] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:41:19,515] {logging_mixin.py:115} INFO - [2022-07-19 23:41:19,515] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:41:20,101] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:41:20,145] {logging_mixin.py:115} INFO - [2022-07-19 23:41:20,144] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:41:20,168] {logging_mixin.py:115} INFO - [2022-07-19 23:41:20,168] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:41:20,187] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.688 seconds
+[2022-07-19 23:41:50,494] {processor.py:153} INFO - Started process (PID=94905) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:41:50,498] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:41:50,504] {logging_mixin.py:115} INFO - [2022-07-19 23:41:50,503] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:41:51,449] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:41:51,569] {logging_mixin.py:115} INFO - [2022-07-19 23:41:51,564] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:41:51,617] {logging_mixin.py:115} INFO - [2022-07-19 23:41:51,617] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:41:51,646] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 1.160 seconds
+[2022-07-19 23:42:22,499] {processor.py:153} INFO - Started process (PID=94933) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:42:22,503] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:42:22,506] {logging_mixin.py:115} INFO - [2022-07-19 23:42:22,505] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:42:23,090] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:42:23,126] {logging_mixin.py:115} INFO - [2022-07-19 23:42:23,126] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:42:23,159] {logging_mixin.py:115} INFO - [2022-07-19 23:42:23,159] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:42:23,176] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.689 seconds
+[2022-07-19 23:42:54,096] {processor.py:153} INFO - Started process (PID=94958) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:42:54,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:42:54,109] {logging_mixin.py:115} INFO - [2022-07-19 23:42:54,109] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:42:55,641] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:42:55,677] {logging_mixin.py:115} INFO - [2022-07-19 23:42:55,677] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:42:55,705] {logging_mixin.py:115} INFO - [2022-07-19 23:42:55,705] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:42:55,719] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 1.643 seconds
+[2022-07-19 23:43:26,380] {processor.py:153} INFO - Started process (PID=94998) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:43:26,385] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:43:26,386] {logging_mixin.py:115} INFO - [2022-07-19 23:43:26,386] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:43:26,872] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:43:26,898] {logging_mixin.py:115} INFO - [2022-07-19 23:43:26,898] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:43:26,916] {logging_mixin.py:115} INFO - [2022-07-19 23:43:26,916] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:43:26,926] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.553 seconds
+[2022-07-19 23:43:57,628] {processor.py:153} INFO - Started process (PID=95022) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:43:57,632] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:43:57,634] {logging_mixin.py:115} INFO - [2022-07-19 23:43:57,634] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:43:58,225] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:43:58,257] {logging_mixin.py:115} INFO - [2022-07-19 23:43:58,257] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:43:58,277] {logging_mixin.py:115} INFO - [2022-07-19 23:43:58,277] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:43:58,287] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.667 seconds
+[2022-07-19 23:44:28,852] {processor.py:153} INFO - Started process (PID=95059) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:44:28,856] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:44:28,859] {logging_mixin.py:115} INFO - [2022-07-19 23:44:28,859] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:44:29,669] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:44:29,733] {logging_mixin.py:115} INFO - [2022-07-19 23:44:29,733] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:44:29,764] {logging_mixin.py:115} INFO - [2022-07-19 23:44:29,764] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:44:29,780] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.939 seconds
+[2022-07-19 23:45:00,715] {processor.py:153} INFO - Started process (PID=95097) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:45:00,719] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:45:00,721] {logging_mixin.py:115} INFO - [2022-07-19 23:45:00,721] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:45:01,297] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:45:01,322] {logging_mixin.py:115} INFO - [2022-07-19 23:45:01,322] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:45:01,346] {logging_mixin.py:115} INFO - [2022-07-19 23:45:01,346] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:45:01,358] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.651 seconds
+[2022-07-19 23:45:31,561] {processor.py:153} INFO - Started process (PID=95122) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:45:31,565] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:45:31,567] {logging_mixin.py:115} INFO - [2022-07-19 23:45:31,567] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:45:32,217] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:45:32,440] {logging_mixin.py:115} INFO - [2022-07-19 23:45:32,432] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:45:32,495] {logging_mixin.py:115} INFO - [2022-07-19 23:45:32,494] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:45:32,542] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.991 seconds
+[2022-07-19 23:46:03,313] {processor.py:153} INFO - Started process (PID=95157) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:46:03,316] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:46:03,318] {logging_mixin.py:115} INFO - [2022-07-19 23:46:03,318] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:46:04,062] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:46:04,162] {logging_mixin.py:115} INFO - [2022-07-19 23:46:04,160] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:46:04,195] {logging_mixin.py:115} INFO - [2022-07-19 23:46:04,195] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:46:04,213] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.916 seconds
+[2022-07-19 23:46:34,487] {processor.py:153} INFO - Started process (PID=95180) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:46:34,489] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:46:34,491] {logging_mixin.py:115} INFO - [2022-07-19 23:46:34,491] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:46:35,105] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:46:35,141] {logging_mixin.py:115} INFO - [2022-07-19 23:46:35,140] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:46:35,162] {logging_mixin.py:115} INFO - [2022-07-19 23:46:35,162] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:46:35,173] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.693 seconds
+[2022-07-19 23:47:05,708] {processor.py:153} INFO - Started process (PID=95212) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:47:05,710] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:47:05,712] {logging_mixin.py:115} INFO - [2022-07-19 23:47:05,712] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:47:06,298] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:47:06,355] {logging_mixin.py:115} INFO - [2022-07-19 23:47:06,355] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:47:06,386] {logging_mixin.py:115} INFO - [2022-07-19 23:47:06,386] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:47:06,401] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.702 seconds
+[2022-07-19 23:47:37,032] {processor.py:153} INFO - Started process (PID=95246) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:47:37,034] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:47:37,036] {logging_mixin.py:115} INFO - [2022-07-19 23:47:37,036] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:47:37,538] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:47:37,565] {logging_mixin.py:115} INFO - [2022-07-19 23:47:37,565] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:47:37,583] {logging_mixin.py:115} INFO - [2022-07-19 23:47:37,583] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:47:37,593] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.568 seconds
+[2022-07-19 23:48:08,329] {processor.py:153} INFO - Started process (PID=95270) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:48:08,333] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:48:08,337] {logging_mixin.py:115} INFO - [2022-07-19 23:48:08,337] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:48:09,108] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:48:09,176] {logging_mixin.py:115} INFO - [2022-07-19 23:48:09,175] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:48:09,215] {logging_mixin.py:115} INFO - [2022-07-19 23:48:09,215] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:48:09,232] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.912 seconds
+[2022-07-19 23:48:39,600] {processor.py:153} INFO - Started process (PID=95305) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:48:39,604] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:48:39,607] {logging_mixin.py:115} INFO - [2022-07-19 23:48:39,607] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:48:40,275] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:48:40,311] {logging_mixin.py:115} INFO - [2022-07-19 23:48:40,310] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:48:40,333] {logging_mixin.py:115} INFO - [2022-07-19 23:48:40,333] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:48:40,345] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.758 seconds
+[2022-07-19 23:49:10,535] {processor.py:153} INFO - Started process (PID=95338) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:49:10,542] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:49:10,545] {logging_mixin.py:115} INFO - [2022-07-19 23:49:10,545] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:49:11,379] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:49:11,438] {logging_mixin.py:115} INFO - [2022-07-19 23:49:11,437] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:49:11,473] {logging_mixin.py:115} INFO - [2022-07-19 23:49:11,473] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:49:11,493] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.968 seconds
+[2022-07-19 23:49:41,889] {processor.py:153} INFO - Started process (PID=95364) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:49:41,891] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:49:41,894] {logging_mixin.py:115} INFO - [2022-07-19 23:49:41,893] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:49:42,340] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:49:42,368] {logging_mixin.py:115} INFO - [2022-07-19 23:49:42,368] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:49:42,387] {logging_mixin.py:115} INFO - [2022-07-19 23:49:42,386] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:49:42,398] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.514 seconds
+[2022-07-19 23:50:12,782] {processor.py:153} INFO - Started process (PID=95400) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:50:12,786] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:50:12,792] {logging_mixin.py:115} INFO - [2022-07-19 23:50:12,792] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:50:13,589] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:50:13,645] {logging_mixin.py:115} INFO - [2022-07-19 23:50:13,644] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:50:13,697] {logging_mixin.py:115} INFO - [2022-07-19 23:50:13,697] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:50:13,748] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.984 seconds
+[2022-07-19 23:50:44,099] {processor.py:153} INFO - Started process (PID=95425) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:50:44,102] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:50:44,104] {logging_mixin.py:115} INFO - [2022-07-19 23:50:44,104] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:50:44,682] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:50:44,725] {logging_mixin.py:115} INFO - [2022-07-19 23:50:44,725] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:50:44,755] {logging_mixin.py:115} INFO - [2022-07-19 23:50:44,755] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:50:44,778] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.687 seconds
+[2022-07-19 23:51:15,032] {processor.py:153} INFO - Started process (PID=95459) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:51:15,035] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:51:15,037] {logging_mixin.py:115} INFO - [2022-07-19 23:51:15,037] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:51:15,563] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:51:15,590] {logging_mixin.py:115} INFO - [2022-07-19 23:51:15,590] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:51:15,609] {logging_mixin.py:115} INFO - [2022-07-19 23:51:15,608] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:51:15,619] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.600 seconds
+[2022-07-19 23:51:46,496] {processor.py:153} INFO - Started process (PID=95494) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:51:46,500] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:51:46,502] {logging_mixin.py:115} INFO - [2022-07-19 23:51:46,502] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:51:47,082] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:51:47,108] {logging_mixin.py:115} INFO - [2022-07-19 23:51:47,108] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:51:47,135] {logging_mixin.py:115} INFO - [2022-07-19 23:51:47,134] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:51:47,150] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.665 seconds
+[2022-07-19 23:52:17,774] {processor.py:153} INFO - Started process (PID=95519) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:52:17,781] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:52:17,784] {logging_mixin.py:115} INFO - [2022-07-19 23:52:17,784] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:52:18,502] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:52:18,570] {logging_mixin.py:115} INFO - [2022-07-19 23:52:18,570] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:52:18,614] {logging_mixin.py:115} INFO - [2022-07-19 23:52:18,614] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:52:18,638] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.870 seconds
+[2022-07-19 23:52:48,912] {processor.py:153} INFO - Started process (PID=95555) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:52:48,915] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:52:48,918] {logging_mixin.py:115} INFO - [2022-07-19 23:52:48,917] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:52:49,409] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:52:49,447] {logging_mixin.py:115} INFO - [2022-07-19 23:52:49,447] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:52:49,470] {logging_mixin.py:115} INFO - [2022-07-19 23:52:49,470] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:52:49,480] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.580 seconds
+[2022-07-19 23:53:19,728] {processor.py:153} INFO - Started process (PID=95592) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:53:19,733] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:53:19,737] {logging_mixin.py:115} INFO - [2022-07-19 23:53:19,737] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:53:20,224] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:53:20,253] {logging_mixin.py:115} INFO - [2022-07-19 23:53:20,253] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:53:20,275] {logging_mixin.py:115} INFO - [2022-07-19 23:53:20,275] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:53:20,286] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.566 seconds
+[2022-07-19 23:53:50,564] {processor.py:153} INFO - Started process (PID=95615) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:53:50,568] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:53:50,570] {logging_mixin.py:115} INFO - [2022-07-19 23:53:50,570] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:53:51,075] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:53:51,100] {logging_mixin.py:115} INFO - [2022-07-19 23:53:51,100] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:53:51,117] {logging_mixin.py:115} INFO - [2022-07-19 23:53:51,117] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:53:51,128] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.571 seconds
+[2022-07-19 23:54:21,357] {processor.py:153} INFO - Started process (PID=95650) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:54:21,359] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:54:21,361] {logging_mixin.py:115} INFO - [2022-07-19 23:54:21,361] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:54:21,706] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:54:21,727] {logging_mixin.py:115} INFO - [2022-07-19 23:54:21,727] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:54:21,744] {logging_mixin.py:115} INFO - [2022-07-19 23:54:21,744] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:54:21,753] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.404 seconds
+[2022-07-19 23:54:52,004] {processor.py:153} INFO - Started process (PID=95690) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:54:52,007] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:54:52,010] {logging_mixin.py:115} INFO - [2022-07-19 23:54:52,010] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:54:52,541] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:54:52,577] {logging_mixin.py:115} INFO - [2022-07-19 23:54:52,576] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:54:52,605] {logging_mixin.py:115} INFO - [2022-07-19 23:54:52,605] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:54:52,630] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.632 seconds
+[2022-07-19 23:55:22,934] {processor.py:153} INFO - Started process (PID=95715) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:55:22,940] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:55:22,943] {logging_mixin.py:115} INFO - [2022-07-19 23:55:22,943] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:55:23,496] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:55:23,534] {logging_mixin.py:115} INFO - [2022-07-19 23:55:23,534] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:55:23,561] {logging_mixin.py:115} INFO - [2022-07-19 23:55:23,561] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:55:23,574] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.653 seconds
+[2022-07-19 23:55:53,695] {processor.py:153} INFO - Started process (PID=95751) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:55:53,700] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:55:53,703] {logging_mixin.py:115} INFO - [2022-07-19 23:55:53,703] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:55:54,331] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:55:54,382] {logging_mixin.py:115} INFO - [2022-07-19 23:55:54,382] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:55:54,403] {logging_mixin.py:115} INFO - [2022-07-19 23:55:54,403] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:55:54,415] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.730 seconds
+[2022-07-19 23:56:24,856] {processor.py:153} INFO - Started process (PID=95774) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:56:24,864] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:56:24,869] {logging_mixin.py:115} INFO - [2022-07-19 23:56:24,869] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:56:25,776] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:56:25,846] {logging_mixin.py:115} INFO - [2022-07-19 23:56:25,845] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:56:25,910] {logging_mixin.py:115} INFO - [2022-07-19 23:56:25,909] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:56:25,932] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 1.091 seconds
+[2022-07-19 23:56:56,256] {processor.py:153} INFO - Started process (PID=95806) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:56:56,258] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:56:56,260] {logging_mixin.py:115} INFO - [2022-07-19 23:56:56,260] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:56:56,699] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:56:56,735] {logging_mixin.py:115} INFO - [2022-07-19 23:56:56,735] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:56:56,766] {logging_mixin.py:115} INFO - [2022-07-19 23:56:56,766] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:56:56,781] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.530 seconds
+[2022-07-19 23:57:27,108] {processor.py:153} INFO - Started process (PID=95841) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:57:27,117] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:57:27,126] {logging_mixin.py:115} INFO - [2022-07-19 23:57:27,126] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:57:28,497] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:57:28,606] {logging_mixin.py:115} INFO - [2022-07-19 23:57:28,604] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:57:28,708] {logging_mixin.py:115} INFO - [2022-07-19 23:57:28,707] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:57:28,745] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 1.677 seconds
+[2022-07-19 23:57:59,249] {processor.py:153} INFO - Started process (PID=95862) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:57:59,254] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:57:59,259] {logging_mixin.py:115} INFO - [2022-07-19 23:57:59,259] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:57:59,974] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:58:00,027] {logging_mixin.py:115} INFO - [2022-07-19 23:58:00,027] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:58:00,054] {logging_mixin.py:115} INFO - [2022-07-19 23:58:00,054] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:58:00,067] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.830 seconds
+[2022-07-19 23:58:30,468] {processor.py:153} INFO - Started process (PID=95895) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:58:30,472] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:58:30,475] {logging_mixin.py:115} INFO - [2022-07-19 23:58:30,474] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:58:31,293] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:58:31,372] {logging_mixin.py:115} INFO - [2022-07-19 23:58:31,370] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:58:31,415] {logging_mixin.py:115} INFO - [2022-07-19 23:58:31,415] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:58:31,444] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.986 seconds
+[2022-07-19 23:59:01,875] {processor.py:153} INFO - Started process (PID=95918) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:59:01,877] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:59:01,879] {logging_mixin.py:115} INFO - [2022-07-19 23:59:01,879] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:59:02,458] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:59:02,523] {logging_mixin.py:115} INFO - [2022-07-19 23:59:02,523] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:59:02,572] {logging_mixin.py:115} INFO - [2022-07-19 23:59:02,571] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:59:02,592] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.723 seconds
+[2022-07-19 23:59:32,747] {processor.py:153} INFO - Started process (PID=95951) to work on /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:59:32,750] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gcs_dag.py for tasks to queue
+[2022-07-19 23:59:32,752] {logging_mixin.py:115} INFO - [2022-07-19 23:59:32,752] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:59:33,268] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gcs_dag.py
+[2022-07-19 23:59:33,305] {logging_mixin.py:115} INFO - [2022-07-19 23:59:33,304] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-19 23:59:33,327] {logging_mixin.py:115} INFO - [2022-07-19 23:59:33,327] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to None, run_after=None
+[2022-07-19 23:59:33,348] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gcs_dag.py took 0.609 seconds

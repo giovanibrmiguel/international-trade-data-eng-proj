@@ -1,0 +1,97 @@
+[2022-07-18 22:18:25,878] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.local_to_gcs_task manual__2022-07-18T22:18:24.230212+00:00 [queued]>
+[2022-07-18 22:18:25,887] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.local_to_gcs_task manual__2022-07-18T22:18:24.230212+00:00 [queued]>
+[2022-07-18 22:18:25,889] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-18 22:18:25,890] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-07-18 22:18:25,891] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-18 22:18:25,906] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2022-07-18 22:18:24.230212+00:00
+[2022-07-18 22:18:25,917] {standard_task_runner.py:52} INFO - Started process 35765 to run task
+[2022-07-18 22:18:25,924] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'local_to_gcs', 'local_to_gcs_task', 'manual__2022-07-18T22:18:24.230212+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/local_to_gcs.py', '--cfg-path', '/tmp/tmpga_rznb6', '--error-file', '/tmp/tmpjv9yvh8_']
+[2022-07-18 22:18:25,926] {standard_task_runner.py:80} INFO - Job 27: Subtask local_to_gcs_task
+[2022-07-18 22:18:26,000] {task_command.py:370} INFO - Running <TaskInstance: local_to_gcs.local_to_gcs_task manual__2022-07-18T22:18:24.230212+00:00 [running]> on host 32d1f26135d5
+[2022-07-18 22:18:26,075] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_to_gcs
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-18T22:18:24.230212+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-18T22:18:24.230212+00:00
+[2022-07-18 22:19:54,494] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.7/http/client.py", line 1373, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.7/http/client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.7/http/client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 450, in send
+    timeout=timeout
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 341, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/local_to_gcs.py", line 57, in upload_to_gcs
+    blob.upload_from_filename(local_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2735, in upload_from_filename
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2594, in upload_from_file
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2412, in _do_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2242, in _do_resumable_upload
+    response = upload.transmit_next_chunk(transport, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 516, in transmit_next_chunk
+    retriable_request, self._get_status_code, self._retry_strategy
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/_request_helpers.py", line 171, in wait_and_retry
+    raise error
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/_request_helpers.py", line 148, in wait_and_retry
+    response = func()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 508, in retriable_request
+    method, url, data=payload, headers=headers, timeout=timeout
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/transport/requests.py", line 496, in request
+    **kwargs
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Read timed out. (read timeout=60)
+[2022-07-18 22:19:54,600] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=local_to_gcs, task_id=local_to_gcs_task, execution_date=20220718T221824, start_date=20220718T221825, end_date=20220718T221954
+[2022-07-18 22:19:54,669] {standard_task_runner.py:97} ERROR - Failed to execute job 27 for task local_to_gcs_task (HTTPSConnectionPool(host='storage.googleapis.com', port=443): Read timed out. (read timeout=60); 35765)
+[2022-07-18 22:19:54,746] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-18 22:19:54,839] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

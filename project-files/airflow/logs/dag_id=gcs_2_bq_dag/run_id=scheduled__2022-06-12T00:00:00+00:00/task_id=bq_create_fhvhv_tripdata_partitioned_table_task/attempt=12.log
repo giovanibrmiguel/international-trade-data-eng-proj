@@ -1,0 +1,62 @@
+[2022-06-13 12:51:57,240] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_create_fhvhv_tripdata_partitioned_table_task scheduled__2022-06-12T00:00:00+00:00 [queued]>
+[2022-06-13 12:51:57,269] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_create_fhvhv_tripdata_partitioned_table_task scheduled__2022-06-12T00:00:00+00:00 [queued]>
+[2022-06-13 12:51:57,272] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 12:51:57,276] {taskinstance.py:1358} INFO - Starting attempt 12 of 13
+[2022-06-13 12:51:57,278] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 12:51:57,331] {taskinstance.py:1378} INFO - Executing <Task(BigQueryInsertJobOperator): bq_create_fhvhv_tripdata_partitioned_table_task> on 2022-06-12 00:00:00+00:00
+[2022-06-13 12:51:57,365] {standard_task_runner.py:52} INFO - Started process 15530 to run task
+[2022-06-13 12:51:57,371] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'bq_create_fhvhv_tripdata_partitioned_table_task', 'scheduled__2022-06-12T00:00:00+00:00', '--job-id', '660', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpes_8l58r', '--error-file', '/tmp/tmp77z2t294']
+[2022-06-13 12:51:57,374] {standard_task_runner.py:80} INFO - Job 660: Subtask bq_create_fhvhv_tripdata_partitioned_table_task
+[2022-06-13 12:51:57,586] {task_command.py:370} INFO - Running <TaskInstance: gcs_2_bq_dag.bq_create_fhvhv_tripdata_partitioned_table_task scheduled__2022-06-12T00:00:00+00:00 [running]> on host 0825143a1170
+[2022-06-13 12:51:57,801] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_create_fhvhv_tripdata_partitioned_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-12T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=12
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-12T00:00:00+00:00
+[2022-06-13 12:51:57,813] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-06-13 12:51:57,820] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-06-13 12:51:57,829] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-06-13 12:51:57,835] {bigquery.py:2148} INFO - Executing: {'query': {'query': 'CREATE OR REPLACE TABLE trips_data_all.fhv_trips             (             hvfhs_license_num STRING,             dispatching_base_num STRING,             originating_base_num STRING,             request_datetime TIMESTAMP,             on_scene_datetime TIMESTAMP,             pickup_datetime TIMESTAMP,             dropoff_datetime TIMESTAMP,             PULocationID INT64,             DOLocationID INT64,             trip_miles FLOAT64,             trip_time INT64,             base_passenger_fare FLOAT64,             tolls FLOAT64,             bcf FLOAT64,             sales_tax FLOAT64,             congestion_surcharge FLOAT64,             airport_fee INT64,             tips FLOAT64,             driver_pay FLOAT64,             shared_request_flag STRING,             shared_match_flag STRING,             access_a_ride_flag STRING,             wav_request_flag STRING,             wav_match_flag STRING             )     PARTITION BY DATE(pickup_datetime)     OPTIONS(     partition_expiration_days=10000     )     AS (         SELECT              *         REPLACE(NULL AS airport_fee)         FROM              trips_data_all.fhvhv_tripdata_external_table     );', 'useLegacySql': False}}
+[2022-06-13 12:51:57,859] {bigquery.py:1538} INFO - Inserting job ***_gcs_2_bq_dag_bq_create_fhvhv_tripdata_partitioned_table_task_2022_06_12T00_00_00_00_00_c52109212afc65b129ddc1c5af7cdb1c
+[2022-06-13 12:53:08,560] {local_task_job.py:221} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2022-06-13 12:53:08,576] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 15530. PIDs of all processes in the group: [15530]
+[2022-06-13 12:53:08,579] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 15530
+[2022-06-13 12:53:08,585] {taskinstance.py:1542} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-06-13 12:53:08,633] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2149, in execute
+    job = self._submit_job(hook, job_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2114, in _submit_job
+    retry=self.result_retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 439, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1544, in insert_job
+    job.result(timeout=timeout, retry=retry)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1499, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1489, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 728, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 132, in result
+    self._blocking_poll(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1245, in _blocking_poll
+    super(QueryJob, self)._blocking_poll(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 110, in _blocking_poll
+    retry_(self._done_or_raise)(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/retry.py", line 288, in retry_wrapped_func
+    on_error=on_error,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/retry.py", line 218, in retry_target
+    time.sleep(sleep)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1544, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2022-06-13 12:53:08,650] {taskinstance.py:1401} INFO - Marking task as UP_FOR_RETRY. dag_id=gcs_2_bq_dag, task_id=bq_create_fhvhv_tripdata_partitioned_table_task, execution_date=20220612T000000, start_date=20220613T125157, end_date=20220613T125308
+[2022-06-13 12:53:08,669] {standard_task_runner.py:97} ERROR - Failed to execute job 660 for task bq_create_fhvhv_tripdata_partitioned_table_task (Task received SIGTERM signal; 15530)
+[2022-06-13 12:53:08,761] {process_utils.py:75} INFO - Process psutil.Process(pid=15530, status='terminated', exitcode=1, started='12:51:57') (15530) terminated with exit code 1

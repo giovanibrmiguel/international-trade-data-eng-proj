@@ -1,0 +1,23 @@
+[2022-07-18 23:51:21,352] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.local_to_gcs_task scheduled__2015-01-10T06:00:00+00:00 [queued]>
+[2022-07-18 23:51:21,364] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.local_to_gcs_task scheduled__2015-01-10T06:00:00+00:00 [queued]>
+[2022-07-18 23:51:21,366] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-18 23:51:21,367] {taskinstance.py:1358} INFO - Starting attempt 2 of 2
+[2022-07-18 23:51:21,368] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-18 23:51:21,384] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2015-01-10 06:00:00+00:00
+[2022-07-18 23:51:21,398] {standard_task_runner.py:52} INFO - Started process 40422 to run task
+[2022-07-18 23:51:21,403] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'local_to_gcs', 'local_to_gcs_task', 'scheduled__2015-01-10T06:00:00+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/local_to_gcs.py', '--cfg-path', '/tmp/tmpnumh1ibm', '--error-file', '/tmp/tmpxf45_ywv']
+[2022-07-18 23:51:21,406] {standard_task_runner.py:80} INFO - Job 83: Subtask local_to_gcs_task
+[2022-07-18 23:51:21,500] {task_command.py:370} INFO - Running <TaskInstance: local_to_gcs.local_to_gcs_task scheduled__2015-01-10T06:00:00+00:00 [running]> on host 32d1f26135d5
+[2022-07-18 23:51:21,635] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_to_gcs
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2015-01-10T06:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2015-01-10T06:00:00+00:00
+[2022-07-18 23:51:28,435] {python.py:173} INFO - Done. Returned value was: None
+[2022-07-18 23:51:28,466] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=local_to_gcs, task_id=local_to_gcs_task, execution_date=20150110T060000, start_date=20220718T235121, end_date=20220718T235128
+[2022-07-18 23:51:28,518] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-18 23:51:28,579] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

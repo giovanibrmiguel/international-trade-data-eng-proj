@@ -1,0 +1,57 @@
+[2022-06-01 12:59:21,241] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_create_yellow_taxi_tripdata_partitioned_table_task scheduled__2022-05-31T00:00:00+00:00 [queued]>
+[2022-06-01 12:59:21,255] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_create_yellow_taxi_tripdata_partitioned_table_task scheduled__2022-05-31T00:00:00+00:00 [queued]>
+[2022-06-01 12:59:21,257] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 12:59:21,258] {taskinstance.py:1358} INFO - Starting attempt 7 of 8
+[2022-06-01 12:59:21,260] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 12:59:21,274] {taskinstance.py:1378} INFO - Executing <Task(BigQueryInsertJobOperator): bq_create_yellow_taxi_tripdata_partitioned_table_task> on 2022-05-31 00:00:00+00:00
+[2022-06-01 12:59:21,285] {standard_task_runner.py:52} INFO - Started process 6408 to run task
+[2022-06-01 12:59:21,289] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'bq_create_yellow_taxi_tripdata_partitioned_table_task', 'scheduled__2022-05-31T00:00:00+00:00', '--job-id', '527', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpozzv4l3t', '--error-file', '/tmp/tmpky4yqo2o']
+[2022-06-01 12:59:21,292] {standard_task_runner.py:80} INFO - Job 527: Subtask bq_create_yellow_taxi_tripdata_partitioned_table_task
+[2022-06-01 12:59:21,354] {task_command.py:370} INFO - Running <TaskInstance: gcs_2_bq_dag.bq_create_yellow_taxi_tripdata_partitioned_table_task scheduled__2022-05-31T00:00:00+00:00 [running]> on host 80b81dda36ea
+[2022-06-01 12:59:21,425] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_create_yellow_taxi_tripdata_partitioned_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=7
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-31T00:00:00+00:00
+[2022-06-01 12:59:21,429] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-06-01 12:59:21,431] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-06-01 12:59:21,433] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-06-01 12:59:21,435] {bigquery.py:2148} INFO - Executing: {'query': {'query': 'CREATE OR REPLACE TABLE trips_data_all.yellow_taxi_tripdata                 PARTITION BY DATETIME_TRUNC(tpep_pickup_datetime, MONTH)                     AS                     SELECT *                     REPLACE(NULL AS airport_fee)                FROM trips_data_all.yellow_taxi_tripdata_external_table;', 'useLegacySql': False}}
+[2022-06-01 12:59:21,451] {bigquery.py:1538} INFO - Inserting job ***_gcs_2_bq_dag_bq_create_yellow_taxi_tripdata_partitioned_table_task_2022_05_31T00_00_00_00_00_9825dba7ac09cbddd19d59712651fe0d
+[2022-06-01 12:59:22,490] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2149, in execute
+    job = self._submit_job(hook, job_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2114, in _submit_job
+    retry=self.result_retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 439, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1544, in insert_job
+    job.result(timeout=timeout, retry=retry)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1499, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1489, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 728, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Cannot replace a table with a different partitioning spec. Instead, DROP the table, and then recreate it. New partitioning spec is interval(type:month,field:tpep_pickup_datetime) and existing spec is interval(type:day,field:tpep_pickup_datetime)
+
+Location: southamerica-east1
+Job ID: airflow_gcs_2_bq_dag_bq_create_yellow_taxi_tripdata_partitioned_table_task_2022_05_31T00_00_00_00_00_9825dba7ac09cbddd19d59712651fe0d
+
+[2022-06-01 12:59:22,535] {taskinstance.py:1401} INFO - Marking task as UP_FOR_RETRY. dag_id=gcs_2_bq_dag, task_id=bq_create_yellow_taxi_tripdata_partitioned_table_task, execution_date=20220531T000000, start_date=20220601T125921, end_date=20220601T125922
+[2022-06-01 12:59:22,566] {standard_task_runner.py:97} ERROR - Failed to execute job 527 for task bq_create_yellow_taxi_tripdata_partitioned_table_task (400 Cannot replace a table with a different partitioning spec. Instead, DROP the table, and then recreate it. New partitioning spec is interval(type:month,field:tpep_pickup_datetime) and existing spec is interval(type:day,field:tpep_pickup_datetime)
+
+Location: southamerica-east1
+Job ID: airflow_gcs_2_bq_dag_bq_create_yellow_taxi_tripdata_partitioned_table_task_2022_05_31T00_00_00_00_00_9825dba7ac09cbddd19d59712651fe0d
+; 6408)
+[2022-06-01 12:59:22,615] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-06-01 12:59:22,659] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

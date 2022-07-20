@@ -1,0 +1,52 @@
+[2022-06-13 13:17:36,029] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: green_taxi_ingestion_gcs_dag.local_to_gcs_task scheduled__2019-06-01T06:00:00+00:00 [queued]>
+[2022-06-13 13:17:36,039] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: green_taxi_ingestion_gcs_dag.local_to_gcs_task scheduled__2019-06-01T06:00:00+00:00 [queued]>
+[2022-06-13 13:17:36,040] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 13:17:36,041] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-06-13 13:17:36,043] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 13:17:36,056] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-06-01 06:00:00+00:00
+[2022-06-13 13:17:36,062] {standard_task_runner.py:52} INFO - Started process 264 to run task
+[2022-06-13 13:17:36,065] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_ingestion_gcs_dag', 'local_to_gcs_task', 'scheduled__2019-06-01T06:00:00+00:00', '--job-id', '689', '--raw', '--subdir', 'DAGS_FOLDER/green_taxi_ingestion.py', '--cfg-path', '/tmp/tmptbx9v35l', '--error-file', '/tmp/tmpmrqnvsld']
+[2022-06-13 13:17:36,068] {standard_task_runner.py:80} INFO - Job 689: Subtask local_to_gcs_task
+[2022-06-13 13:17:36,192] {task_command.py:370} INFO - Running <TaskInstance: green_taxi_ingestion_gcs_dag.local_to_gcs_task scheduled__2019-06-01T06:00:00+00:00 [running]> on host 0825143a1170
+[2022-06-13 13:17:36,314] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-06-13 13:17:36,405] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_ingestion_gcs_dag
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-06-01T06:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-01T06:00:00+00:00
+[2022-06-13 13:17:37,752] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-13 13:17:37,784] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=green_taxi_ingestion_gcs_dag, task_id=local_to_gcs_task, execution_date=20190601T060000, start_date=20220613T131736, end_date=20220613T131737
+[2022-06-13 13:17:37,841] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-13 13:17:37,880] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-06-13 13:29:31,405] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: green_taxi_ingestion_gcs_dag.local_to_gcs_task scheduled__2019-06-01T06:00:00+00:00 [queued]>
+[2022-06-13 13:29:31,422] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: green_taxi_ingestion_gcs_dag.local_to_gcs_task scheduled__2019-06-01T06:00:00+00:00 [queued]>
+[2022-06-13 13:29:31,424] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 13:29:31,426] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-06-13 13:29:31,428] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 13:29:31,449] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-06-01 06:00:00+00:00
+[2022-06-13 13:29:31,465] {standard_task_runner.py:52} INFO - Started process 1327 to run task
+[2022-06-13 13:29:31,476] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_ingestion_gcs_dag', 'local_to_gcs_task', 'scheduled__2019-06-01T06:00:00+00:00', '--job-id', '788', '--raw', '--subdir', 'DAGS_FOLDER/green_taxi_ingestion.py', '--cfg-path', '/tmp/tmp3d5n5hqw', '--error-file', '/tmp/tmpkzg4j_0t']
+[2022-06-13 13:29:31,485] {standard_task_runner.py:80} INFO - Job 788: Subtask local_to_gcs_task
+[2022-06-13 13:29:31,640] {task_command.py:370} INFO - Running <TaskInstance: green_taxi_ingestion_gcs_dag.local_to_gcs_task scheduled__2019-06-01T06:00:00+00:00 [running]> on host 0825143a1170
+[2022-06-13 13:29:31,704] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-06-13 13:29:31,792] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_ingestion_gcs_dag
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-06-01T06:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-01T06:00:00+00:00
+[2022-06-13 13:29:32,846] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-13 13:29:32,883] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=green_taxi_ingestion_gcs_dag, task_id=local_to_gcs_task, execution_date=20190601T060000, start_date=20220613T132931, end_date=20220613T132932
+[2022-06-13 13:29:32,925] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-13 13:29:32,980] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,77 @@
+[2022-06-01 11:28:20,574] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.move_fhvhv_files_task scheduled__2022-05-31T00:00:00+00:00 [queued]>
+[2022-06-01 11:28:20,584] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.move_fhvhv_files_task scheduled__2022-05-31T00:00:00+00:00 [queued]>
+[2022-06-01 11:28:20,585] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 11:28:20,587] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-01 11:28:20,588] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 11:28:20,605] {taskinstance.py:1378} INFO - Executing <Task(GCSToGCSOperator): move_fhvhv_files_task> on 2022-05-31 00:00:00+00:00
+[2022-06-01 11:28:20,615] {standard_task_runner.py:52} INFO - Started process 1666 to run task
+[2022-06-01 11:28:20,620] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'move_fhvhv_files_task', 'scheduled__2022-05-31T00:00:00+00:00', '--job-id', '507', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpyr1uobsd', '--error-file', '/tmp/tmplt6zr8s6']
+[2022-06-01 11:28:20,623] {standard_task_runner.py:80} INFO - Job 507: Subtask move_fhvhv_files_task
+[2022-06-01 11:28:20,700] {task_command.py:370} INFO - Running <TaskInstance: gcs_2_bq_dag.move_fhvhv_files_task scheduled__2022-05-31T00:00:00+00:00 [running]> on host 80b81dda36ea
+[2022-06-01 11:28:20,796] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=move_fhvhv_files_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-31T00:00:00+00:00
+[2022-06-01 11:28:20,803] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-06-01 11:28:20,806] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-06-01 11:28:20,809] {gcs_to_gcs.py:361} INFO - Delimiter ignored because wildcard is in prefix
+[2022-06-01 11:28:21,135] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2019-06.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2019-06.parquet
+[2022-06-01 11:28:21,289] {gcs.py:238} INFO - Total Bytes: 536191926 | Bytes Written: 536191926
+[2022-06-01 11:28:21,290] {gcs.py:251} INFO - Object raw/output_fhvhv_2019-06.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2019-06.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:21,332] {gcs.py:653} INFO - Blob raw/output_fhvhv_2019-06.parquet deleted.
+[2022-06-01 11:28:21,334] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2019-07.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2019-07.parquet
+[2022-06-01 11:28:21,433] {gcs.py:238} INFO - Total Bytes: 516008365 | Bytes Written: 516008365
+[2022-06-01 11:28:21,435] {gcs.py:251} INFO - Object raw/output_fhvhv_2019-07.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2019-07.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:21,476] {gcs.py:653} INFO - Blob raw/output_fhvhv_2019-07.parquet deleted.
+[2022-06-01 11:28:21,477] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2019-09.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2019-09.parquet
+[2022-06-01 11:28:21,557] {gcs.py:238} INFO - Total Bytes: 515944585 | Bytes Written: 515944585
+[2022-06-01 11:28:21,560] {gcs.py:251} INFO - Object raw/output_fhvhv_2019-09.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2019-09.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:21,601] {gcs.py:653} INFO - Blob raw/output_fhvhv_2019-09.parquet deleted.
+[2022-06-01 11:28:21,607] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2019-03.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2019-03.parquet
+[2022-06-01 11:28:21,699] {gcs.py:238} INFO - Total Bytes: 610854382 | Bytes Written: 610854382
+[2022-06-01 11:28:21,700] {gcs.py:251} INFO - Object raw/output_fhvhv_2019-03.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2019-03.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:21,738] {gcs.py:653} INFO - Blob raw/output_fhvhv_2019-03.parquet deleted.
+[2022-06-01 11:28:21,744] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2022-05.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2022-05.parquet
+[2022-06-01 11:28:21,786] {gcs.py:238} INFO - Total Bytes: 311 | Bytes Written: 311
+[2022-06-01 11:28:21,788] {gcs.py:251} INFO - Object raw/output_fhvhv_2022-05.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2022-05.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:21,826] {gcs.py:653} INFO - Blob raw/output_fhvhv_2022-05.parquet deleted.
+[2022-06-01 11:28:21,828] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2019-04.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2019-04.parquet
+[2022-06-01 11:28:21,890] {gcs.py:238} INFO - Total Bytes: 559656651 | Bytes Written: 559656651
+[2022-06-01 11:28:21,894] {gcs.py:251} INFO - Object raw/output_fhvhv_2019-04.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2019-04.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:21,932] {gcs.py:653} INFO - Blob raw/output_fhvhv_2019-04.parquet deleted.
+[2022-06-01 11:28:21,934] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2019-05.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2019-05.parquet
+[2022-06-01 11:28:22,011] {gcs.py:238} INFO - Total Bytes: 570821186 | Bytes Written: 570821186
+[2022-06-01 11:28:22,013] {gcs.py:251} INFO - Object raw/output_fhvhv_2019-05.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2019-05.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:22,051] {gcs.py:653} INFO - Blob raw/output_fhvhv_2019-05.parquet deleted.
+[2022-06-01 11:28:22,054] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2019-11.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2019-11.parquet
+[2022-06-01 11:28:22,121] {gcs.py:238} INFO - Total Bytes: 561011664 | Bytes Written: 561011664
+[2022-06-01 11:28:22,122] {gcs.py:251} INFO - Object raw/output_fhvhv_2019-11.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2019-11.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:22,159] {gcs.py:653} INFO - Blob raw/output_fhvhv_2019-11.parquet deleted.
+[2022-06-01 11:28:22,161] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2019-01.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2019-01.parquet
+[2022-06-01 11:28:22,193] {gcs.py:238} INFO - Total Bytes: 311 | Bytes Written: 311
+[2022-06-01 11:28:22,195] {gcs.py:251} INFO - Object raw/output_fhvhv_2019-01.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2019-01.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:22,255] {gcs.py:653} INFO - Blob raw/output_fhvhv_2019-01.parquet deleted.
+[2022-06-01 11:28:22,256] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2019-10.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2019-10.parquet
+[2022-06-01 11:28:22,315] {gcs.py:238} INFO - Total Bytes: 549370339 | Bytes Written: 549370339
+[2022-06-01 11:28:22,315] {gcs.py:251} INFO - Object raw/output_fhvhv_2019-10.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2019-10.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:22,349] {gcs.py:653} INFO - Blob raw/output_fhvhv_2019-10.parquet deleted.
+[2022-06-01 11:28:22,350] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2019-08.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2019-08.parquet
+[2022-06-01 11:28:22,405] {gcs.py:238} INFO - Total Bytes: 501435971 | Bytes Written: 501435971
+[2022-06-01 11:28:22,406] {gcs.py:251} INFO - Object raw/output_fhvhv_2019-08.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2019-08.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:22,455] {gcs.py:653} INFO - Blob raw/output_fhvhv_2019-08.parquet deleted.
+[2022-06-01 11:28:22,458] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2019-12.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2019-12.parquet
+[2022-06-01 11:28:22,517] {gcs.py:238} INFO - Total Bytes: 576648876 | Bytes Written: 576648876
+[2022-06-01 11:28:22,519] {gcs.py:251} INFO - Object raw/output_fhvhv_2019-12.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2019-12.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:22,557] {gcs.py:653} INFO - Blob raw/output_fhvhv_2019-12.parquet deleted.
+[2022-06-01 11:28:22,559] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_fhvhv_2019-02.parquet to gs://dtc_data_lake_united-electron-351323/fhvhv/fhvhv_tripdata2019-02.parquet
+[2022-06-01 11:28:22,613] {gcs.py:238} INFO - Total Bytes: 513054623 | Bytes Written: 513054623
+[2022-06-01 11:28:22,615] {gcs.py:251} INFO - Object raw/output_fhvhv_2019-02.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object fhvhv/fhvhv_tripdata2019-02.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-01 11:28:22,652] {gcs.py:653} INFO - Blob raw/output_fhvhv_2019-02.parquet deleted.
+[2022-06-01 11:28:22,674] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=move_fhvhv_files_task, execution_date=20220531T000000, start_date=20220601T112820, end_date=20220601T112822
+[2022-06-01 11:28:22,744] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-01 11:28:22,793] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

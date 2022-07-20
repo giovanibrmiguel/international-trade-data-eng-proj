@@ -1,0 +1,50 @@
+[2022-06-01 11:13:24,478] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.move_fhvhv_tripdata_files_task scheduled__2022-05-31T00:00:00+00:00 [queued]>
+[2022-06-01 11:13:24,710] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.move_fhvhv_tripdata_files_task scheduled__2022-05-31T00:00:00+00:00 [queued]>
+[2022-06-01 11:13:24,712] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 11:13:24,714] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-01 11:13:24,718] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 11:13:24,765] {taskinstance.py:1378} INFO - Executing <Task(GCSToGCSOperator): move_fhvhv_tripdata_files_task> on 2022-05-31 00:00:00+00:00
+[2022-06-01 11:13:24,776] {standard_task_runner.py:52} INFO - Started process 854 to run task
+[2022-06-01 11:13:24,789] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'move_fhvhv_tripdata_files_task', 'scheduled__2022-05-31T00:00:00+00:00', '--job-id', '492', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpg3d397m8', '--error-file', '/tmp/tmplz0s4jb3']
+[2022-06-01 11:13:24,794] {standard_task_runner.py:80} INFO - Job 492: Subtask move_fhvhv_tripdata_files_task
+[2022-06-01 11:13:24,925] {task_command.py:370} INFO - Running <TaskInstance: gcs_2_bq_dag.move_fhvhv_tripdata_files_task scheduled__2022-05-31T00:00:00+00:00 [running]> on host 80b81dda36ea
+[2022-06-01 11:13:25,042] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=move_fhvhv_tripdata_files_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-31T00:00:00+00:00
+[2022-06-01 11:13:25,047] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-06-01 11:13:25,048] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-06-01 11:13:25,051] {gcs_to_gcs.py:361} INFO - Delimiter ignored because wildcard is in prefix
+[2022-06-01 11:13:25,359] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=move_fhvhv_tripdata_files_task, execution_date=20220531T000000, start_date=20220601T111324, end_date=20220601T111325
+[2022-06-01 11:13:25,415] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-01 11:13:25,498] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-06-01 11:25:20,673] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.move_fhvhv_tripdata_files_task scheduled__2022-05-31T00:00:00+00:00 [queued]>
+[2022-06-01 11:25:20,683] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.move_fhvhv_tripdata_files_task scheduled__2022-05-31T00:00:00+00:00 [queued]>
+[2022-06-01 11:25:20,684] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 11:25:20,685] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-01 11:25:20,687] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 11:25:20,699] {taskinstance.py:1378} INFO - Executing <Task(GCSToGCSOperator): move_fhvhv_tripdata_files_task> on 2022-05-31 00:00:00+00:00
+[2022-06-01 11:25:20,719] {standard_task_runner.py:52} INFO - Started process 1506 to run task
+[2022-06-01 11:25:20,724] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'move_fhvhv_tripdata_files_task', 'scheduled__2022-05-31T00:00:00+00:00', '--job-id', '501', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpz0434nuy', '--error-file', '/tmp/tmp79qwoekb']
+[2022-06-01 11:25:20,727] {standard_task_runner.py:80} INFO - Job 501: Subtask move_fhvhv_tripdata_files_task
+[2022-06-01 11:25:20,807] {task_command.py:370} INFO - Running <TaskInstance: gcs_2_bq_dag.move_fhvhv_tripdata_files_task scheduled__2022-05-31T00:00:00+00:00 [running]> on host 80b81dda36ea
+[2022-06-01 11:25:20,906] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=move_fhvhv_tripdata_files_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-31T00:00:00+00:00
+[2022-06-01 11:25:20,911] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-06-01 11:25:20,914] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-06-01 11:25:20,917] {gcs_to_gcs.py:361} INFO - Delimiter ignored because wildcard is in prefix
+[2022-06-01 11:25:21,302] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=move_fhvhv_tripdata_files_task, execution_date=20220531T000000, start_date=20220601T112520, end_date=20220601T112521
+[2022-06-01 11:25:21,356] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-01 11:25:21,457] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

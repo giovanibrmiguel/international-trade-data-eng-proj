@@ -1,0 +1,25 @@
+[2022-07-18 23:22:56,497] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.format_to_parquet_task scheduled__2007-01-10T06:00:00+00:00 [queued]>
+[2022-07-18 23:22:56,718] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.format_to_parquet_task scheduled__2007-01-10T06:00:00+00:00 [queued]>
+[2022-07-18 23:22:56,745] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-18 23:22:56,815] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-07-18 23:22:56,826] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-18 23:22:57,148] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2007-01-10 06:00:00+00:00
+[2022-07-18 23:22:57,218] {standard_task_runner.py:52} INFO - Started process 39120 to run task
+[2022-07-18 23:22:57,258] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'local_to_gcs', 'format_to_parquet_task', 'scheduled__2007-01-10T06:00:00+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/local_to_gcs.py', '--cfg-path', '/tmp/tmpp3wdqf3w', '--error-file', '/tmp/tmpdf3erm3t']
+[2022-07-18 23:22:57,282] {standard_task_runner.py:80} INFO - Job 47: Subtask format_to_parquet_task
+[2022-07-18 23:22:57,982] {task_command.py:370} INFO - Running <TaskInstance: local_to_gcs.format_to_parquet_task scheduled__2007-01-10T06:00:00+00:00 [running]> on host 32d1f26135d5
+[2022-07-18 23:22:58,979] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_to_gcs
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2007-01-10T06:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2007-01-10T06:00:00+00:00
+[2022-07-18 23:25:10,798] {python.py:173} INFO - Done. Returned value was: None
+[2022-07-18 23:25:11,761] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=local_to_gcs, task_id=format_to_parquet_task, execution_date=20070110T060000, start_date=20220718T232256, end_date=20220718T232511
+[2022-07-18 23:25:12,249] {local_task_job.py:221} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2022-07-18 23:25:12,490] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 39120. PIDs of all processes in the group: [39120]
+[2022-07-18 23:25:12,499] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 39120
+[2022-07-18 23:25:19,614] {process_utils.py:75} INFO - Process psutil.Process(pid=39120, status='terminated', exitcode=0, started='23:22:56') (39120) terminated with exit code 0

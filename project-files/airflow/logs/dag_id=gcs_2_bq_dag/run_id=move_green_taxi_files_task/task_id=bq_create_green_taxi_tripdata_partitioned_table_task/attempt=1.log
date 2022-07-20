@@ -1,0 +1,57 @@
+[2022-06-13 13:32:41,860] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_create_green_taxi_tripdata_partitioned_table_task move_green_taxi_files_task [queued]>
+[2022-06-13 13:32:41,870] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_create_green_taxi_tripdata_partitioned_table_task move_green_taxi_files_task [queued]>
+[2022-06-13 13:32:41,874] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 13:32:41,876] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-13 13:32:41,877] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 13:32:41,890] {taskinstance.py:1378} INFO - Executing <Task(BigQueryInsertJobOperator): bq_create_green_taxi_tripdata_partitioned_table_task> on 2022-06-13 13:26:16+00:00
+[2022-06-13 13:32:41,910] {standard_task_runner.py:52} INFO - Started process 1807 to run task
+[2022-06-13 13:32:41,920] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'bq_create_green_taxi_tripdata_partitioned_table_task', 'move_green_taxi_files_task', '--job-id', '857', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpa2mmchn1', '--error-file', '/tmp/tmp5q62skn6']
+[2022-06-13 13:32:41,924] {standard_task_runner.py:80} INFO - Job 857: Subtask bq_create_green_taxi_tripdata_partitioned_table_task
+[2022-06-13 13:32:41,991] {task_command.py:370} INFO - Running <TaskInstance: gcs_2_bq_dag.bq_create_green_taxi_tripdata_partitioned_table_task move_green_taxi_files_task [running]> on host 0825143a1170
+[2022-06-13 13:32:42,069] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_create_green_taxi_tripdata_partitioned_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-13T13:26:16+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=move_green_taxi_files_task
+[2022-06-13 13:32:42,073] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-06-13 13:32:42,075] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-06-13 13:32:42,077] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-06-13 13:32:42,079] {bigquery.py:2148} INFO - Executing: {'query': {'query': 'CREATE OR REPLACE TABLE trips_data_all.green_taxi_trips             (             VendorID INT64,             tpep_pickup_datetime TIMESTAMP,             tpep_dropoff_datetime TIMESTAMP,             passenger_count FLOAT64,             trip_distance FLOAT64,             RatecodeID FLOAT64,             store_and_fwd_flag STRING,             PULocationID INT64,             DOLocationID INT64,             payment_type INT64,             fare_amount FLOAT64,             extra FLOAT64,             mta_tax FLOAT64,             tip_amount FLOAT64,             tolls_amount FLOAT64,             improvement_surcharge FLOAT64,             total_amount FLOAT64,             congestion_surcharge FLOAT64,             airport_fee INT64             )     PARTITION BY DATE(tpep_pickup_datetime)     OPTIONS(     partition_expiration_days=10000     )     AS (         SELECT              *         REPLACE(NULL AS airport_fee)         FROM              trips_data_all.green_taxi_tripdata_external_table     );', 'useLegacySql': False}}
+[2022-06-13 13:32:42,093] {bigquery.py:1538} INFO - Inserting job ***_gcs_2_bq_dag_bq_create_green_taxi_tripdata_partitioned_table_task_2022_06_13T13_26_16_00_00_91792f7ab5b19efb042fc34fed3345bb
+[2022-06-13 13:32:43,247] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2149, in execute
+    job = self._submit_job(hook, job_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2114, in _submit_job
+    retry=self.result_retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 439, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1544, in insert_job
+    job.result(timeout=timeout, retry=retry)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1499, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1489, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 728, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Column airport_fee in SELECT * REPLACE list does not exist at [1:907]
+
+Location: southamerica-east1
+Job ID: airflow_gcs_2_bq_dag_bq_create_green_taxi_tripdata_partitioned_table_task_2022_06_13T13_26_16_00_00_91792f7ab5b19efb042fc34fed3345bb
+
+[2022-06-13 13:32:43,280] {taskinstance.py:1401} INFO - Marking task as UP_FOR_RETRY. dag_id=gcs_2_bq_dag, task_id=bq_create_green_taxi_tripdata_partitioned_table_task, execution_date=20220613T132616, start_date=20220613T133241, end_date=20220613T133243
+[2022-06-13 13:32:43,294] {standard_task_runner.py:97} ERROR - Failed to execute job 857 for task bq_create_green_taxi_tripdata_partitioned_table_task (400 Column airport_fee in SELECT * REPLACE list does not exist at [1:907]
+
+Location: southamerica-east1
+Job ID: airflow_gcs_2_bq_dag_bq_create_green_taxi_tripdata_partitioned_table_task_2022_06_13T13_26_16_00_00_91792f7ab5b19efb042fc34fed3345bb
+; 1807)
+[2022-06-13 13:32:43,368] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-06-13 13:32:43,412] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

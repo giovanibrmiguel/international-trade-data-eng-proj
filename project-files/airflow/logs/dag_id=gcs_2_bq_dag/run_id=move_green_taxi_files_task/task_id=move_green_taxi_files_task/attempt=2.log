@@ -1,0 +1,177 @@
+[2022-06-13 13:32:35,125] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.move_green_taxi_files_task move_green_taxi_files_task [queued]>
+[2022-06-13 13:32:35,138] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.move_green_taxi_files_task move_green_taxi_files_task [queued]>
+[2022-06-13 13:32:35,140] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 13:32:35,141] {taskinstance.py:1358} INFO - Starting attempt 2 of 3
+[2022-06-13 13:32:35,142] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 13:32:35,180] {taskinstance.py:1378} INFO - Executing <Task(GCSToGCSOperator): move_green_taxi_files_task> on 2022-06-13 13:26:16+00:00
+[2022-06-13 13:32:35,218] {standard_task_runner.py:52} INFO - Started process 1794 to run task
+[2022-06-13 13:32:35,222] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'move_green_taxi_files_task', 'move_green_taxi_files_task', '--job-id', '855', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpe4gbt1ua', '--error-file', '/tmp/tmpmg_zmupy']
+[2022-06-13 13:32:35,224] {standard_task_runner.py:80} INFO - Job 855: Subtask move_green_taxi_files_task
+[2022-06-13 13:32:35,287] {task_command.py:370} INFO - Running <TaskInstance: gcs_2_bq_dag.move_green_taxi_files_task move_green_taxi_files_task [running]> on host 0825143a1170
+[2022-06-13 13:32:35,358] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=move_green_taxi_files_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-13T13:26:16+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=move_green_taxi_files_task
+[2022-06-13 13:32:35,362] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-06-13 13:32:35,363] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-06-13 13:32:35,365] {gcs_to_gcs.py:361} INFO - Delimiter ignored because wildcard is in prefix
+[2022-06-13 13:32:35,702] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2022-01.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2022-01.parquet
+[2022-06-13 13:32:35,745] {gcs.py:238} INFO - Total Bytes: 1254291 | Bytes Written: 1254291
+[2022-06-13 13:32:35,746] {gcs.py:251} INFO - Object raw/output_green_taxi_2022-01.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2022-01.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:35,783] {gcs.py:653} INFO - Blob raw/output_green_taxi_2022-01.parquet deleted.
+[2022-06-13 13:32:35,784] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2019-05.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2019-05.parquet
+[2022-06-13 13:32:35,822] {gcs.py:238} INFO - Total Bytes: 9050672 | Bytes Written: 9050672
+[2022-06-13 13:32:35,823] {gcs.py:251} INFO - Object raw/output_green_taxi_2019-05.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2019-05.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:35,856] {gcs.py:653} INFO - Blob raw/output_green_taxi_2019-05.parquet deleted.
+[2022-06-13 13:32:35,857] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2019-12.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2019-12.parquet
+[2022-06-13 13:32:35,903] {gcs.py:238} INFO - Total Bytes: 7523110 | Bytes Written: 7523110
+[2022-06-13 13:32:35,905] {gcs.py:251} INFO - Object raw/output_green_taxi_2019-12.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2019-12.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:35,935] {gcs.py:653} INFO - Blob raw/output_green_taxi_2019-12.parquet deleted.
+[2022-06-13 13:32:35,936] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2019-02.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2019-02.parquet
+[2022-06-13 13:32:35,976] {gcs.py:238} INFO - Total Bytes: 10316792 | Bytes Written: 10316792
+[2022-06-13 13:32:35,978] {gcs.py:251} INFO - Object raw/output_green_taxi_2019-02.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2019-02.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,007] {gcs.py:653} INFO - Blob raw/output_green_taxi_2019-02.parquet deleted.
+[2022-06-13 13:32:36,009] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2020-12.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2020-12.parquet
+[2022-06-13 13:32:36,050] {gcs.py:238} INFO - Total Bytes: 1458436 | Bytes Written: 1458436
+[2022-06-13 13:32:36,051] {gcs.py:251} INFO - Object raw/output_green_taxi_2020-12.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2020-12.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,079] {gcs.py:653} INFO - Blob raw/output_green_taxi_2020-12.parquet deleted.
+[2022-06-13 13:32:36,080] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2020-06.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2020-06.parquet
+[2022-06-13 13:32:36,123] {gcs.py:238} INFO - Total Bytes: 1205174 | Bytes Written: 1205174
+[2022-06-13 13:32:36,124] {gcs.py:251} INFO - Object raw/output_green_taxi_2020-06.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2020-06.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,156] {gcs.py:653} INFO - Blob raw/output_green_taxi_2020-06.parquet deleted.
+[2022-06-13 13:32:36,157] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2020-10.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2020-10.parquet
+[2022-06-13 13:32:36,213] {gcs.py:238} INFO - Total Bytes: 1731109 | Bytes Written: 1731109
+[2022-06-13 13:32:36,215] {gcs.py:251} INFO - Object raw/output_green_taxi_2020-10.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2020-10.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,243] {gcs.py:653} INFO - Blob raw/output_green_taxi_2020-10.parquet deleted.
+[2022-06-13 13:32:36,246] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2021-07.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2021-07.parquet
+[2022-06-13 13:32:36,293] {gcs.py:238} INFO - Total Bytes: 1618130 | Bytes Written: 1618130
+[2022-06-13 13:32:36,296] {gcs.py:251} INFO - Object raw/output_green_taxi_2021-07.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2021-07.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,328] {gcs.py:653} INFO - Blob raw/output_green_taxi_2021-07.parquet deleted.
+[2022-06-13 13:32:36,330] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2020-08.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2020-08.parquet
+[2022-06-13 13:32:36,369] {gcs.py:238} INFO - Total Bytes: 1503105 | Bytes Written: 1503105
+[2022-06-13 13:32:36,370] {gcs.py:251} INFO - Object raw/output_green_taxi_2020-08.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2020-08.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,409] {gcs.py:653} INFO - Blob raw/output_green_taxi_2020-08.parquet deleted.
+[2022-06-13 13:32:36,410] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2022-02.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2022-02.parquet
+[2022-06-13 13:32:36,452] {gcs.py:238} INFO - Total Bytes: 1428262 | Bytes Written: 1428262
+[2022-06-13 13:32:36,454] {gcs.py:251} INFO - Object raw/output_green_taxi_2022-02.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2022-02.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,482] {gcs.py:653} INFO - Blob raw/output_green_taxi_2022-02.parquet deleted.
+[2022-06-13 13:32:36,484] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2020-05.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2020-05.parquet
+[2022-06-13 13:32:36,516] {gcs.py:238} INFO - Total Bytes: 1082586 | Bytes Written: 1082586
+[2022-06-13 13:32:36,517] {gcs.py:251} INFO - Object raw/output_green_taxi_2020-05.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2020-05.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,548] {gcs.py:653} INFO - Blob raw/output_green_taxi_2020-05.parquet deleted.
+[2022-06-13 13:32:36,549] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2019-10.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2019-10.parquet
+[2022-06-13 13:32:36,593] {gcs.py:238} INFO - Total Bytes: 7864969 | Bytes Written: 7864969
+[2022-06-13 13:32:36,593] {gcs.py:251} INFO - Object raw/output_green_taxi_2019-10.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2019-10.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,621] {gcs.py:653} INFO - Blob raw/output_green_taxi_2019-10.parquet deleted.
+[2022-06-13 13:32:36,622] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2019-11.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2019-11.parquet
+[2022-06-13 13:32:36,662] {gcs.py:238} INFO - Total Bytes: 7584466 | Bytes Written: 7584466
+[2022-06-13 13:32:36,663] {gcs.py:251} INFO - Object raw/output_green_taxi_2019-11.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2019-11.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,690] {gcs.py:653} INFO - Blob raw/output_green_taxi_2019-11.parquet deleted.
+[2022-06-13 13:32:36,691] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2020-11.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2020-11.parquet
+[2022-06-13 13:32:36,730] {gcs.py:238} INFO - Total Bytes: 1616478 | Bytes Written: 1616478
+[2022-06-13 13:32:36,731] {gcs.py:251} INFO - Object raw/output_green_taxi_2020-11.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2020-11.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,758] {gcs.py:653} INFO - Blob raw/output_green_taxi_2020-11.parquet deleted.
+[2022-06-13 13:32:36,759] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2021-04.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2021-04.parquet
+[2022-06-13 13:32:36,804] {gcs.py:238} INFO - Total Bytes: 1534964 | Bytes Written: 1534964
+[2022-06-13 13:32:36,806] {gcs.py:251} INFO - Object raw/output_green_taxi_2021-04.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2021-04.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,840] {gcs.py:653} INFO - Blob raw/output_green_taxi_2021-04.parquet deleted.
+[2022-06-13 13:32:36,842] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2019-04.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2019-04.parquet
+[2022-06-13 13:32:36,879] {gcs.py:238} INFO - Total Bytes: 9412998 | Bytes Written: 9412998
+[2022-06-13 13:32:36,881] {gcs.py:251} INFO - Object raw/output_green_taxi_2019-04.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2019-04.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,915] {gcs.py:653} INFO - Blob raw/output_green_taxi_2019-04.parquet deleted.
+[2022-06-13 13:32:36,916] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2019-03.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2019-03.parquet
+[2022-06-13 13:32:36,951] {gcs.py:238} INFO - Total Bytes: 10760872 | Bytes Written: 10760872
+[2022-06-13 13:32:36,953] {gcs.py:251} INFO - Object raw/output_green_taxi_2019-03.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2019-03.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:36,978] {gcs.py:653} INFO - Blob raw/output_green_taxi_2019-03.parquet deleted.
+[2022-06-13 13:32:36,979] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2021-12.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2021-12.parquet
+[2022-06-13 13:32:37,011] {gcs.py:238} INFO - Total Bytes: 2008137 | Bytes Written: 2008137
+[2022-06-13 13:32:37,012] {gcs.py:251} INFO - Object raw/output_green_taxi_2021-12.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2021-12.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,042] {gcs.py:653} INFO - Blob raw/output_green_taxi_2021-12.parquet deleted.
+[2022-06-13 13:32:37,043] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2021-03.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2021-03.parquet
+[2022-06-13 13:32:37,082] {gcs.py:238} INFO - Total Bytes: 1474538 | Bytes Written: 1474538
+[2022-06-13 13:32:37,084] {gcs.py:251} INFO - Object raw/output_green_taxi_2021-03.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2021-03.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,113] {gcs.py:653} INFO - Blob raw/output_green_taxi_2021-03.parquet deleted.
+[2022-06-13 13:32:37,115] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2019-06.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2019-06.parquet
+[2022-06-13 13:32:37,149] {gcs.py:238} INFO - Total Bytes: 8548670 | Bytes Written: 8548670
+[2022-06-13 13:32:37,150] {gcs.py:251} INFO - Object raw/output_green_taxi_2019-06.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2019-06.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,179] {gcs.py:653} INFO - Blob raw/output_green_taxi_2019-06.parquet deleted.
+[2022-06-13 13:32:37,180] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2021-01.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2021-01.parquet
+[2022-06-13 13:32:37,219] {gcs.py:238} INFO - Total Bytes: 1333519 | Bytes Written: 1333519
+[2022-06-13 13:32:37,221] {gcs.py:251} INFO - Object raw/output_green_taxi_2021-01.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2021-01.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,250] {gcs.py:653} INFO - Blob raw/output_green_taxi_2021-01.parquet deleted.
+[2022-06-13 13:32:37,251] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2020-03.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2020-03.parquet
+[2022-06-13 13:32:37,287] {gcs.py:238} INFO - Total Bytes: 4019591 | Bytes Written: 4019591
+[2022-06-13 13:32:37,288] {gcs.py:251} INFO - Object raw/output_green_taxi_2020-03.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2020-03.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,316] {gcs.py:653} INFO - Blob raw/output_green_taxi_2020-03.parquet deleted.
+[2022-06-13 13:32:37,317] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2021-09.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2021-09.parquet
+[2022-06-13 13:32:37,359] {gcs.py:238} INFO - Total Bytes: 1883216 | Bytes Written: 1883216
+[2022-06-13 13:32:37,360] {gcs.py:251} INFO - Object raw/output_green_taxi_2021-09.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2021-09.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,386] {gcs.py:653} INFO - Blob raw/output_green_taxi_2021-09.parquet deleted.
+[2022-06-13 13:32:37,388] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2022-03.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2022-03.parquet
+[2022-06-13 13:32:37,422] {gcs.py:238} INFO - Total Bytes: 1615562 | Bytes Written: 1615562
+[2022-06-13 13:32:37,424] {gcs.py:251} INFO - Object raw/output_green_taxi_2022-03.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2022-03.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,450] {gcs.py:653} INFO - Blob raw/output_green_taxi_2022-03.parquet deleted.
+[2022-06-13 13:32:37,453] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2019-01.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2019-01.parquet
+[2022-06-13 13:32:37,489] {gcs.py:238} INFO - Total Bytes: 11071980 | Bytes Written: 11071980
+[2022-06-13 13:32:37,497] {gcs.py:251} INFO - Object raw/output_green_taxi_2019-01.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2019-01.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,525] {gcs.py:653} INFO - Blob raw/output_green_taxi_2019-01.parquet deleted.
+[2022-06-13 13:32:37,526] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2020-01.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2020-01.parquet
+[2022-06-13 13:32:37,565] {gcs.py:238} INFO - Total Bytes: 7183298 | Bytes Written: 7183298
+[2022-06-13 13:32:37,566] {gcs.py:251} INFO - Object raw/output_green_taxi_2020-01.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2020-01.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,593] {gcs.py:653} INFO - Blob raw/output_green_taxi_2020-01.parquet deleted.
+[2022-06-13 13:32:37,594] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2020-09.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2020-09.parquet
+[2022-06-13 13:32:37,642] {gcs.py:238} INFO - Total Bytes: 1586731 | Bytes Written: 1586731
+[2022-06-13 13:32:37,643] {gcs.py:251} INFO - Object raw/output_green_taxi_2020-09.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2020-09.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,670] {gcs.py:653} INFO - Blob raw/output_green_taxi_2020-09.parquet deleted.
+[2022-06-13 13:32:37,671] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2021-02.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2021-02.parquet
+[2022-06-13 13:32:37,718] {gcs.py:238} INFO - Total Bytes: 1145679 | Bytes Written: 1145679
+[2022-06-13 13:32:37,719] {gcs.py:251} INFO - Object raw/output_green_taxi_2021-02.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2021-02.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,744] {gcs.py:653} INFO - Blob raw/output_green_taxi_2021-02.parquet deleted.
+[2022-06-13 13:32:37,745] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2020-02.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2020-02.parquet
+[2022-06-13 13:32:37,784] {gcs.py:238} INFO - Total Bytes: 6649395 | Bytes Written: 6649395
+[2022-06-13 13:32:37,784] {gcs.py:251} INFO - Object raw/output_green_taxi_2020-02.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2020-02.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,814] {gcs.py:653} INFO - Blob raw/output_green_taxi_2020-02.parquet deleted.
+[2022-06-13 13:32:37,816] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2021-10.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2021-10.parquet
+[2022-06-13 13:32:37,867] {gcs.py:238} INFO - Total Bytes: 2167393 | Bytes Written: 2167393
+[2022-06-13 13:32:37,869] {gcs.py:251} INFO - Object raw/output_green_taxi_2021-10.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2021-10.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,899] {gcs.py:653} INFO - Blob raw/output_green_taxi_2021-10.parquet deleted.
+[2022-06-13 13:32:37,901] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2020-07.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2020-07.parquet
+[2022-06-13 13:32:37,934] {gcs.py:238} INFO - Total Bytes: 1308197 | Bytes Written: 1308197
+[2022-06-13 13:32:37,937] {gcs.py:251} INFO - Object raw/output_green_taxi_2020-07.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2020-07.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:37,965] {gcs.py:653} INFO - Blob raw/output_green_taxi_2020-07.parquet deleted.
+[2022-06-13 13:32:37,969] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2019-08.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2019-08.parquet
+[2022-06-13 13:32:38,016] {gcs.py:238} INFO - Total Bytes: 7554849 | Bytes Written: 7554849
+[2022-06-13 13:32:38,018] {gcs.py:251} INFO - Object raw/output_green_taxi_2019-08.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2019-08.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:38,048] {gcs.py:653} INFO - Blob raw/output_green_taxi_2019-08.parquet deleted.
+[2022-06-13 13:32:38,050] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2021-11.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2021-11.parquet
+[2022-06-13 13:32:38,089] {gcs.py:238} INFO - Total Bytes: 2129145 | Bytes Written: 2129145
+[2022-06-13 13:32:38,092] {gcs.py:251} INFO - Object raw/output_green_taxi_2021-11.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2021-11.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:38,123] {gcs.py:653} INFO - Blob raw/output_green_taxi_2021-11.parquet deleted.
+[2022-06-13 13:32:38,124] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2019-07.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2019-07.parquet
+[2022-06-13 13:32:38,161] {gcs.py:238} INFO - Total Bytes: 7921122 | Bytes Written: 7921122
+[2022-06-13 13:32:38,165] {gcs.py:251} INFO - Object raw/output_green_taxi_2019-07.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2019-07.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:38,194] {gcs.py:653} INFO - Blob raw/output_green_taxi_2019-07.parquet deleted.
+[2022-06-13 13:32:38,195] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2021-06.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2021-06.parquet
+[2022-06-13 13:32:38,234] {gcs.py:238} INFO - Total Bytes: 1676692 | Bytes Written: 1676692
+[2022-06-13 13:32:38,236] {gcs.py:251} INFO - Object raw/output_green_taxi_2021-06.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2021-06.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:38,265] {gcs.py:653} INFO - Blob raw/output_green_taxi_2021-06.parquet deleted.
+[2022-06-13 13:32:38,266] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2021-05.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2021-05.parquet
+[2022-06-13 13:32:38,300] {gcs.py:238} INFO - Total Bytes: 1660008 | Bytes Written: 1660008
+[2022-06-13 13:32:38,302] {gcs.py:251} INFO - Object raw/output_green_taxi_2021-05.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2021-05.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:38,329] {gcs.py:653} INFO - Blob raw/output_green_taxi_2021-05.parquet deleted.
+[2022-06-13 13:32:38,332] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2021-08.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2021-08.parquet
+[2022-06-13 13:32:38,365] {gcs.py:238} INFO - Total Bytes: 1614286 | Bytes Written: 1614286
+[2022-06-13 13:32:38,366] {gcs.py:251} INFO - Object raw/output_green_taxi_2021-08.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2021-08.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:38,390] {gcs.py:653} INFO - Blob raw/output_green_taxi_2021-08.parquet deleted.
+[2022-06-13 13:32:38,392] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/raw/output_green_taxi_2019-09.parquet to gs://dtc_data_lake_united-electron-351323/green_taxi/green_taxi_tripdata2019-09.parquet
+[2022-06-13 13:32:38,430] {gcs.py:238} INFO - Total Bytes: 7692006 | Bytes Written: 7692006
+[2022-06-13 13:32:38,431] {gcs.py:251} INFO - Object raw/output_green_taxi_2019-09.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object green_taxi/green_taxi_tripdata2019-09.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-06-13 13:32:38,462] {gcs.py:653} INFO - Blob raw/output_green_taxi_2019-09.parquet deleted.
+[2022-06-13 13:32:38,487] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=move_green_taxi_files_task, execution_date=20220613T132616, start_date=20220613T133235, end_date=20220613T133238
+[2022-06-13 13:32:38,553] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-13 13:32:38,647] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

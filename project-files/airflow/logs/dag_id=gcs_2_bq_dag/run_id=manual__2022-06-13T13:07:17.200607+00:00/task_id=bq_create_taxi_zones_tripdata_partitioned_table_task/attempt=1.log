@@ -1,0 +1,29 @@
+[2022-06-13 13:07:31,559] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_create_taxi_zones_tripdata_partitioned_table_task manual__2022-06-13T13:07:17.200607+00:00 [queued]>
+[2022-06-13 13:07:31,578] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_create_taxi_zones_tripdata_partitioned_table_task manual__2022-06-13T13:07:17.200607+00:00 [queued]>
+[2022-06-13 13:07:31,580] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 13:07:31,581] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-13 13:07:31,583] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 13:07:31,627] {taskinstance.py:1378} INFO - Executing <Task(BigQueryInsertJobOperator): bq_create_taxi_zones_tripdata_partitioned_table_task> on 2022-06-13 13:07:17.200607+00:00
+[2022-06-13 13:07:31,646] {standard_task_runner.py:52} INFO - Started process 16339 to run task
+[2022-06-13 13:07:31,656] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'bq_create_taxi_zones_tripdata_partitioned_table_task', 'manual__2022-06-13T13:07:17.200607+00:00', '--job-id', '669', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmprltu62gm', '--error-file', '/tmp/tmp170bkced']
+[2022-06-13 13:07:31,660] {standard_task_runner.py:80} INFO - Job 669: Subtask bq_create_taxi_zones_tripdata_partitioned_table_task
+[2022-06-13 13:07:32,507] {task_command.py:370} INFO - Running <TaskInstance: gcs_2_bq_dag.bq_create_taxi_zones_tripdata_partitioned_table_task manual__2022-06-13T13:07:17.200607+00:00 [running]> on host 0825143a1170
+[2022-06-13 13:07:32,709] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_create_taxi_zones_tripdata_partitioned_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-13T13:07:17.200607+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-06-13T13:07:17.200607+00:00
+[2022-06-13 13:07:32,719] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-06-13 13:07:32,723] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-06-13 13:07:32,730] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-06-13 13:07:32,736] {bigquery.py:2148} INFO - Executing: {'query': {'query': 'CREATE OR REPLACE TABLE trips_data_all.taxi_zones     AS (         SELECT              *         FROM              trips_data_all.taxi_zones_tripdata_external_table     );', 'useLegacySql': False}}
+[2022-06-13 13:07:32,772] {bigquery.py:1538} INFO - Inserting job ***_gcs_2_bq_dag_bq_create_taxi_zones_tripdata_partitioned_table_task_2022_06_13T13_07_17_200607_00_00_983cf9a33c8b69a7eee4382a23c32ff1
+[2022-06-13 13:07:35,316] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=bq_create_taxi_zones_tripdata_partitioned_table_task, execution_date=20220613T130717, start_date=20220613T130731, end_date=20220613T130735
+[2022-06-13 13:07:35,500] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-13 13:07:36,056] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

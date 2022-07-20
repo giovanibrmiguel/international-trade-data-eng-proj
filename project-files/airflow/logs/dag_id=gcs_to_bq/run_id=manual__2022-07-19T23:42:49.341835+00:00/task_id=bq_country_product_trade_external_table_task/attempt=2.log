@@ -1,0 +1,44 @@
+[2022-07-19 23:59:26,825] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_to_bq.bq_country_product_trade_external_table_task manual__2022-07-19T23:42:49.341835+00:00 [queued]>
+[2022-07-19 23:59:26,843] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_to_bq.bq_country_product_trade_external_table_task manual__2022-07-19T23:42:49.341835+00:00 [queued]>
+[2022-07-19 23:59:26,846] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-19 23:59:26,848] {taskinstance.py:1358} INFO - Starting attempt 2 of 3
+[2022-07-19 23:59:26,850] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-19 23:59:26,873] {taskinstance.py:1378} INFO - Executing <Task(BigQueryCreateExternalTableOperator): bq_country_product_trade_external_table_task> on 2022-07-19 23:42:49.341835+00:00
+[2022-07-19 23:59:26,908] {standard_task_runner.py:52} INFO - Started process 74677 to run task
+[2022-07-19 23:59:26,915] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_to_bq', 'bq_country_product_trade_external_table_task', 'manual__2022-07-19T23:42:49.341835+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpw7e4zt3r', '--error-file', '/tmp/tmpr7sr_0rf']
+[2022-07-19 23:59:26,920] {standard_task_runner.py:80} INFO - Job 92: Subtask bq_country_product_trade_external_table_task
+[2022-07-19 23:59:27,039] {task_command.py:370} INFO - Running <TaskInstance: gcs_to_bq.bq_country_product_trade_external_table_task manual__2022-07-19T23:42:49.341835+00:00 [running]> on host 32d1f26135d5
+[2022-07-19 23:59:27,159] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_to_bq
+AIRFLOW_CTX_TASK_ID=bq_country_product_trade_external_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-19T23:42:49.341835+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-19T23:42:49.341835+00:00
+[2022-07-19 23:59:27,165] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-07-19 23:59:27,170] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-07-19 23:59:28,406] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 1108, in execute
+    table_resource=self.table_resource,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 439, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 400, in create_empty_table
+    table=table, exists_ok=exists_ok, retry=retry
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 755, in create_table
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 782, in _call_api
+    return call()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/retry.py", line 288, in retry_wrapped_func
+    on_error=on_error,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_http/__init__.py", line 494, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.BadRequest: 400 POST https://bigquery.googleapis.com/bigquery/v2/projects/united-electron-351323/datasets/international_economics_data_lake/tables?prettyPrint=false: Error while reading table: country_product_trade_external_table, error message: Failed to expand table country_product_trade_external_table with file pattern gs://dtc_data_lake_united-electron-351323/data_lake/country_product_trade/*: matched no files. File: gs://dtc_data_lake_united-electron-351323/data_lake/country_product_trade/*
+[2022-07-19 23:59:28,455] {taskinstance.py:1401} INFO - Marking task as UP_FOR_RETRY. dag_id=gcs_to_bq, task_id=bq_country_product_trade_external_table_task, execution_date=20220719T234249, start_date=20220719T235926, end_date=20220719T235928
+[2022-07-19 23:59:28,506] {standard_task_runner.py:97} ERROR - Failed to execute job 92 for task bq_country_product_trade_external_table_task (400 POST https://bigquery.googleapis.com/bigquery/v2/projects/united-electron-351323/datasets/international_economics_data_lake/tables?prettyPrint=false: Error while reading table: country_product_trade_external_table, error message: Failed to expand table country_product_trade_external_table with file pattern gs://dtc_data_lake_united-electron-351323/data_lake/country_product_trade/*: matched no files. File: gs://dtc_data_lake_united-electron-351323/data_lake/country_product_trade/*; 74677)
+[2022-07-19 23:59:28,611] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-19 23:59:28,726] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

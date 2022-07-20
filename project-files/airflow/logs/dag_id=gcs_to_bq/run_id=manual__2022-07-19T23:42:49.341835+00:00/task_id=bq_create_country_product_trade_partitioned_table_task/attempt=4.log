@@ -1,0 +1,57 @@
+[2022-07-20 00:11:53,894] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_to_bq.bq_create_country_product_trade_partitioned_table_task manual__2022-07-19T23:42:49.341835+00:00 [queued]>
+[2022-07-20 00:11:53,904] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_to_bq.bq_create_country_product_trade_partitioned_table_task manual__2022-07-19T23:42:49.341835+00:00 [queued]>
+[2022-07-20 00:11:53,905] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 00:11:53,906] {taskinstance.py:1358} INFO - Starting attempt 4 of 4
+[2022-07-20 00:11:53,907] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 00:11:53,920] {taskinstance.py:1378} INFO - Executing <Task(BigQueryInsertJobOperator): bq_create_country_product_trade_partitioned_table_task> on 2022-07-19 23:42:49.341835+00:00
+[2022-07-20 00:11:53,933] {standard_task_runner.py:52} INFO - Started process 75327 to run task
+[2022-07-20 00:11:53,939] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_to_bq', 'bq_create_country_product_trade_partitioned_table_task', 'manual__2022-07-19T23:42:49.341835+00:00', '--job-id', '100', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmp9zt45pg_', '--error-file', '/tmp/tmp9sugbggq']
+[2022-07-20 00:11:53,943] {standard_task_runner.py:80} INFO - Job 100: Subtask bq_create_country_product_trade_partitioned_table_task
+[2022-07-20 00:11:54,065] {task_command.py:370} INFO - Running <TaskInstance: gcs_to_bq.bq_create_country_product_trade_partitioned_table_task manual__2022-07-19T23:42:49.341835+00:00 [running]> on host 32d1f26135d5
+[2022-07-20 00:11:54,187] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_to_bq
+AIRFLOW_CTX_TASK_ID=bq_create_country_product_trade_partitioned_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-19T23:42:49.341835+00:00
+AIRFLOW_CTX_TRY_NUMBER=4
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-19T23:42:49.341835+00:00
+[2022-07-20 00:11:54,193] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-07-20 00:11:54,196] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-07-20 00:11:54,200] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-07-20 00:11:54,202] {bigquery.py:2148} INFO - Executing: {'query': {'query': 'CREATE OR REPLACE TABLE international_economics_data_lake.country_product_trade             (             location_id INT64,             partner_id INT64,             product_id INT64,             year INT64,             export_value FLOAT64,             import_value FLOAT64,             sitc_eci FLOAT64,             sitc_coi FLOAT64,             location_code STRING,             partner_code STRING,             sitc_product_code BYTE_ARRAY             )     AS (         SELECT              *         FROM              international_economics_data_lake.country_product_trade_external_table     );', 'useLegacySql': False}}
+[2022-07-20 00:11:54,217] {bigquery.py:1538} INFO - Inserting job ***_gcs_to_bq_bq_create_country_product_trade_partitioned_table_task_2022_07_19T23_42_49_341835_00_00_15c94d41ae2709c588f9b623de1d4cb9
+[2022-07-20 00:11:55,872] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2149, in execute
+    job = self._submit_job(hook, job_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2114, in _submit_job
+    retry=self.result_retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 439, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1544, in insert_job
+    job.result(timeout=timeout, retry=retry)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1499, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1489, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 728, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Type not found: BYTE_ARRAY at [1:435]
+
+Location: southamerica-east1
+Job ID: airflow_gcs_to_bq_bq_create_country_product_trade_partitioned_table_task_2022_07_19T23_42_49_341835_00_00_15c94d41ae2709c588f9b623de1d4cb9
+
+[2022-07-20 00:11:55,914] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=gcs_to_bq, task_id=bq_create_country_product_trade_partitioned_table_task, execution_date=20220719T234249, start_date=20220720T001153, end_date=20220720T001155
+[2022-07-20 00:11:55,939] {standard_task_runner.py:97} ERROR - Failed to execute job 100 for task bq_create_country_product_trade_partitioned_table_task (400 Type not found: BYTE_ARRAY at [1:435]
+
+Location: southamerica-east1
+Job ID: airflow_gcs_to_bq_bq_create_country_product_trade_partitioned_table_task_2022_07_19T23_42_49_341835_00_00_15c94d41ae2709c588f9b623de1d4cb9
+; 75327)
+[2022-07-20 00:11:55,994] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-20 00:11:56,047] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

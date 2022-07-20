@@ -1,0 +1,34 @@
+[2022-07-16 23:12:55,449] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.local_to_gcs_task manual__2022-07-16T23:12:54.009281+00:00 [queued]>
+[2022-07-16 23:12:55,460] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.local_to_gcs_task manual__2022-07-16T23:12:54.009281+00:00 [queued]>
+[2022-07-16 23:12:55,462] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-16 23:12:55,463] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-07-16 23:12:55,466] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-16 23:12:55,481] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2022-07-16 23:12:54.009281+00:00
+[2022-07-16 23:12:55,489] {standard_task_runner.py:52} INFO - Started process 4595 to run task
+[2022-07-16 23:12:55,493] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'local_to_gcs', 'local_to_gcs_task', 'manual__2022-07-16T23:12:54.009281+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/local_to_gcs.py', '--cfg-path', '/tmp/tmpyt0xydg7', '--error-file', '/tmp/tmpmmvl6is8']
+[2022-07-16 23:12:55,497] {standard_task_runner.py:80} INFO - Job 20: Subtask local_to_gcs_task
+[2022-07-16 23:12:55,571] {task_command.py:370} INFO - Running <TaskInstance: local_to_gcs.local_to_gcs_task manual__2022-07-16T23:12:54.009281+00:00 [running]> on host 32d1f26135d5
+[2022-07-16 23:12:55,688] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_to_gcs
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-16T23:12:54.009281+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-16T23:12:54.009281+00:00
+[2022-07-16 23:12:55,791] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/local_to_gcs.py", line 57, in upload_to_gcs
+    blob.upload_from_filename(local_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2720, in upload_from_filename
+    with open(filename, "rb") as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/country_partner_1999.csv'
+[2022-07-16 23:12:55,857] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=local_to_gcs, task_id=local_to_gcs_task, execution_date=20220716T231254, start_date=20220716T231255, end_date=20220716T231255
+[2022-07-16 23:12:55,917] {standard_task_runner.py:97} ERROR - Failed to execute job 20 for task local_to_gcs_task ([Errno 2] No such file or directory: '/opt/airflow/country_partner_1999.csv'; 4595)
+[2022-07-16 23:12:55,997] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-16 23:12:56,149] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

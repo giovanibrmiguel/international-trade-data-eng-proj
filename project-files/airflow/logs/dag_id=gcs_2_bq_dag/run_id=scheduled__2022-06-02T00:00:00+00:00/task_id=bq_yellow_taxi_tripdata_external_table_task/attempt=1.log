@@ -1,0 +1,24 @@
+[2022-06-03 00:00:06,889] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_yellow_taxi_tripdata_external_table_task scheduled__2022-06-02T00:00:00+00:00 [queued]>
+[2022-06-03 00:00:06,906] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_yellow_taxi_tripdata_external_table_task scheduled__2022-06-02T00:00:00+00:00 [queued]>
+[2022-06-03 00:00:06,907] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-03 00:00:06,909] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-03 00:00:06,910] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-03 00:00:06,927] {taskinstance.py:1378} INFO - Executing <Task(BigQueryCreateExternalTableOperator): bq_yellow_taxi_tripdata_external_table_task> on 2022-06-02 00:00:00+00:00
+[2022-06-03 00:00:06,947] {standard_task_runner.py:52} INFO - Started process 73430 to run task
+[2022-06-03 00:00:06,954] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'bq_yellow_taxi_tripdata_external_table_task', 'scheduled__2022-06-02T00:00:00+00:00', '--job-id', '544', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpqqhk5z23', '--error-file', '/tmp/tmp0mwof183']
+[2022-06-03 00:00:06,959] {standard_task_runner.py:80} INFO - Job 544: Subtask bq_yellow_taxi_tripdata_external_table_task
+[2022-06-03 00:00:07,045] {task_command.py:370} INFO - Running <TaskInstance: gcs_2_bq_dag.bq_yellow_taxi_tripdata_external_table_task scheduled__2022-06-02T00:00:00+00:00 [running]> on host 80b81dda36ea
+[2022-06-03 00:00:07,149] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_yellow_taxi_tripdata_external_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-02T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-02T00:00:00+00:00
+[2022-06-03 00:00:07,154] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-06-03 00:00:07,156] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-06-03 00:00:08,470] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=bq_yellow_taxi_tripdata_external_table_task, execution_date=20220602T000000, start_date=20220603T000006, end_date=20220603T000008
+[2022-06-03 00:00:08,512] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-03 00:00:08,576] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,109 @@
+[2022-07-19 23:59:21,695] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_to_bq.move_country_product_trade_files_task manual__2022-07-19T23:42:49.341835+00:00 [queued]>
+[2022-07-19 23:59:21,711] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_to_bq.move_country_product_trade_files_task manual__2022-07-19T23:42:49.341835+00:00 [queued]>
+[2022-07-19 23:59:21,714] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-19 23:59:21,716] {taskinstance.py:1358} INFO - Starting attempt 2 of 3
+[2022-07-19 23:59:21,720] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-19 23:59:21,738] {taskinstance.py:1378} INFO - Executing <Task(GCSToGCSOperator): move_country_product_trade_files_task> on 2022-07-19 23:42:49.341835+00:00
+[2022-07-19 23:59:21,751] {standard_task_runner.py:52} INFO - Started process 74674 to run task
+[2022-07-19 23:59:21,762] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_to_bq', 'move_country_product_trade_files_task', 'manual__2022-07-19T23:42:49.341835+00:00', '--job-id', '91', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpqqp41t0_', '--error-file', '/tmp/tmpmri9qrfg']
+[2022-07-19 23:59:21,767] {standard_task_runner.py:80} INFO - Job 91: Subtask move_country_product_trade_files_task
+[2022-07-19 23:59:21,905] {task_command.py:370} INFO - Running <TaskInstance: gcs_to_bq.move_country_product_trade_files_task manual__2022-07-19T23:42:49.341835+00:00 [running]> on host 32d1f26135d5
+[2022-07-19 23:59:21,993] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_to_bq
+AIRFLOW_CTX_TASK_ID=move_country_product_trade_files_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-19T23:42:49.341835+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-19T23:42:49.341835+00:00
+[2022-07-19 23:59:21,998] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-07-19 23:59:22,000] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-07-19 23:59:22,001] {gcs_to_gcs.py:361} INFO - Delimiter ignored because wildcard is in prefix
+[2022-07-19 23:59:22,366] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_1999.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade1999.parquet
+[2022-07-19 23:59:22,451] {gcs.py:238} INFO - Total Bytes: 30137567 | Bytes Written: 30137567
+[2022-07-19 23:59:22,453] {gcs.py:251} INFO - Object international_economics/raw/country_partner_1999.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade1999.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:23,003] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_1999.parquet deleted.
+[2022-07-19 23:59:23,006] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2017.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2017.parquet
+[2022-07-19 23:59:23,059] {gcs.py:238} INFO - Total Bytes: 42494781 | Bytes Written: 42494781
+[2022-07-19 23:59:23,061] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2017.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2017.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:23,091] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2017.parquet deleted.
+[2022-07-19 23:59:23,093] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2011.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2011.parquet
+[2022-07-19 23:59:23,167] {gcs.py:238} INFO - Total Bytes: 40729927 | Bytes Written: 40729927
+[2022-07-19 23:59:23,170] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2011.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2011.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:23,201] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2011.parquet deleted.
+[2022-07-19 23:59:23,202] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2000.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2000.parquet
+[2022-07-19 23:59:23,248] {gcs.py:238} INFO - Total Bytes: 31461738 | Bytes Written: 31461738
+[2022-07-19 23:59:23,250] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2000.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2000.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:23,282] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2000.parquet deleted.
+[2022-07-19 23:59:23,284] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2006.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2006.parquet
+[2022-07-19 23:59:23,383] {gcs.py:238} INFO - Total Bytes: 37711343 | Bytes Written: 37711343
+[2022-07-19 23:59:23,386] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2006.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2006.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:23,455] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2006.parquet deleted.
+[2022-07-19 23:59:23,457] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2001.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2001.parquet
+[2022-07-19 23:59:23,512] {gcs.py:238} INFO - Total Bytes: 32203438 | Bytes Written: 32203438
+[2022-07-19 23:59:23,514] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2001.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2001.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:23,548] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2001.parquet deleted.
+[2022-07-19 23:59:23,550] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2005.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2005.parquet
+[2022-07-19 23:59:23,588] {gcs.py:238} INFO - Total Bytes: 36906706 | Bytes Written: 36906706
+[2022-07-19 23:59:23,590] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2005.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2005.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:23,629] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2005.parquet deleted.
+[2022-07-19 23:59:23,631] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2014.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2014.parquet
+[2022-07-19 23:59:23,673] {gcs.py:238} INFO - Total Bytes: 41977597 | Bytes Written: 41977597
+[2022-07-19 23:59:23,676] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2014.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2014.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:23,708] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2014.parquet deleted.
+[2022-07-19 23:59:23,710] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2004.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2004.parquet
+[2022-07-19 23:59:23,743] {gcs.py:238} INFO - Total Bytes: 35565767 | Bytes Written: 35565767
+[2022-07-19 23:59:23,745] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2004.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2004.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:23,776] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2004.parquet deleted.
+[2022-07-19 23:59:23,792] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2007.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2007.parquet
+[2022-07-19 23:59:23,826] {gcs.py:238} INFO - Total Bytes: 39240044 | Bytes Written: 39240044
+[2022-07-19 23:59:23,828] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2007.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2007.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:23,855] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2007.parquet deleted.
+[2022-07-19 23:59:23,856] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2003.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2003.parquet
+[2022-07-19 23:59:23,898] {gcs.py:238} INFO - Total Bytes: 34205364 | Bytes Written: 34205364
+[2022-07-19 23:59:23,900] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2003.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2003.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:23,929] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2003.parquet deleted.
+[2022-07-19 23:59:23,930] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2012.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2012.parquet
+[2022-07-19 23:59:23,968] {gcs.py:238} INFO - Total Bytes: 41245955 | Bytes Written: 41245955
+[2022-07-19 23:59:23,970] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2012.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2012.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:24,002] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2012.parquet deleted.
+[2022-07-19 23:59:24,004] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2018.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2018.parquet
+[2022-07-19 23:59:24,046] {gcs.py:238} INFO - Total Bytes: 42733231 | Bytes Written: 42733231
+[2022-07-19 23:59:24,047] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2018.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2018.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:24,081] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2018.parquet deleted.
+[2022-07-19 23:59:24,082] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2019.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2019.parquet
+[2022-07-19 23:59:24,119] {gcs.py:238} INFO - Total Bytes: 41599741 | Bytes Written: 41599741
+[2022-07-19 23:59:24,121] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2019.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2019.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:24,150] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2019.parquet deleted.
+[2022-07-19 23:59:24,151] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2010.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2010.parquet
+[2022-07-19 23:59:24,196] {gcs.py:238} INFO - Total Bytes: 40165654 | Bytes Written: 40165654
+[2022-07-19 23:59:24,198] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2010.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2010.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:24,229] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2010.parquet deleted.
+[2022-07-19 23:59:24,231] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2013.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2013.parquet
+[2022-07-19 23:59:24,266] {gcs.py:238} INFO - Total Bytes: 41934915 | Bytes Written: 41934915
+[2022-07-19 23:59:24,268] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2013.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2013.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:24,297] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2013.parquet deleted.
+[2022-07-19 23:59:24,298] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2016.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2016.parquet
+[2022-07-19 23:59:24,344] {gcs.py:238} INFO - Total Bytes: 41907430 | Bytes Written: 41907430
+[2022-07-19 23:59:24,345] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2016.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2016.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:24,372] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2016.parquet deleted.
+[2022-07-19 23:59:24,374] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2008.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2008.parquet
+[2022-07-19 23:59:24,410] {gcs.py:238} INFO - Total Bytes: 40051356 | Bytes Written: 40051356
+[2022-07-19 23:59:24,411] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2008.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2008.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:24,440] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2008.parquet deleted.
+[2022-07-19 23:59:24,444] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2002.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2002.parquet
+[2022-07-19 23:59:24,484] {gcs.py:238} INFO - Total Bytes: 32918998 | Bytes Written: 32918998
+[2022-07-19 23:59:24,485] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2002.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2002.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:24,518] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2002.parquet deleted.
+[2022-07-19 23:59:24,520] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2015.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2015.parquet
+[2022-07-19 23:59:24,561] {gcs.py:238} INFO - Total Bytes: 41580290 | Bytes Written: 41580290
+[2022-07-19 23:59:24,562] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2015.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2015.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:24,596] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2015.parquet deleted.
+[2022-07-19 23:59:24,597] {gcs_to_gcs.py:428} INFO - Executing copy of gs://dtc_data_lake_united-electron-351323/international_economics/raw/country_partner_2009.parquet to gs://dtc_data_lake_united-electron-351323/international_economics/data_lake/country_product_trade2009.parquet
+[2022-07-19 23:59:24,631] {gcs.py:238} INFO - Total Bytes: 39138311 | Bytes Written: 39138311
+[2022-07-19 23:59:24,634] {gcs.py:251} INFO - Object international_economics/raw/country_partner_2009.parquet in bucket dtc_data_lake_united-electron-351323 rewritten to object international_economics/data_lake/country_product_trade2009.parquet in bucket dtc_data_lake_united-electron-351323
+[2022-07-19 23:59:24,682] {gcs.py:653} INFO - Blob international_economics/raw/country_partner_2009.parquet deleted.
+[2022-07-19 23:59:24,712] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=gcs_to_bq, task_id=move_country_product_trade_files_task, execution_date=20220719T234249, start_date=20220719T235921, end_date=20220719T235924
+[2022-07-19 23:59:24,778] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-19 23:59:24,870] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

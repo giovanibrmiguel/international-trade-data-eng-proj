@@ -1,0 +1,77 @@
+[2022-06-24 19:18:12,816] {processor.py:153} INFO - Started process (PID=50) to work on /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:18:12,820] {processor.py:641} INFO - Processing file /opt/airflow/dags/green_taxi_ingestion.py for tasks to queue
+[2022-06-24 19:18:12,827] {logging_mixin.py:115} INFO - [2022-06-24 19:18:12,827] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:18:15,497] {processor.py:651} INFO - DAG(s) dict_keys(['green_taxi_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:18:15,623] {logging_mixin.py:115} INFO - [2022-06-24 19:18:15,620] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-24 19:18:15,741] {logging_mixin.py:115} INFO - [2022-06-24 19:18:15,741] {dag.py:2927} INFO - Setting next_dagrun for green_taxi_ingestion_gcs_dag to 2022-06-01T06:00:00+00:00, run_after=2022-07-01T06:00:00+00:00
+[2022-06-24 19:18:15,791] {processor.py:161} INFO - Processing /opt/airflow/dags/green_taxi_ingestion.py took 3.006 seconds
+[2022-06-24 19:18:46,885] {processor.py:153} INFO - Started process (PID=98) to work on /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:18:46,887] {processor.py:641} INFO - Processing file /opt/airflow/dags/green_taxi_ingestion.py for tasks to queue
+[2022-06-24 19:18:46,889] {logging_mixin.py:115} INFO - [2022-06-24 19:18:46,889] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:18:47,237] {processor.py:651} INFO - DAG(s) dict_keys(['green_taxi_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:18:47,257] {logging_mixin.py:115} INFO - [2022-06-24 19:18:47,257] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-24 19:18:47,281] {logging_mixin.py:115} INFO - [2022-06-24 19:18:47,281] {dag.py:2927} INFO - Setting next_dagrun for green_taxi_ingestion_gcs_dag to 2022-06-01T06:00:00+00:00, run_after=2022-07-01T06:00:00+00:00
+[2022-06-24 19:18:47,298] {processor.py:161} INFO - Processing /opt/airflow/dags/green_taxi_ingestion.py took 0.419 seconds
+[2022-06-24 19:19:17,505] {processor.py:153} INFO - Started process (PID=135) to work on /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:19:17,510] {processor.py:641} INFO - Processing file /opt/airflow/dags/green_taxi_ingestion.py for tasks to queue
+[2022-06-24 19:19:17,514] {logging_mixin.py:115} INFO - [2022-06-24 19:19:17,514] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:19:17,791] {processor.py:651} INFO - DAG(s) dict_keys(['green_taxi_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:19:17,812] {logging_mixin.py:115} INFO - [2022-06-24 19:19:17,812] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-24 19:19:17,826] {logging_mixin.py:115} INFO - [2022-06-24 19:19:17,826] {dag.py:2927} INFO - Setting next_dagrun for green_taxi_ingestion_gcs_dag to 2022-06-01T06:00:00+00:00, run_after=2022-07-01T06:00:00+00:00
+[2022-06-24 19:19:17,833] {processor.py:161} INFO - Processing /opt/airflow/dags/green_taxi_ingestion.py took 0.338 seconds
+[2022-06-24 19:22:31,876] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:22:31,916] {processor.py:641} INFO - Processing file /opt/airflow/dags/green_taxi_ingestion.py for tasks to queue
+[2022-06-24 19:22:31,929] {logging_mixin.py:115} INFO - [2022-06-24 19:22:31,929] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:22:35,237] {processor.py:651} INFO - DAG(s) dict_keys(['green_taxi_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:22:35,351] {logging_mixin.py:115} INFO - [2022-06-24 19:22:35,350] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-24 19:22:35,428] {logging_mixin.py:115} INFO - [2022-06-24 19:22:35,428] {dag.py:2927} INFO - Setting next_dagrun for green_taxi_ingestion_gcs_dag to 2022-06-01T06:00:00+00:00, run_after=2022-07-01T06:00:00+00:00
+[2022-06-24 19:22:35,483] {processor.py:161} INFO - Processing /opt/airflow/dags/green_taxi_ingestion.py took 3.610 seconds
+[2022-06-24 19:23:05,817] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:23:05,827] {processor.py:641} INFO - Processing file /opt/airflow/dags/green_taxi_ingestion.py for tasks to queue
+[2022-06-24 19:23:05,848] {logging_mixin.py:115} INFO - [2022-06-24 19:23:05,848] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:23:08,916] {processor.py:651} INFO - DAG(s) dict_keys(['green_taxi_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:23:08,937] {logging_mixin.py:115} INFO - [2022-06-24 19:23:08,937] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-24 19:23:08,956] {logging_mixin.py:115} INFO - [2022-06-24 19:23:08,956] {dag.py:2927} INFO - Setting next_dagrun for green_taxi_ingestion_gcs_dag to 2022-06-01T06:00:00+00:00, run_after=2022-07-01T06:00:00+00:00
+[2022-06-24 19:23:08,964] {processor.py:161} INFO - Processing /opt/airflow/dags/green_taxi_ingestion.py took 3.151 seconds
+[2022-06-24 19:23:39,239] {processor.py:153} INFO - Started process (PID=104) to work on /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:23:39,243] {processor.py:641} INFO - Processing file /opt/airflow/dags/green_taxi_ingestion.py for tasks to queue
+[2022-06-24 19:23:39,248] {logging_mixin.py:115} INFO - [2022-06-24 19:23:39,248] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:23:39,813] {processor.py:651} INFO - DAG(s) dict_keys(['green_taxi_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:23:39,847] {logging_mixin.py:115} INFO - [2022-06-24 19:23:39,846] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-24 19:23:39,894] {logging_mixin.py:115} INFO - [2022-06-24 19:23:39,894] {dag.py:2927} INFO - Setting next_dagrun for green_taxi_ingestion_gcs_dag to 2022-06-01T06:00:00+00:00, run_after=2022-07-01T06:00:00+00:00
+[2022-06-24 19:23:39,940] {processor.py:161} INFO - Processing /opt/airflow/dags/green_taxi_ingestion.py took 0.719 seconds
+[2022-06-24 19:24:10,483] {processor.py:153} INFO - Started process (PID=144) to work on /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:24:10,485] {processor.py:641} INFO - Processing file /opt/airflow/dags/green_taxi_ingestion.py for tasks to queue
+[2022-06-24 19:24:10,486] {logging_mixin.py:115} INFO - [2022-06-24 19:24:10,486] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:24:10,899] {processor.py:651} INFO - DAG(s) dict_keys(['green_taxi_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:24:10,933] {logging_mixin.py:115} INFO - [2022-06-24 19:24:10,932] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-24 19:24:10,951] {logging_mixin.py:115} INFO - [2022-06-24 19:24:10,951] {dag.py:2927} INFO - Setting next_dagrun for green_taxi_ingestion_gcs_dag to 2022-06-01T06:00:00+00:00, run_after=2022-07-01T06:00:00+00:00
+[2022-06-24 19:24:10,963] {processor.py:161} INFO - Processing /opt/airflow/dags/green_taxi_ingestion.py took 0.510 seconds
+[2022-06-24 19:24:41,053] {processor.py:153} INFO - Started process (PID=189) to work on /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:24:41,060] {processor.py:641} INFO - Processing file /opt/airflow/dags/green_taxi_ingestion.py for tasks to queue
+[2022-06-24 19:24:41,062] {logging_mixin.py:115} INFO - [2022-06-24 19:24:41,062] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:24:41,547] {processor.py:651} INFO - DAG(s) dict_keys(['green_taxi_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:24:41,578] {logging_mixin.py:115} INFO - [2022-06-24 19:24:41,578] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-24 19:24:41,599] {logging_mixin.py:115} INFO - [2022-06-24 19:24:41,599] {dag.py:2927} INFO - Setting next_dagrun for green_taxi_ingestion_gcs_dag to 2022-06-01T06:00:00+00:00, run_after=2022-07-01T06:00:00+00:00
+[2022-06-24 19:24:41,619] {processor.py:161} INFO - Processing /opt/airflow/dags/green_taxi_ingestion.py took 0.571 seconds
+[2022-06-24 19:25:11,929] {processor.py:153} INFO - Started process (PID=231) to work on /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:25:11,932] {processor.py:641} INFO - Processing file /opt/airflow/dags/green_taxi_ingestion.py for tasks to queue
+[2022-06-24 19:25:11,934] {logging_mixin.py:115} INFO - [2022-06-24 19:25:11,934] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:25:12,330] {processor.py:651} INFO - DAG(s) dict_keys(['green_taxi_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:25:12,352] {logging_mixin.py:115} INFO - [2022-06-24 19:25:12,352] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-24 19:25:12,364] {logging_mixin.py:115} INFO - [2022-06-24 19:25:12,364] {dag.py:2927} INFO - Setting next_dagrun for green_taxi_ingestion_gcs_dag to 2022-06-01T06:00:00+00:00, run_after=2022-07-01T06:00:00+00:00
+[2022-06-24 19:25:12,378] {processor.py:161} INFO - Processing /opt/airflow/dags/green_taxi_ingestion.py took 0.455 seconds
+[2022-06-24 19:25:43,119] {processor.py:153} INFO - Started process (PID=271) to work on /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:25:43,126] {processor.py:641} INFO - Processing file /opt/airflow/dags/green_taxi_ingestion.py for tasks to queue
+[2022-06-24 19:25:43,130] {logging_mixin.py:115} INFO - [2022-06-24 19:25:43,129] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:25:43,521] {processor.py:651} INFO - DAG(s) dict_keys(['green_taxi_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:25:43,537] {logging_mixin.py:115} INFO - [2022-06-24 19:25:43,537] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-24 19:25:43,550] {logging_mixin.py:115} INFO - [2022-06-24 19:25:43,550] {dag.py:2927} INFO - Setting next_dagrun for green_taxi_ingestion_gcs_dag to 2022-06-01T06:00:00+00:00, run_after=2022-07-01T06:00:00+00:00
+[2022-06-24 19:25:43,556] {processor.py:161} INFO - Processing /opt/airflow/dags/green_taxi_ingestion.py took 0.446 seconds
+[2022-06-24 19:26:14,242] {processor.py:153} INFO - Started process (PID=301) to work on /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:26:14,245] {processor.py:641} INFO - Processing file /opt/airflow/dags/green_taxi_ingestion.py for tasks to queue
+[2022-06-24 19:26:14,246] {logging_mixin.py:115} INFO - [2022-06-24 19:26:14,246] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:26:14,606] {processor.py:651} INFO - DAG(s) dict_keys(['green_taxi_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_taxi_ingestion.py
+[2022-06-24 19:26:14,636] {logging_mixin.py:115} INFO - [2022-06-24 19:26:14,636] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-24 19:26:14,660] {logging_mixin.py:115} INFO - [2022-06-24 19:26:14,660] {dag.py:2927} INFO - Setting next_dagrun for green_taxi_ingestion_gcs_dag to 2022-06-01T06:00:00+00:00, run_after=2022-07-01T06:00:00+00:00
+[2022-06-24 19:26:14,674] {processor.py:161} INFO - Processing /opt/airflow/dags/green_taxi_ingestion.py took 0.435 seconds

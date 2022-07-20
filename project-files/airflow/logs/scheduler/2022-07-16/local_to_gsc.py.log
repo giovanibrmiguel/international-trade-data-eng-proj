@@ -1,0 +1,127 @@
+[2022-07-16 20:57:16,540] {processor.py:153} INFO - Started process (PID=1160) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:57:16,542] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 20:57:16,545] {logging_mixin.py:115} INFO - [2022-07-16 20:57:16,545] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:57:16,866] {processor.py:651} INFO - DAG(s) dict_keys(['fhvhv_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:57:16,943] {logging_mixin.py:115} INFO - [2022-07-16 20:57:16,943] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 20:57:16,963] {logging_mixin.py:115} INFO - [2022-07-16 20:57:16,963] {dag.py:2927} INFO - Setting next_dagrun for fhvhv_ingestion_gcs_dag to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 20:57:16,986] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.450 seconds
+[2022-07-16 20:57:47,584] {processor.py:153} INFO - Started process (PID=1199) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:57:47,587] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 20:57:47,589] {logging_mixin.py:115} INFO - [2022-07-16 20:57:47,589] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:57:47,917] {processor.py:651} INFO - DAG(s) dict_keys(['fhvhv_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:57:47,949] {logging_mixin.py:115} INFO - [2022-07-16 20:57:47,948] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 20:57:47,972] {logging_mixin.py:115} INFO - [2022-07-16 20:57:47,972] {dag.py:2927} INFO - Setting next_dagrun for fhvhv_ingestion_gcs_dag to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 20:57:47,984] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.404 seconds
+[2022-07-16 20:58:18,620] {processor.py:153} INFO - Started process (PID=1239) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:58:18,622] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 20:58:18,624] {logging_mixin.py:115} INFO - [2022-07-16 20:58:18,624] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:58:18,813] {processor.py:651} INFO - DAG(s) dict_keys(['fhvhv_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:58:18,832] {logging_mixin.py:115} INFO - [2022-07-16 20:58:18,832] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 20:58:18,849] {logging_mixin.py:115} INFO - [2022-07-16 20:58:18,849] {dag.py:2927} INFO - Setting next_dagrun for fhvhv_ingestion_gcs_dag to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 20:58:18,859] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.242 seconds
+[2022-07-16 20:58:49,396] {processor.py:153} INFO - Started process (PID=1266) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:58:49,400] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 20:58:49,402] {logging_mixin.py:115} INFO - [2022-07-16 20:58:49,402] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:58:49,571] {processor.py:651} INFO - DAG(s) dict_keys(['fhvhv_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:58:49,589] {logging_mixin.py:115} INFO - [2022-07-16 20:58:49,589] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 20:58:49,604] {logging_mixin.py:115} INFO - [2022-07-16 20:58:49,604] {dag.py:2927} INFO - Setting next_dagrun for fhvhv_ingestion_gcs_dag to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 20:58:49,613] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.222 seconds
+[2022-07-16 20:59:20,171] {processor.py:153} INFO - Started process (PID=1306) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:59:20,178] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 20:59:20,180] {logging_mixin.py:115} INFO - [2022-07-16 20:59:20,179] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:59:20,420] {processor.py:651} INFO - DAG(s) dict_keys(['fhvhv_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:59:20,440] {logging_mixin.py:115} INFO - [2022-07-16 20:59:20,440] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 20:59:20,456] {logging_mixin.py:115} INFO - [2022-07-16 20:59:20,456] {dag.py:2927} INFO - Setting next_dagrun for fhvhv_ingestion_gcs_dag to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 20:59:20,468] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.303 seconds
+[2022-07-16 20:59:36,085] {processor.py:153} INFO - Started process (PID=1320) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:59:36,087] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 20:59:36,089] {logging_mixin.py:115} INFO - [2022-07-16 20:59:36,089] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:59:36,277] {processor.py:651} INFO - DAG(s) dict_keys(['fhvhv_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 20:59:36,320] {logging_mixin.py:115} INFO - [2022-07-16 20:59:36,319] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 20:59:36,335] {logging_mixin.py:115} INFO - [2022-07-16 20:59:36,335] {dag.py:2927} INFO - Setting next_dagrun for fhvhv_ingestion_gcs_dag to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 20:59:36,349] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.268 seconds
+[2022-07-16 21:00:06,438] {processor.py:153} INFO - Started process (PID=1358) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:00:06,440] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 21:00:06,442] {logging_mixin.py:115} INFO - [2022-07-16 21:00:06,442] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:00:06,721] {processor.py:651} INFO - DAG(s) dict_keys(['fhvhv_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:00:06,752] {logging_mixin.py:115} INFO - [2022-07-16 21:00:06,752] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 21:00:06,769] {logging_mixin.py:115} INFO - [2022-07-16 21:00:06,769] {dag.py:2927} INFO - Setting next_dagrun for fhvhv_ingestion_gcs_dag to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 21:00:06,779] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.346 seconds
+[2022-07-16 21:00:56,394] {processor.py:153} INFO - Started process (PID=43) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:00:56,400] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 21:00:56,403] {logging_mixin.py:115} INFO - [2022-07-16 21:00:56,403] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:00:57,738] {processor.py:651} INFO - DAG(s) dict_keys(['fhvhv_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:00:57,892] {logging_mixin.py:115} INFO - [2022-07-16 21:00:57,888] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 21:00:57,993] {logging_mixin.py:115} INFO - [2022-07-16 21:00:57,993] {dag.py:2927} INFO - Setting next_dagrun for fhvhv_ingestion_gcs_dag to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 21:00:58,055] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 1.684 seconds
+[2022-07-16 21:01:29,227] {processor.py:153} INFO - Started process (PID=72) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:01:29,229] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 21:01:29,232] {logging_mixin.py:115} INFO - [2022-07-16 21:01:29,232] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:01:29,542] {processor.py:651} INFO - DAG(s) dict_keys(['fhvhv_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:01:29,569] {logging_mixin.py:115} INFO - [2022-07-16 21:01:29,569] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 21:01:29,588] {logging_mixin.py:115} INFO - [2022-07-16 21:01:29,588] {dag.py:2927} INFO - Setting next_dagrun for fhvhv_ingestion_gcs_dag to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 21:01:29,597] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.381 seconds
+[2022-07-16 21:01:45,584] {processor.py:153} INFO - Started process (PID=105) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:01:45,587] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 21:01:45,588] {logging_mixin.py:115} INFO - [2022-07-16 21:01:45,588] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:01:46,021] {logging_mixin.py:115} INFO - [2022-07-16 21:01:46,012] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/local_to_gsc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_to_gsc.py", line 64, in <module>
+    bash_command=f'curl -sSL {URL_TEMPLATE} > {AIRFLOW_HOME}/{PARQUET_FILE}'
+NameError: name 'URL_TEMPLATE' is not defined
+[2022-07-16 21:01:46,025] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:01:46,056] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.478 seconds
+[2022-07-16 21:01:49,142] {processor.py:153} INFO - Started process (PID=107) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:01:49,144] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 21:01:49,146] {logging_mixin.py:115} INFO - [2022-07-16 21:01:49,146] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:01:49,435] {logging_mixin.py:115} INFO - [2022-07-16 21:01:49,432] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/local_to_gsc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_to_gsc.py", line 64, in <module>
+    bash_command=f'curl -sSL {URL_TEMPLATE} > {AIRFLOW_HOME}/{PARQUET_FILE}'
+NameError: name 'URL_TEMPLATE' is not defined
+[2022-07-16 21:01:49,437] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:01:49,460] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.324 seconds
+[2022-07-16 21:02:12,507] {processor.py:153} INFO - Started process (PID=138) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:02:12,509] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 21:02:12,511] {logging_mixin.py:115} INFO - [2022-07-16 21:02:12,511] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:02:12,918] {processor.py:651} INFO - DAG(s) dict_keys(['fhvhv_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:02:13,000] {logging_mixin.py:115} INFO - [2022-07-16 21:02:13,000] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 21:02:13,024] {logging_mixin.py:115} INFO - [2022-07-16 21:02:13,024] {dag.py:2927} INFO - Setting next_dagrun for fhvhv_ingestion_gcs_dag to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 21:02:13,041] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.540 seconds
+[2022-07-16 21:02:43,321] {processor.py:153} INFO - Started process (PID=182) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:02:43,323] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 21:02:43,325] {logging_mixin.py:115} INFO - [2022-07-16 21:02:43,325] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:02:43,632] {processor.py:651} INFO - DAG(s) dict_keys(['fhvhv_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:02:43,655] {logging_mixin.py:115} INFO - [2022-07-16 21:02:43,654] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 21:02:43,673] {logging_mixin.py:115} INFO - [2022-07-16 21:02:43,673] {dag.py:2927} INFO - Setting next_dagrun for fhvhv_ingestion_gcs_dag to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 21:02:43,683] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.367 seconds
+[2022-07-16 21:02:46,348] {processor.py:153} INFO - Started process (PID=184) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:02:46,350] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 21:02:46,352] {logging_mixin.py:115} INFO - [2022-07-16 21:02:46,352] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:02:46,690] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gsc']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:02:46,769] {logging_mixin.py:115} INFO - [2022-07-16 21:02:46,769] {manager.py:508} INFO - Created Permission View: can delete on DAG:local_to_gsc
+[2022-07-16 21:02:46,782] {logging_mixin.py:115} INFO - [2022-07-16 21:02:46,782] {manager.py:508} INFO - Created Permission View: can read on DAG:local_to_gsc
+[2022-07-16 21:02:46,790] {logging_mixin.py:115} INFO - [2022-07-16 21:02:46,790] {manager.py:508} INFO - Created Permission View: can edit on DAG:local_to_gsc
+[2022-07-16 21:02:46,792] {logging_mixin.py:115} INFO - [2022-07-16 21:02:46,792] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 21:02:46,805] {logging_mixin.py:115} INFO - [2022-07-16 21:02:46,804] {dag.py:2398} INFO - Creating ORM DAG for local_to_gsc
+[2022-07-16 21:02:46,820] {logging_mixin.py:115} INFO - [2022-07-16 21:02:46,820] {dag.py:2927} INFO - Setting next_dagrun for local_to_gsc to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 21:02:46,844] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.502 seconds
+[2022-07-16 21:02:49,775] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:02:49,777] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_to_gsc.py for tasks to queue
+[2022-07-16 21:02:49,779] {logging_mixin.py:115} INFO - [2022-07-16 21:02:49,779] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:02:50,124] {processor.py:651} INFO - DAG(s) dict_keys(['local_to_gcs']) retrieved from /opt/airflow/dags/local_to_gsc.py
+[2022-07-16 21:02:50,200] {logging_mixin.py:115} INFO - [2022-07-16 21:02:50,200] {manager.py:508} INFO - Created Permission View: can delete on DAG:local_to_gcs
+[2022-07-16 21:02:50,209] {logging_mixin.py:115} INFO - [2022-07-16 21:02:50,209] {manager.py:508} INFO - Created Permission View: can read on DAG:local_to_gcs
+[2022-07-16 21:02:50,216] {logging_mixin.py:115} INFO - [2022-07-16 21:02:50,216] {manager.py:508} INFO - Created Permission View: can edit on DAG:local_to_gcs
+[2022-07-16 21:02:50,217] {logging_mixin.py:115} INFO - [2022-07-16 21:02:50,217] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-16 21:02:50,230] {logging_mixin.py:115} INFO - [2022-07-16 21:02:50,229] {dag.py:2398} INFO - Creating ORM DAG for local_to_gcs
+[2022-07-16 21:02:50,243] {logging_mixin.py:115} INFO - [2022-07-16 21:02:50,243] {dag.py:2927} INFO - Setting next_dagrun for local_to_gcs to 2019-01-01T06:00:00+00:00, run_after=2019-02-01T06:00:00+00:00
+[2022-07-16 21:02:50,267] {processor.py:161} INFO - Processing /opt/airflow/dags/local_to_gsc.py took 0.497 seconds

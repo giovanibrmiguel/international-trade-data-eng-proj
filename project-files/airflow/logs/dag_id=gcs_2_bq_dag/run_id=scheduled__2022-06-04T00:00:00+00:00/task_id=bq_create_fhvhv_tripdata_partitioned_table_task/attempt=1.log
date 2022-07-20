@@ -1,0 +1,29 @@
+[2022-06-05 01:52:35,481] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_create_fhvhv_tripdata_partitioned_table_task scheduled__2022-06-04T00:00:00+00:00 [queued]>
+[2022-06-05 01:52:35,554] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_create_fhvhv_tripdata_partitioned_table_task scheduled__2022-06-04T00:00:00+00:00 [queued]>
+[2022-06-05 01:52:35,571] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-05 01:52:35,576] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-05 01:52:35,588] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-05 01:52:35,642] {taskinstance.py:1378} INFO - Executing <Task(BigQueryInsertJobOperator): bq_create_fhvhv_tripdata_partitioned_table_task> on 2022-06-04 00:00:00+00:00
+[2022-06-05 01:52:35,892] {standard_task_runner.py:52} INFO - Started process 22114 to run task
+[2022-06-05 01:52:35,928] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'bq_create_fhvhv_tripdata_partitioned_table_task', 'scheduled__2022-06-04T00:00:00+00:00', '--job-id', '557', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpo9aejkth', '--error-file', '/tmp/tmpv6rawb9t']
+[2022-06-05 01:52:35,963] {standard_task_runner.py:80} INFO - Job 557: Subtask bq_create_fhvhv_tripdata_partitioned_table_task
+[2022-06-05 01:52:36,237] {task_command.py:370} INFO - Running <TaskInstance: gcs_2_bq_dag.bq_create_fhvhv_tripdata_partitioned_table_task scheduled__2022-06-04T00:00:00+00:00 [running]> on host 80b81dda36ea
+[2022-06-05 01:52:36,488] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_create_fhvhv_tripdata_partitioned_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-04T00:00:00+00:00
+[2022-06-05 01:52:36,509] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-06-05 01:52:36,523] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-06-05 01:52:36,527] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-06-05 01:52:36,529] {bigquery.py:2148} INFO - Executing: {'query': {'query': 'CREATE OR REPLACE TABLE trips_data_all.fhvhv_tripdata                 PARTITION BY DATETIME_TRUNC(pickup_datetime, MONTH)                     AS                     SELECT *                     REPLACE(NULL AS airport_fee)                FROM trips_data_all.fhvhv_tripdata_external_table;', 'useLegacySql': False}}
+[2022-06-05 01:52:36,560] {bigquery.py:1538} INFO - Inserting job ***_gcs_2_bq_dag_bq_create_fhvhv_tripdata_partitioned_table_task_2022_06_04T00_00_00_00_00_5344b1c0cce82e1f261d67da4c929b53
+[2022-06-05 02:28:09,662] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=bq_create_fhvhv_tripdata_partitioned_table_task, execution_date=20220604T000000, start_date=20220605T015235, end_date=20220605T022809
+[2022-06-05 02:28:09,934] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-05 02:28:10,102] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,43 @@
+[2022-07-18 23:14:18,573] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.format_to_parquet_task manual__2022-07-18T23:14:16.881560+00:00 [queued]>
+[2022-07-18 23:14:18,586] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.format_to_parquet_task manual__2022-07-18T23:14:16.881560+00:00 [queued]>
+[2022-07-18 23:14:18,589] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-18 23:14:18,591] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-07-18 23:14:18,593] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-18 23:14:18,610] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2022-07-18 23:14:16.881560+00:00
+[2022-07-18 23:14:18,636] {standard_task_runner.py:52} INFO - Started process 38681 to run task
+[2022-07-18 23:14:18,649] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'local_to_gcs', 'format_to_parquet_task', 'manual__2022-07-18T23:14:16.881560+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/local_to_gcs.py', '--cfg-path', '/tmp/tmp0bji2mg6', '--error-file', '/tmp/tmp4wmv49c6']
+[2022-07-18 23:14:18,652] {standard_task_runner.py:80} INFO - Job 33: Subtask format_to_parquet_task
+[2022-07-18 23:14:18,781] {task_command.py:370} INFO - Running <TaskInstance: local_to_gcs.format_to_parquet_task manual__2022-07-18T23:14:16.881560+00:00 [running]> on host 32d1f26135d5
+[2022-07-18 23:14:18,902] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-07-18 23:14:19,019] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_to_gcs
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-18T23:14:16.881560+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-18T23:14:16.881560+00:00
+[2022-07-18 23:14:19,037] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/local_to_gcs.py", line 38, in format_to_parquet
+    table = pv.read_csv(src_file)
+  File "pyarrow/_csv.pyx", line 881, in pyarrow._csv.read_csv
+  File "pyarrow/_csv.pyx", line 774, in pyarrow._csv._get_reader
+  File "pyarrow/io.pxi", line 1631, in pyarrow.lib.get_input_stream
+  File "pyarrow/io.pxi", line 1602, in pyarrow.lib.get_native_file
+  File "pyarrow/io.pxi", line 896, in pyarrow.lib.OSFile.__cinit__
+  File "pyarrow/io.pxi", line 906, in pyarrow.lib.OSFile._open_readable
+  File "pyarrow/error.pxi", line 143, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 112, in pyarrow.lib.check_status
+FileNotFoundError: [Errno 2] Failed to open local file '/opt/airflow/dags/country_data_local/country_partner_2022.csv'. Detail: [errno 2] No such file or directory
+[2022-07-18 23:14:19,075] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=local_to_gcs, task_id=format_to_parquet_task, execution_date=20220718T231416, start_date=20220718T231418, end_date=20220718T231419
+[2022-07-18 23:14:19,098] {standard_task_runner.py:97} ERROR - Failed to execute job 33 for task format_to_parquet_task ([Errno 2] Failed to open local file '/opt/airflow/dags/country_data_local/country_partner_2022.csv'. Detail: [errno 2] No such file or directory; 38681)
+[2022-07-18 23:14:19,154] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-18 23:14:19,243] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,114 @@
+[2022-07-18 22:55:47,323] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.local_to_gcs_task manual__2022-07-18T22:55:18.991942+00:00 [queued]>
+[2022-07-18 22:55:47,340] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.local_to_gcs_task manual__2022-07-18T22:55:18.991942+00:00 [queued]>
+[2022-07-18 22:55:47,342] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-18 22:55:47,344] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-07-18 22:55:47,346] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-18 22:55:47,361] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2022-07-18 22:55:18.991942+00:00
+[2022-07-18 22:55:47,370] {standard_task_runner.py:52} INFO - Started process 37701 to run task
+[2022-07-18 22:55:47,375] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'local_to_gcs', 'local_to_gcs_task', 'manual__2022-07-18T22:55:18.991942+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/local_to_gcs.py', '--cfg-path', '/tmp/tmp5rp567du', '--error-file', '/tmp/tmp8befzp9p']
+[2022-07-18 22:55:47,378] {standard_task_runner.py:80} INFO - Job 30: Subtask local_to_gcs_task
+[2022-07-18 22:55:47,461] {task_command.py:370} INFO - Running <TaskInstance: local_to_gcs.local_to_gcs_task manual__2022-07-18T22:55:18.991942+00:00 [running]> on host 32d1f26135d5
+[2022-07-18 22:55:47,622] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_to_gcs
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-18T22:55:18.991942+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-18T22:55:18.991942+00:00
+[2022-07-18 22:56:48,770] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.7/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1075, in _send_output
+    self.send(chunk)
+  File "/usr/local/lib/python3.7/http/client.py", line 997, in send
+    self.sock.sendall(data)
+  File "/usr/local/lib/python3.7/ssl.py", line 1034, in sendall
+    v = self.send(byte_view[count:])
+  File "/usr/local/lib/python3.7/ssl.py", line 1003, in send
+    return self._sslobj.write(data)
+socket.timeout: The write operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 450, in send
+    timeout=timeout
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.7/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1075, in _send_output
+    self.send(chunk)
+  File "/usr/local/lib/python3.7/http/client.py", line 997, in send
+    self.sock.sendall(data)
+  File "/usr/local/lib/python3.7/ssl.py", line 1034, in sendall
+    v = self.send(byte_view[count:])
+  File "/usr/local/lib/python3.7/ssl.py", line 1003, in send
+    return self._sslobj.write(data)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', timeout('The write operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/local_to_gcs.py", line 60, in upload_to_gcs
+    blob.upload_from_filename(local_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2735, in upload_from_filename
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2594, in upload_from_file
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2412, in _do_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2242, in _do_resumable_upload
+    response = upload.transmit_next_chunk(transport, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 516, in transmit_next_chunk
+    retriable_request, self._get_status_code, self._retry_strategy
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/_request_helpers.py", line 171, in wait_and_retry
+    raise error
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/_request_helpers.py", line 148, in wait_and_retry
+    response = func()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 508, in retriable_request
+    method, url, data=payload, headers=headers, timeout=timeout
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/transport/requests.py", line 496, in request
+    **kwargs
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', timeout('The write operation timed out'))
+[2022-07-18 22:56:48,833] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=local_to_gcs, task_id=local_to_gcs_task, execution_date=20220718T225518, start_date=20220718T225547, end_date=20220718T225648
+[2022-07-18 22:56:48,876] {standard_task_runner.py:97} ERROR - Failed to execute job 30 for task local_to_gcs_task (('Connection aborted.', timeout('The write operation timed out')); 37701)
+[2022-07-18 22:56:48,992] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-18 22:56:49,077] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

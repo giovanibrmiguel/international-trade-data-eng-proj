@@ -1,0 +1,34 @@
+[2022-07-16 23:30:40,370] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.bash manual__2022-07-16T23:30:38.530206+00:00 [queued]>
+[2022-07-16 23:30:40,382] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: local_to_gcs.bash manual__2022-07-16T23:30:38.530206+00:00 [queued]>
+[2022-07-16 23:30:40,384] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-16 23:30:40,389] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-07-16 23:30:40,390] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-16 23:30:40,406] {taskinstance.py:1378} INFO - Executing <Task(BashOperator): bash> on 2022-07-16 23:30:38.530206+00:00
+[2022-07-16 23:30:40,419] {standard_task_runner.py:52} INFO - Started process 5537 to run task
+[2022-07-16 23:30:40,424] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'local_to_gcs', 'bash', 'manual__2022-07-16T23:30:38.530206+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/local_to_gcs.py', '--cfg-path', '/tmp/tmpq_16l_19', '--error-file', '/tmp/tmp6qm2ga32']
+[2022-07-16 23:30:40,427] {standard_task_runner.py:80} INFO - Job 25: Subtask bash
+[2022-07-16 23:30:40,495] {task_command.py:370} INFO - Running <TaskInstance: local_to_gcs.bash manual__2022-07-16T23:30:38.530206+00:00 [running]> on host 32d1f26135d5
+[2022-07-16 23:30:40,614] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_to_gcs
+AIRFLOW_CTX_TASK_ID=bash
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-16T23:30:38.530206+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-16T23:30:38.530206+00:00
+[2022-07-16 23:30:40,619] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-07-16 23:30:40,622] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'mv /Users/giovanibaroni/data-engineering/final_project/***/country_partner_1999.csv /opt/***/country_partner_1999.csv']
+[2022-07-16 23:30:40,647] {subprocess.py:85} INFO - Output:
+[2022-07-16 23:30:40,659] {subprocess.py:92} INFO - mv: cannot stat '/Users/giovanibaroni/data-engineering/final_project/***/country_partner_1999.csv': No such file or directory
+[2022-07-16 23:30:40,662] {subprocess.py:96} INFO - Command exited with return code 1
+[2022-07-16 23:30:40,685] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 195, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2022-07-16 23:30:40,693] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=local_to_gcs, task_id=bash, execution_date=20220716T233038, start_date=20220716T233040, end_date=20220716T233040
+[2022-07-16 23:30:40,711] {standard_task_runner.py:97} ERROR - Failed to execute job 25 for task bash (Bash command failed. The command returned a non-zero exit code 1.; 5537)
+[2022-07-16 23:30:40,763] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-16 23:30:40,819] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

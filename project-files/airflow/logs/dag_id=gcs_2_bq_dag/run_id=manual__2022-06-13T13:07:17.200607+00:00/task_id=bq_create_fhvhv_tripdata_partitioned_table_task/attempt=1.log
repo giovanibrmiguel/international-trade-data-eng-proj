@@ -1,0 +1,29 @@
+[2022-06-13 13:07:33,537] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_create_fhvhv_tripdata_partitioned_table_task manual__2022-06-13T13:07:17.200607+00:00 [queued]>
+[2022-06-13 13:07:33,547] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_create_fhvhv_tripdata_partitioned_table_task manual__2022-06-13T13:07:17.200607+00:00 [queued]>
+[2022-06-13 13:07:33,548] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 13:07:33,549] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-13 13:07:33,550] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 13:07:33,563] {taskinstance.py:1378} INFO - Executing <Task(BigQueryInsertJobOperator): bq_create_fhvhv_tripdata_partitioned_table_task> on 2022-06-13 13:07:17.200607+00:00
+[2022-06-13 13:07:33,600] {standard_task_runner.py:52} INFO - Started process 16344 to run task
+[2022-06-13 13:07:33,606] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'bq_create_fhvhv_tripdata_partitioned_table_task', 'manual__2022-06-13T13:07:17.200607+00:00', '--job-id', '670', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpo97rprm9', '--error-file', '/tmp/tmp6ops4cqe']
+[2022-06-13 13:07:33,609] {standard_task_runner.py:80} INFO - Job 670: Subtask bq_create_fhvhv_tripdata_partitioned_table_task
+[2022-06-13 13:07:33,698] {task_command.py:370} INFO - Running <TaskInstance: gcs_2_bq_dag.bq_create_fhvhv_tripdata_partitioned_table_task manual__2022-06-13T13:07:17.200607+00:00 [running]> on host 0825143a1170
+[2022-06-13 13:07:33,784] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_create_fhvhv_tripdata_partitioned_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-13T13:07:17.200607+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-06-13T13:07:17.200607+00:00
+[2022-06-13 13:07:33,791] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-06-13 13:07:33,793] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-06-13 13:07:33,799] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-06-13 13:07:33,801] {bigquery.py:2148} INFO - Executing: {'query': {'query': 'CREATE OR REPLACE TABLE trips_data_all.fhv_trips             (             hvfhs_license_num STRING,             dispatching_base_num STRING,             originating_base_num STRING,             request_datetime TIMESTAMP,             on_scene_datetime TIMESTAMP,             pickup_datetime TIMESTAMP,             dropoff_datetime TIMESTAMP,             PULocationID INT64,             DOLocationID INT64,             trip_miles FLOAT64,             trip_time INT64,             base_passenger_fare FLOAT64,             tolls FLOAT64,             bcf FLOAT64,             sales_tax FLOAT64,             congestion_surcharge FLOAT64,             airport_fee INT64,             tips FLOAT64,             driver_pay FLOAT64,             shared_request_flag STRING,             shared_match_flag STRING,             access_a_ride_flag STRING,             wav_request_flag STRING,             wav_match_flag STRING             )     PARTITION BY DATE(pickup_datetime)     OPTIONS(     partition_expiration_days=10000     )     AS (         SELECT              *         REPLACE(NULL AS airport_fee)         FROM              trips_data_all.fhvhv_tripdata_external_table     );', 'useLegacySql': False}}
+[2022-06-13 13:07:33,818] {bigquery.py:1538} INFO - Inserting job ***_gcs_2_bq_dag_bq_create_fhvhv_tripdata_partitioned_table_task_2022_06_13T13_07_17_200607_00_00_cee608a5509c43b0351d942dae8daba3
+[2022-06-13 13:08:58,141] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=bq_create_fhvhv_tripdata_partitioned_table_task, execution_date=20220613T130717, start_date=20220613T130733, end_date=20220613T130858
+[2022-06-13 13:08:58,219] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-13 13:08:58,263] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
