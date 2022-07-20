@@ -1,0 +1,880 @@
+,product_id,sitc_product_code,sitc_product_name_short_en,level,parent_id
+0,0,0,Food,section,
+1,1,1,Beverages,section,
+2,2,2,Crude materials,section,
+3,3,3,Fuels,section,
+4,4,4,Vegetable oils,section,
+5,5,5,Chemicals,section,
+6,6,6,Material manufacturers,section,
+7,7,7,Machinery and vehicles,section,
+8,8,8,Other manufacturers,section,
+9,9,9,Unspecified,section,
+10,10,services,Services,section,
+11,100,00,Live animals chiefly for food,2digit,0.0
+12,101,01,Meat and preparations,2digit,0.0
+13,102,02,Dairy products and birds' eggs,2digit,0.0
+14,103,03,"Fish, crustacean and molluscs, and preparations thereof",2digit,0.0
+15,104,04,Cereals and cereal preparations,2digit,0.0
+16,105,05,Vegetables and fruit,2digit,0.0
+17,106,06,"Sugar, sugar preparations and honey",2digit,0.0
+18,107,07,"Coffee, tea, cocoa, spices, and manufactures thereof",2digit,0.0
+19,108,08,Feeding stuff for animals (not including unmilled cereals),2digit,0.0
+20,109,09,Miscellaneous edible products and preparations,2digit,0.0
+21,110,11,Beverages,2digit,1.0
+22,111,12,Tobacco and tobacco manufactures,2digit,1.0
+23,112,21,"Hides, skins and furskins, raw",2digit,2.0
+24,113,22,Oil seeds and oleaginous fruit,2digit,2.0
+25,114,23,Crude rubber (including synthetic and reclaimed),2digit,2.0
+26,115,24,Cork and wood,2digit,2.0
+27,116,25,Pulp and waste paper,2digit,2.0
+28,117,26,Textile fibres (not wool tops) and their wastes (not in yarn),2digit,2.0
+29,118,27,Crude fertilizer and crude minerals,2digit,2.0
+30,119,28,Metalliferous ores and metal scrap,2digit,2.0
+31,120,29,"Crude animal and vegetable materials, nes",2digit,2.0
+32,121,32,"Coal, coke and briquettes",2digit,3.0
+33,122,33,"Petroleum, petroleum products and related materials",2digit,3.0
+34,123,34,"Gas, natural and manufactured",2digit,3.0
+35,124,35,Electric current,2digit,3.0
+36,125,41,Animal oils and fats,2digit,4.0
+37,126,42,Fixed vegetable oils and fats,2digit,4.0
+38,127,43,"Animal and vegetable oils and fats, processed, and waxes",2digit,4.0
+39,128,51,Organic chemicals,2digit,5.0
+40,129,52,Inorganic chemicals,2digit,5.0
+41,130,53,"Dyeing, tanning and colouring materials",2digit,5.0
+42,131,54,Medicinal and pharmaceutical products,2digit,5.0
+43,132,55,Oils and perfume materials; toilet and cleansing preparations,2digit,5.0
+44,133,56,"Fertilizers, manufactured",2digit,5.0
+45,134,57,Explosives and pyrotechnic products,2digit,5.0
+46,135,58,"Artificial resins and plastic materials, and cellulose esters etc",2digit,5.0
+47,136,59,"Chemical materials and products, nes",2digit,5.0
+48,137,61,"Leather, leather manufactures, nes, and dressed furskins",2digit,6.0
+49,138,62,"Rubber manufactures, nes",2digit,6.0
+50,139,63,"Cork and wood, cork manufactures",2digit,6.0
+51,140,64,"Paper, paperboard, and articles of pulp, of paper or of paperboard",2digit,6.0
+52,141,65,"Textile yarn, fabrics, made-up articles, nes, and related products",2digit,6.0
+53,142,66,"Non-metallic mineral manufactures, nes",2digit,6.0
+54,143,67,Iron and steel,2digit,6.0
+55,144,68,Non-ferrous metals,2digit,6.0
+56,145,69,"Manufactures of metals, nes",2digit,6.0
+57,146,71,Power generating machinery and equipment,2digit,7.0
+58,147,72,Machinery specialized for particular industries,2digit,7.0
+59,148,73,Metalworking machinery,2digit,7.0
+60,149,74,"General industrial machinery and equipment, nes, and parts of, nes",2digit,7.0
+61,150,75,Office machines and automatic data processing equipment,2digit,7.0
+62,151,76,"Telecommunications, sound recording and reproducing equipment",2digit,7.0
+63,152,77,"Electric machinery, apparatus and appliances, nes, and parts, nes",2digit,7.0
+64,153,78,Road vehicles,2digit,7.0
+65,154,79,Other transport equipment,2digit,7.0
+66,155,81,"Sanitary, plumbing, heating, lighting fixtures and fittings, nes",2digit,8.0
+67,156,82,Furniture and parts thereof,2digit,8.0
+68,157,83,"Travel goods, handbags and similar containers",2digit,8.0
+69,158,84,Articles of apparel and clothing accessories,2digit,8.0
+70,159,85,Footwear,2digit,8.0
+71,160,87,"Professional, scientific, controlling instruments, apparatus, nes",2digit,8.0
+72,161,88,"Photographic equipment and supplies, optical goods; watches, etc",2digit,8.0
+73,162,89,"Miscellaneous manufactured articles, nes",2digit,8.0
+74,163,91,Postal packages not classified according to kind,2digit,9.0
+75,164,93,"Special transactions, commodity not classified according to class",2digit,9.0
+76,165,94,"Animals, live, nes, (including zoo animals, pets, insects, etc)",2digit,9.0
+77,166,95,"Armoured fighting vehicles, war firearms, ammunition, parts, nes",2digit,9.0
+78,167,96,"Coin (other than gold coin), not being legal tender",2digit,9.0
+79,168,97,"Gold, non-monetary (excluding gold ores and concentrates)",2digit,9.0
+80,169,ZZ,Unknown,2digit,9.0
+81,200,unspecified,Unspecified,2digit,10.0
+82,201,travel,Travel and tourism,2digit,10.0
+83,202,transport,Transport,2digit,10.0
+84,203,ict,ICT,2digit,10.0
+85,204,financial,Insurance and finance,2digit,10.0
+86,650,0011,"Animals of the bovine species (including buffaloes), live",4digit,100.0
+87,651,0012,"Sheep and goats, live",4digit,100.0
+88,652,0013,"Swine, live",4digit,100.0
+89,653,0014,"Poultry, live",4digit,100.0
+90,654,0015,"Equine species, live",4digit,100.0
+91,655,0019,"Live animals of a kind mainly used for human food, nes",4digit,100.0
+92,656,0111,"Bovine meat, fresh, chilled or frozen",4digit,101.0
+93,657,0112,"Meat of sheep and goats, fresh, chilled or frozen",4digit,101.0
+94,658,0113,"Pig meat fresh, chilled or frozen",4digit,101.0
+95,659,0114,"Poultry, dead and edible offal, fresh, chilled or frozen",4digit,101.0
+96,660,0115,"Meat of horses, asses, mules and hinnies, fresh, chilled or frozen",4digit,101.0
+97,661,0116,"Edible offal of headings 0011-5 and 0015, fresh, chilled or frozen",4digit,101.0
+98,662,0118,"Other fresh, chilled or frozen meat or edible meat offal",4digit,101.0
+99,663,0121,"Bacon, ham, other dried, salted or smoked meat of domestic swine",4digit,101.0
+100,664,0129,"Meat and edible meat offal, nes, in brine, dried, salted or smoked",4digit,101.0
+101,665,0141,Meat extracts and juices; fish extracts,4digit,101.0
+102,666,0142,"Sausages and the like, of meat, meat offal or animal blood",4digit,101.0
+103,667,0149,Other prepared or preserved meat or meat offal,4digit,101.0
+104,668,0223,"Milk and cream fresh, not concentrated or sweetened",4digit,102.0
+105,669,0224,"Milk and cream, preserved, concentrated or sweetened",4digit,102.0
+106,670,0230,Butter,4digit,102.0
+107,671,0240,Cheese and curd,4digit,102.0
+108,672,0251,"Eggs, birds', and egg yolks, fresh, dried or preserved, in shell",4digit,102.0
+109,673,0252,"Eggs, birds', egg yolks, fresh, dried or preserved, not in shell",4digit,102.0
+110,674,0341,"Fish, fresh or chilled, excluding fillet",4digit,103.0
+111,675,0342,"Fish, frozen, excluding fillets",4digit,103.0
+112,676,0343,"Fish fillets, fresh or chilled",4digit,103.0
+113,677,0344,"Fish fillets, frozen",4digit,103.0
+114,678,0350,"Fish, dried, salted or in brine; smoked fish",4digit,103.0
+115,679,0360,"Crustaceans and molluscs, fresh, chilled, frozen, salted, etc",4digit,103.0
+116,680,0371,"Fish, prepared or preserved, nes",4digit,103.0
+117,681,0372,"Crustaceans and molluscs, prepared or prepared, nes",4digit,103.0
+118,682,0411,"Durum wheat, unmilled",4digit,104.0
+119,683,0412,"Other wheat and meslin, unmilled",4digit,104.0
+120,684,0421,"Rice in the husk or husked, but not farther prepared",4digit,104.0
+121,685,0422,"Rice, semi-milled or wholly milled",4digit,104.0
+122,686,0430,"Barley, unmilled",4digit,104.0
+123,687,0440,"Maize, unmilled",4digit,104.0
+124,688,0451,"Rye, unmilled",4digit,104.0
+125,689,0452,"Oats, unmilled",4digit,104.0
+126,690,0459,"Buckwheat, millet, etc, and other cereals, unmilled, nes",4digit,104.0
+127,691,0460,Meal and flour of wheat and flour of meslin,4digit,104.0
+128,692,0470,Other cereal meals and flour,4digit,104.0
+129,693,0481,"Cereal grains, worked or prepared, not elsewhere specified",4digit,104.0
+130,694,0482,"Malt, roasted or not, including flour",4digit,104.0
+131,695,0483,"Macaroni, spaghetti and similar products",4digit,104.0
+132,696,0484,Bakery products,4digit,104.0
+133,697,0488,Malt extract; cereals preparations with less 50% of cocoa,4digit,104.0
+134,698,0541,"Potatoes, fresh or chilled, excluding sweet potatoes",4digit,105.0
+135,699,0542,"Beans, peas, other leguminous vegetables, dried, shelled",4digit,105.0
+136,700,0544,"Tomatoes, fresh or chilled",4digit,105.0
+137,701,0545,Other fresh or chilled vegetables,4digit,105.0
+138,702,0546,"Vegetables, frozen or in temporary preservative",4digit,105.0
+139,703,0548,"Vegetable products roots and tubers, nes, fresh, dried",4digit,105.0
+140,704,0561,"Vegetables (excluding leguminous), dried, evaporated, etc",4digit,105.0
+141,705,0564,"Flour, meals and flakes of potatoes, fruit and vegetables, nes",4digit,105.0
+142,706,0565,"Vegetables, prepared or preserved, nes",4digit,105.0
+143,707,0571,"Oranges, mandarins, etc, fresh or dried",4digit,105.0
+144,708,0572,"Other citrus fruits, fresh or dried",4digit,105.0
+145,709,0573,"Banana, plantain, fresh or dried",4digit,105.0
+146,710,0574,"Apples, fresh",4digit,105.0
+147,711,0575,"Grapes, fresh or dried",4digit,105.0
+148,712,0576,"Figs, fresh or dried",4digit,105.0
+149,713,0577,"Nuts edible, fresh or dried",4digit,105.0
+150,714,0579,"Fruit, fresh or dried, nes",4digit,105.0
+151,715,0582,"Fruit, fruit-peel and parts of plants, preserved by sugar",4digit,105.0
+152,716,0583,"Jams, jellies, marmalades, etc, as cooked preparations",4digit,105.0
+153,717,0585,Fruit or vegetable juices,4digit,105.0
+154,718,0586,"Fruit, temporarily preserved",4digit,105.0
+155,719,0589,"Fruit prepared or preserved, nes",4digit,105.0
+156,720,0611,"Sugars, beet and cane, raw, solid",4digit,106.0
+157,721,0612,Refined sugar etc,4digit,106.0
+158,722,0615,Molasses,4digit,106.0
+159,723,0616,Natural honey,4digit,106.0
+160,724,0619,Sugars and syrups nes; artificial honey; caramel,4digit,106.0
+161,725,0620,"Sugar confectionery and preparations, non-chocolate",4digit,106.0
+162,726,0711,"Coffee green, roasted; coffee substitutes containing coffee",4digit,107.0
+163,727,0712,"Coffee extracts, essences or concentrates",4digit,107.0
+164,728,0721,"Cocoa beans, raw, roasted",4digit,107.0
+165,729,0722,"Cocoa powder, unsweetened",4digit,107.0
+166,730,0723,Cocoa butter and paste,4digit,107.0
+167,731,0730,"Chocolate and other preparations containing cocoa, nes",4digit,107.0
+168,732,0741,Tea,4digit,107.0
+169,733,0742,Mate,4digit,107.0
+170,734,0751,"Pepper of ""piper""; pimento of ""capsicum or pimenta""",4digit,107.0
+171,735,0752,"Spices, except pepper and pimento",4digit,107.0
+172,736,0811,"Hay and fodder, green or dry",4digit,108.0
+173,737,0812,"Bran, sharps and other residues derives of cereals",4digit,108.0
+174,738,0813,Oilcake and other residues (except dregs),4digit,108.0
+175,739,0814,"Flours and meals, of meat, fish,etc, unfit for human; greaves",4digit,108.0
+176,740,0819,"Food waste and prepared animal feed, nes",4digit,108.0
+177,741,0913,"Lard, pig and poultry fat, rendered or solvent-extracted",4digit,109.0
+178,742,0914,"Margarine, imitation lard and other prepared edible fats, nes",4digit,109.0
+179,743,0980,"Edible products and preparations, nes",4digit,109.0
+180,744,1110,"Non-alcoholic beverages, nes",4digit,110.0
+181,745,1121,Wine of fresh grapes etc,4digit,110.0
+182,746,1122,"Other fermented beverages, nes (cider, perry, mead, etc)",4digit,110.0
+183,747,1123,"Beer made from malt (including ale, stout and porter)",4digit,110.0
+184,748,1124,"Distilled alcoholic beverages, nes",4digit,110.0
+185,749,1211,"Tobacco, not stripped",4digit,111.0
+186,750,1212,"Tobacco, wholly or partly stripped",4digit,111.0
+187,751,1213,Tobacco refuse,4digit,111.0
+188,752,1221,"Cigars, cheroots: cigarillos",4digit,111.0
+189,753,1222,Cigarettes,4digit,111.0
+190,754,1223,"Tobacco, manufactured; tobacco extract and essences",4digit,111.0
+191,755,2111,"Bovine and equine hides, raw, whether or not split",4digit,112.0
+192,756,2112,"Calf skins, raw, whether or not split",4digit,112.0
+193,757,2114,"Goat and kid skins, raw, whether or not split",4digit,112.0
+194,758,2116,"Sheep and lamb skin with the wool on, raw, whether or not split",4digit,112.0
+195,759,2117,"Sheep and lamb skin without the wool, raw, whether or not split",4digit,112.0
+196,760,2119,"Hides and skins, nes; waste and used leather",4digit,112.0
+197,761,2120,"Furskins, raw",4digit,112.0
+198,762,2221,"Groundnuts, green",4digit,113.0
+199,763,2222,Soya beans,4digit,113.0
+200,764,2223,Cotton seeds,4digit,113.0
+201,765,2224,Sunflower seeds,4digit,113.0
+202,766,2225,Sesame seeds,4digit,113.0
+203,767,2226,Rape and colza seeds,4digit,113.0
+204,768,2231,Copra,4digit,113.0
+205,769,2232,Palm nuts and kernels,4digit,113.0
+206,770,2234,Linseed,4digit,113.0
+207,771,2235,Castor oil seeds,4digit,113.0
+208,772,2238,"Oil seeds and oleaginous fruits, nes",4digit,113.0
+209,773,2239,"Flour or meals of oil seeds or oleaginous fruit, non-defatted",4digit,113.0
+210,774,2320,Natural rubber latex; natural rubber and gums,4digit,114.0
+211,775,2331,"Synthetic rubber, latex; factice derived from oils",4digit,114.0
+212,776,2332,"Reclaimed rubber, waste, scrap of unhardened rubber",4digit,114.0
+213,777,2440,"Cork, natural, raw and waste",4digit,115.0
+214,778,2450,Fuel wood and wood charcoal,4digit,115.0
+215,779,2460,Pulpwood (including chips and wood waste),4digit,115.0
+216,780,2471,"Sawlogs and veneer logs, of coniferous species",4digit,115.0
+217,781,2472,"Sawlogs and veneer logs, of non-coniferous species",4digit,115.0
+218,782,2479,"Pitprops, poles, piling, post and other wood in the rough, nes",4digit,115.0
+219,783,2481,Railway or tramway sleepers (ties) of wood,4digit,115.0
+220,784,2482,"Wood of coniferous species, sawn, planed, tongued, grooved, etc",4digit,115.0
+221,785,2483,"Wood, non-coniferous species, sawn, planed, tongued, grooved, etc",4digit,115.0
+222,786,2511,"Waste paper and paperboard, etc",4digit,116.0
+223,787,2512,Mechanical wood pulp,4digit,116.0
+224,788,2516,"Chemical wood pulp, dissolving grades",4digit,116.0
+225,789,2517,"Chemical wood pulp, soda or sulphate",4digit,116.0
+226,790,2518,"Chemical wood pulp, sulphite",4digit,116.0
+227,791,2519,Other cellulosic pulps,4digit,116.0
+228,792,2613,Raw silk (not thrown),4digit,117.0
+229,793,2614,Silk worm cocoons and silk waste,4digit,117.0
+230,794,2631,"Raw cotton, excluding linters, not carded or combed",4digit,117.0
+231,795,2632,Cotton linters,4digit,117.0
+232,796,2633,"Cotton waste, not carded or combed",4digit,117.0
+233,797,2634,"Cotton, carded or combed",4digit,117.0
+234,798,2640,"Jute, other textile bast fibres, nes, raw, processed but not spun",4digit,117.0
+235,799,2651,"Flax and ramie, flax tow, ramie noils, and waste",4digit,117.0
+236,800,2652,"True hemp, raw or processed but not spun, its tow and waste",4digit,117.0
+237,801,2654,"Sisal, agave fibres, raw or processed but not spun, and waste",4digit,117.0
+238,802,2655,"Manila hemp, raw or processed but not spun, its tow and waste",4digit,117.0
+239,803,2659,"Vegetable textile fibres, nes, and waste",4digit,117.0
+240,804,2665,"Discontinuous synthetic fibres, not carded or combed",4digit,117.0
+241,805,2666,Continuous filament tow for synthetic (discontinuous) fibres,4digit,117.0
+242,806,2667,"Discontinuous synthetic fibres, carded or combed",4digit,117.0
+243,807,2671,Regenerated fibre suitable for spinning,4digit,117.0
+244,808,2672,"Waste of man-made fibres, not carded or combed",4digit,117.0
+245,809,2681,Wool greasy or fleece-washed of sheep or lambs,4digit,117.0
+246,810,2682,"Wool degreased, uncombed of sheep or lambs",4digit,117.0
+247,811,2683,"Fine animal hair, not carded or combed",4digit,117.0
+248,812,2685,"Horsehair and other coarse animal hair, not carded or combed",4digit,117.0
+249,813,2686,"Waste of sheep's or lambs' wool, or of other animal hair, nes",4digit,117.0
+250,814,2687,"Sheep's or lambs' wool, or of other animal hair, carded or combed",4digit,117.0
+251,815,2690,Old clothing and other old textile articles; rags,4digit,117.0
+252,816,2711,"Animal or vegetable fertilizer, crude",4digit,118.0
+253,817,2712,Natural sodium nitrate,4digit,118.0
+254,818,2713,"Natural calcium phosphates, natural aluminium, etc",4digit,118.0
+255,819,2714,"Potassium salts, natural, crude",4digit,118.0
+256,820,2731,"Building and monumental (dimension) stone, roughly squared, split",4digit,118.0
+257,821,2732,"Gypsum, plasters, limestone flux and calcareous stone",4digit,118.0
+258,822,2733,"Sands, excluding metal-bearing sands",4digit,118.0
+259,823,2734,"Pebbles, gravel, crushed or broken stone, etc",4digit,118.0
+260,824,2741,"Sulphur (other than sublimed, precipitated or colloidal)",4digit,118.0
+261,825,2742,"Iron pyrites, unroasted",4digit,118.0
+262,826,2771,Industrial diamonds,4digit,118.0
+263,827,2772,Other natural abrasives,4digit,118.0
+264,828,2782,"Clay and other refractory minerals, nes",4digit,118.0
+265,829,2783,Common salt; pure sodium chloride; salt liquors; sea water,4digit,118.0
+266,830,2784,Asbestos,4digit,118.0
+267,831,2785,"Quartz, mica, felspar, fluorspar, cryolite and chiolite",4digit,118.0
+268,832,2786,"Slag, scalings, dross and similar waste, nes",4digit,118.0
+269,833,2789,"Minerals, crude, nes",4digit,118.0
+270,834,2814,Roasted iron pyrites,4digit,119.0
+271,835,2815,"Iron ore and concentrates, not agglomerated",4digit,119.0
+272,836,2816,Iron ore agglomerates,4digit,119.0
+273,837,2820,Waste and scrap metal of iron or steel,4digit,119.0
+274,838,2860,Ores and concentrates of uranium and thorium,4digit,119.0
+275,839,2871,Copper ore and concentrates; copper matte; cement copper,4digit,119.0
+276,840,2872,"Nickel ores and concentrates; nickel mattes, etc",4digit,119.0
+277,841,2873,Aluminium ores and concentrates (including alumina),4digit,119.0
+278,842,2874,Lead ores and concentrates,4digit,119.0
+279,843,2875,Zinc ores and concentrates,4digit,119.0
+280,844,2876,Tin ores and concentrates,4digit,119.0
+281,845,2877,Manganese ore and concentrates,4digit,119.0
+282,846,2879,Ores and concentrates of other non-ferrous base metals,4digit,119.0
+283,847,2881,"Ash and residues, nes",4digit,119.0
+284,848,2882,"Other non-ferrous base metal waste and scrap, nes",4digit,119.0
+285,849,2890,"Ores and concentrates of precious metals, waste, scrap",4digit,119.0
+286,850,2911,"Bones, ivory, horns, coral, shells and similar products",4digit,120.0
+287,851,2919,"Other materials of animal origin, nes",4digit,120.0
+288,852,2922,"Natural gums, resins, lacs and balsams",4digit,120.0
+289,853,2923,Vegetable plaiting materials,4digit,120.0
+290,854,2924,Plants and parts of trees used in perfumery; in pharmacy; etc,4digit,120.0
+291,855,2925,"Seeds, fruits and spores, nes, for planting",4digit,120.0
+292,856,2926,"Live plants, bulbs, etc",4digit,120.0
+293,857,2927,Cut flowers and foliage,4digit,120.0
+294,858,2929,"Other materials of vegetable origin, nes",4digit,120.0
+295,859,3221,"Anthracite, not agglomerated",4digit,121.0
+296,860,3222,"Other coal, not agglomerated",4digit,121.0
+297,861,3223,"Lignite, not agglomerated",4digit,121.0
+298,862,3224,"Peat, not agglomerated",4digit,121.0
+299,863,3231,"Briquettes, ovoids, from coal, lignite or peat",4digit,121.0
+300,864,3232,"Coke and semi-coke of coal, of lignite or peat; retort carbon",4digit,121.0
+301,865,3330,Crude petroleum and oils obtained from bituminous materials,4digit,122.0
+302,866,3340,"Petroleum products, refined",4digit,122.0
+303,867,3341,Gasoline and other light oils,4digit,122.0
+304,868,3342,Kerosene and other medium oils,4digit,122.0
+305,869,3343,Gas oils,4digit,122.0
+306,870,3344,"Fuel oils, nes",4digit,122.0
+307,871,3345,"Lubricating petroleum oils, and preparations, nes",4digit,122.0
+308,872,3351,Petroleum jelly and mineral waxes,4digit,122.0
+309,873,3352,Mineral tars and products,4digit,122.0
+310,874,3353,"Mineral tar pitch, pitch coke",4digit,122.0
+311,875,3354,"Petroleum bitumen, petroleum coke and bituminous mixtures, nes",4digit,122.0
+312,876,3413,"Petroleum gases and other gaseous hydrocarbons, nes, liquefied",4digit,123.0
+313,877,3414,"Petroleum gases, nes, in gaseous state",4digit,123.0
+314,878,3415,"Coal gas, water gas and similar gases",4digit,123.0
+315,879,3510,Electric current,4digit,124.0
+316,880,4111,Fat and oils of fish and marine mammals,4digit,125.0
+317,881,4113,"Animals oils, fats and greases, nes",4digit,125.0
+318,882,4232,Soya bean oil,4digit,126.0
+319,883,4233,Cotton seed oil,4digit,126.0
+320,884,4234,Groundnut (peanut) oil,4digit,126.0
+321,885,4235,Olive oil,4digit,126.0
+322,886,4236,Sunflower seed oil,4digit,126.0
+323,887,4239,"Other fixed vegetable oils, soft",4digit,126.0
+324,888,4241,Linseed oil,4digit,126.0
+325,889,4242,Palm oil,4digit,126.0
+326,890,4243,Coconut (copra) oil,4digit,126.0
+327,891,4244,Palm kernel oil,4digit,126.0
+328,892,4245,Castor oil,4digit,126.0
+329,893,4249,"Fixed vegetable oils, nes",4digit,126.0
+330,894,4311,Processed animal and vegetable oils,4digit,127.0
+331,895,4312,Hydrogenated animal or vegetable oils and fats,4digit,127.0
+332,896,4313,"Fatty acids, acid oils, and residues; degras",4digit,127.0
+333,897,4314,Waxes of animal or vegetable origin,4digit,127.0
+334,898,5111,Acyclic hydrocarbons,4digit,128.0
+335,899,5112,Cyclic hydrocarbons,4digit,128.0
+336,900,5113,Halogenated derivatives of hydrocarbons,4digit,128.0
+337,901,5114,"Hydrocarbons derivatives, nonhaloganeted",4digit,128.0
+338,902,5121,"Acyclic alcohols, and their derivatives",4digit,128.0
+339,903,5122,"Cyclic alcohols, and their derivatives",4digit,128.0
+340,904,5123,"Phenols and phenol-alcohols, and their derivatives",4digit,128.0
+341,905,5137,Monocarboxylic acids and their derivatives,4digit,128.0
+342,906,5138,Polycarboxylic acids and their derivatives,4digit,128.0
+343,907,5139,"Oxygen-function acids, and their derivatives",4digit,128.0
+344,908,5145,Amine-function compounds,4digit,128.0
+345,909,5146,Oxygen-function amino-compounds,4digit,128.0
+346,910,5147,Amide-function compounds; excluding urea,4digit,128.0
+347,911,5148,Other nitrogen-function compounds,4digit,128.0
+348,912,5154,Organo-sulphur compounds,4digit,128.0
+349,913,5155,Other organo-inorganic compounds,4digit,128.0
+350,914,5156,Heterocyclic compound; nucleic acids,4digit,128.0
+351,915,5157,"Sulphonamides, sultones and sultams",4digit,128.0
+352,916,5161,"Ethers, epoxides, acetals",4digit,128.0
+353,917,5162,"Aldehyde, ketone and quinone-function compounds",4digit,128.0
+354,918,5163,"Inorganic esters, their salts and derivatives",4digit,128.0
+355,919,5169,"Organic chemicals, nes",4digit,128.0
+356,920,5221,Chemical elements,4digit,129.0
+357,921,5222,Inorganic acids and oxygen compounds of non-metals,4digit,129.0
+358,922,5223,Halogen and sulphur compounds of non-metals,4digit,129.0
+359,923,5224,"Metallic oxides of zinc, iron, lead, chromium etc",4digit,129.0
+360,924,5225,"Inorganic bases and metallic oxides, hydroxides and peroxides",4digit,129.0
+361,925,5231,Metallic salts and peroxysalts of inorganic acids,4digit,129.0
+362,926,5232,Metallic salts and peroxysalts of inorganic acids,4digit,129.0
+363,927,5233,Salts of metallic acids; compounds of precious metals,4digit,129.0
+364,928,5239,"Inorganic chemical products, nes",4digit,129.0
+365,929,5241,"Radio-active chemical elements, isotopes etc",4digit,129.0
+366,930,5249,Other radio-active and associated materials,4digit,129.0
+367,931,5311,"Synthetic organic dyestuffs, etc, natural indigo and colour lakes",4digit,130.0
+368,932,5312,"Synthetic organic luminophores, indigo, lakes",4digit,130.0
+369,933,5322,"Dyeing, tanning extracts, tannins and their derivatives",4digit,130.0
+370,934,5323,Synthetic tanning substances; tanning preparations,4digit,130.0
+371,935,5331,Other colouring matter; inorganic products use as luminophores,4digit,130.0
+372,936,5332,Printing inks,4digit,130.0
+373,937,5334,Varnishes and lacquers; distempers etc,4digit,130.0
+374,938,5335,"Glazes, driers, putty etc",4digit,130.0
+375,939,5411,Provitamins and vitamins,4digit,131.0
+376,940,5413,"Antibiotics, not put up as medicaments",4digit,131.0
+377,941,5414,"Vegetable alkaloids and derivatives, not put up as medicaments",4digit,131.0
+378,942,5415,"Hormones, natural, or reproduce by synthesis, in bulk",4digit,131.0
+379,943,5416,"Glycosides, glands, antisera, vaccines and similar products",4digit,131.0
+380,944,5417,Medicaments (including veterinary medicaments),4digit,131.0
+381,945,5419,"Pharmaceutical goods, other than medicaments",4digit,131.0
+382,946,5513,"Essential oil, resinoid, etc",4digit,132.0
+383,947,5514,"Mixtures of odoriferous substances, used in perfumery, food etc",4digit,132.0
+384,948,5530,"Perfumery, cosmetics, toilet preparations, etc",4digit,132.0
+385,949,5541,"Soaps, organic products and preparations for use as soap",4digit,132.0
+386,950,5542,"Organic surface-active agents, nes",4digit,132.0
+387,951,5543,"Polishes and creams, for furniture, floors, footwear, metals etc",4digit,132.0
+388,952,5621,"Mineral or chemical fertilizers, nitrogenous",4digit,133.0
+389,953,5622,"Mineral or chemical fertilizers, phosphatic",4digit,133.0
+390,954,5623,"Mineral or chemical fertilizer, potassic",4digit,133.0
+391,955,5629,"Fertilizers, nes",4digit,133.0
+392,956,5721,Propellent powders and other prepared explosives,4digit,134.0
+393,957,5722,"Fuses, caps, igniters, detonators",4digit,134.0
+394,958,5723,Pyrotechnic articles,4digit,134.0
+395,959,5821,Phenoplasts,4digit,135.0
+396,960,5822,Aminoplasts,4digit,135.0
+397,961,5823,Alkyds and other polyesters,4digit,135.0
+398,962,5824,Polyamides,4digit,135.0
+399,963,5825,Polyurethanes,4digit,135.0
+400,964,5826,Epoxide resins,4digit,135.0
+401,965,5827,Silicones,4digit,135.0
+402,966,5828,"Ion exchangers of the condensation, polycondensation etc",4digit,135.0
+403,967,5829,"Other condensation, polycodensation or polyaddition products",4digit,135.0
+404,968,5831,Polyethylene,4digit,135.0
+405,969,5832,Polypropylene,4digit,135.0
+406,970,5833,Polystyrene and its copolymers,4digit,135.0
+407,971,5834,Polyvinyl chloride,4digit,135.0
+408,972,5835,Copolymers of vinyl chloride and vinyl acetate,4digit,135.0
+409,973,5836,Acrylic and methaacrylic polymers; acrylo-methacrylic copolymers,4digit,135.0
+410,974,5837,Polyvinyl acetate,4digit,135.0
+411,975,5838,Ion exchangers of the polymerization or copolymerization type,4digit,135.0
+412,976,5839,Other polymerization and copolymarization products,4digit,135.0
+413,977,5841,Regenerated cellulose,4digit,135.0
+414,978,5842,Cellulose nitrates,4digit,135.0
+415,979,5843,Cellulose acetates,4digit,135.0
+416,980,5849,Other chemical derivatives of cellulose; vulcanized fibre,4digit,135.0
+417,981,5851,Modified natural resins etc; derivatives of natural rubber,4digit,135.0
+418,982,5852,"Other artificial plastic materials, nes",4digit,135.0
+419,983,5911,"Insecticides, for sale by retail or as preparations",4digit,136.0
+420,984,5912,"Fungicides, for sale by retail or as preparation",4digit,136.0
+421,985,5913,"Herbicides, for sale by retail or as preparation",4digit,136.0
+422,986,5914,"Disinfectants, etc, for sale by retail or as preparation",4digit,136.0
+423,987,5921,"Starches, insulin and wheat gluten",4digit,136.0
+424,988,5922,Albuminoid substances; glues,4digit,136.0
+425,989,5981,Woods and resin-based chemical products,4digit,136.0
+426,990,5982,"Anti-knock preparation, anti-corrosive; viscosity improvers; etc",4digit,136.0
+427,991,5983,"Organic chemical products, nes",4digit,136.0
+428,992,5989,"Chemical products and preparations, nes",4digit,136.0
+429,993,6112,"Composition leather, in slabs, sheets or rolls",4digit,137.0
+430,994,6113,Calf leather,4digit,137.0
+431,995,6114,Leather of other bovine cattle and equine leather,4digit,137.0
+432,996,6115,Sheep and lamb skin leather,4digit,137.0
+433,997,6116,Leather of other hides or skins,4digit,137.0
+434,998,6118,"Leather, specially dressed or finished, nes",4digit,137.0
+435,999,6121,"Articles of leather use in machinery or mechanical appliances, etc",4digit,137.0
+436,1000,6122,"Saddlery and harness, of any material, for any kind of animal",4digit,137.0
+437,1001,6123,Parts of footwear of any material except metal and asbestos,4digit,137.0
+438,1002,6129,Other articles of leather or of composition leather,4digit,137.0
+439,1003,6130,"Furskins, tanned or dressed; pieces of furskin, tanned or dressed",4digit,137.0
+440,1004,6210,Materials of rubber,4digit,138.0
+441,1005,6251,"Tires, pneumatic, new, for motor cars",4digit,138.0
+442,1006,6252,"Tires, pneumatic, new, for buses and lorries",4digit,138.0
+443,1007,6253,"Tires, pneumatic, new, for aircraft",4digit,138.0
+444,1008,6254,"Tires, pneumatic, new, for motorcycles and bicycles",4digit,138.0
+445,1009,6259,"Other tires, tire cases, tire flaps and inner tubes, etc",4digit,138.0
+446,1010,6281,"Hygienic, pharmaceutical articles of unhardened vulcanized rubber",4digit,138.0
+447,1011,6282,"Transmission, conveyor or elevator belts, of vulcanized rubber",4digit,138.0
+448,1012,6289,"Other articles of rubber, nes",4digit,138.0
+449,1013,6330,Cork manufactures,4digit,139.0
+450,1014,6341,"Wood sawn lengthwise, veneer sheets etc, up to 5 mm in thickness",4digit,139.0
+451,1015,6342,Plywood consisting solely of sheets of wood,4digit,139.0
+452,1016,6343,Improved wood and reconstituted wood,4digit,139.0
+453,1017,6344,"Wood-based panels, nes",4digit,139.0
+454,1018,6349,"Wood, simply shaped, nes",4digit,139.0
+455,1019,6351,"Wood packing cases, boxes, cases, crates, etc, complete",4digit,139.0
+456,1020,6352,"Casks, barrels; other coopers products and parts, including staves",4digit,139.0
+457,1021,6353,Builders` carpentry and joinery (including prefabricated),4digit,139.0
+458,1022,6354,Manufactures of wood for domestic or decorative use,4digit,139.0
+459,1023,6359,"Manufactured articles of wood, nes",4digit,139.0
+460,1024,6411,Newsprint,4digit,140.0
+461,1025,6412,"Printing paper and writing paper, in rolls or sheets",4digit,140.0
+462,1026,6413,"Kraft paper and paperboard, in rolls or sheets",4digit,140.0
+463,1027,6415,"Paper and paperboard, in rolls or sheets, nes",4digit,140.0
+464,1028,6416,Fibre building board of wood or other vegetable material,4digit,140.0
+465,1029,6417,"Paper and paperboard, creped, crinkled, etc, in rolls or sheets",4digit,140.0
+466,1030,6418,"Paper and paperboard, coated, impregnated, etc, in rolls or sheets",4digit,140.0
+467,1031,6419,"Converted paper and paperboard, nes",4digit,140.0
+468,1032,6421,"Packing containers, box files, etc, of paper, used in offices",4digit,140.0
+469,1033,6422,Correspondence stationary,4digit,140.0
+470,1034,6423,"Registers, exercise books, file and book covers, etc, of paper",4digit,140.0
+471,1035,6424,"Paper and paperboard cut to size or shape, nes",4digit,140.0
+472,1036,6428,"Articles of paper pulp, paper, paperboard or cellulose wadding, nes",4digit,140.0
+473,1037,6511,Silk yarn and spun from noil or waste; silkworm gut,4digit,141.0
+474,1038,6512,Yarn of wool or animal hair (including wool tops),4digit,141.0
+475,1039,6513,Cotton yarn,4digit,141.0
+476,1040,6514,"Yarn 85% of synthetic fibres, not for retail; monofil, strip, etc",4digit,141.0
+477,1041,6515,"Yarn containing 85% or more of synthetic fibres, put up for retail",4digit,141.0
+478,1042,6516,Yarn containing less than 85% of discontinuous synthetic fibres,4digit,141.0
+479,1043,6517,"Yarn of regenerated fibres, not for retail, monofil, strip, etc",4digit,141.0
+480,1044,6518,"Yarn of regenerated fibres, put up for retail sale",4digit,141.0
+481,1045,6519,"Yarn of textile fibres, nes",4digit,141.0
+482,1046,6521,"Cotton fabrics, woven, unbleached, not mercerized",4digit,141.0
+483,1047,6522,"Cotton fabrics, woven, bleached, dyed, etc, or otherwise finished",4digit,141.0
+484,1048,6531,"Fabrics, woven, of continuous synthetic textile materials",4digit,141.0
+485,1049,6532,"Fabrics, woven, 85% plus of discontinuous synthetic fibres",4digit,141.0
+486,1050,6534,"Fabrics, woven, less 85% of discontinuous synthetic fibres",4digit,141.0
+487,1051,6535,"Fabric, woven of continuous regenerated textile materials",4digit,141.0
+488,1052,6536,"Fabrics, woven, 85% plus of discontinuous regenerated fibres",4digit,141.0
+489,1053,6538,"Fabrics, woven, less 85% of discontinuous regenerated fibres",4digit,141.0
+490,1054,6539,"Pile and chenille fabrics, woven, of man-made fibres",4digit,141.0
+491,1055,6541,"Fabrics, woven, of silk, of noil or other waste silk",4digit,141.0
+492,1056,6542,"Fabrics, woven, 85% plus of sheep's or lambs' wool or of fine hair",4digit,141.0
+493,1057,6543,"Fabrics, woven, of sheep's or lambs' wool or of fine hair, nes",4digit,141.0
+494,1058,6544,"Fabrics, woven, of flax or of ramie",4digit,141.0
+495,1059,6545,"Fabrics, woven of jute or other textile bast fibres of heading 2640",4digit,141.0
+496,1060,6546,"Fabrics of glass fibre (including narrow, pile fabrics, lace, etc)",4digit,141.0
+497,1061,6549,"Fabrics, woven, nes",4digit,141.0
+498,1062,6551,"Knitted etc, not elastic nor rubberized, of synthetic fibres",4digit,141.0
+499,1063,6552,"Knitted, not elastic nor rubberized, of fibres other than synthetic",4digit,141.0
+500,1064,6553,"Knitted or crocheted fabrics, elastic or rubberized",4digit,141.0
+501,1065,6560,"Tulle, lace, embroidery, ribbons, trimmings and other small wares",4digit,141.0
+502,1066,6571,"Felt, articles of felt, nes, whether or not impregnated or coated",4digit,141.0
+503,1067,6572,"Bonded fibre fabrics, etc, whether or not impregnated or coated",4digit,141.0
+504,1068,6573,"Coated or impregnated textile fabrics and products, nes",4digit,141.0
+505,1069,6574,Elastic fabrics and trimming (not knitted or crocheted),4digit,141.0
+506,1070,6575,"Twine, cordage, ropes and cables and manufactures thereof",4digit,141.0
+507,1071,6576,"Hat shapes, hat-forms, hat bodies and hoods",4digit,141.0
+508,1072,6577,"Wadding, wicks and textiles fabrics for use in machinery or plant",4digit,141.0
+509,1073,6579,Special products of textile materials,4digit,141.0
+510,1074,6581,"Bags, sacks of textile materials, for the packing of goods",4digit,141.0
+511,1075,6582,"Tarpaulins, sails, tents, camping goods, etc, of textile fabrics",4digit,141.0
+512,1076,6583,"Travelling rugs, blankets (non electric), not knitted or crocheted",4digit,141.0
+513,1077,6584,"Linens and furnishing articles of textile, not knitted or crocheted",4digit,141.0
+514,1078,6589,"Other made-up articles of textile materials, nes",4digit,141.0
+515,1079,6591,Linoleum and similar floor covering,4digit,141.0
+516,1080,6592,"Carpets, carpeting and rugs, knotted",4digit,141.0
+517,1081,6593,"Kelem, Schumacks and Karamanie rugs and the like",4digit,141.0
+518,1082,6594,"Carpets, rugs, mats, of wool or fine animal hair",4digit,141.0
+519,1083,6595,"Carpets, rugs, mats, of man-made textile materials, nes",4digit,141.0
+520,1084,6596,"Carpets, rugs, mats, of other textile materials, nes",4digit,141.0
+521,1085,6597,"Plaits, plaited products for all uses; straw envelopes for bottles",4digit,141.0
+522,1086,6611,"Lime, quick, slaked and hydraulic (no calcium oxide or hydroxide)",4digit,142.0
+523,1087,6612,Cement,4digit,142.0
+524,1088,6613,"Building and monumental stone, worked, and articles thereof",4digit,142.0
+525,1089,6618,"Construction materials, of asbestos-cement or fibre-cements, etc",4digit,142.0
+526,1090,6623,Refractory bricks and other refractory construction materials,4digit,142.0
+527,1091,6624,"Non-refractory ceramic bricks, tiles, pipes and similar products",4digit,142.0
+528,1092,6631,"Hand polishing stone, grindstones, grinding wheels, etc",4digit,142.0
+529,1093,6632,"Abrasive power or grain, on a base of woven fabrics",4digit,142.0
+530,1094,6633,"Manufactures of mineral materials, nes (other than ceramic)",4digit,142.0
+531,1095,6635,"Wool; expanding or insulating mineral materials, nes",4digit,142.0
+532,1096,6637,"Refractory goods, nes",4digit,142.0
+533,1097,6638,Manufactures of asbestos; friction materials,4digit,142.0
+534,1098,6639,"Articles of ceramic materials, nes",4digit,142.0
+535,1099,6641,"Glass in the mass, in balls, rods or tubes (nonoptical); waste",4digit,142.0
+536,1100,6642,Optical glass and elements of optical glass (unworked),4digit,142.0
+537,1101,6643,"Drawn or blown glass (flashed glass), unworked, in rectangles",4digit,142.0
+538,1102,6644,"Glass, cast, rolled, etc, surface-ground, but no further worked",4digit,142.0
+539,1103,6645,"Cast, rolled glass (flashed or wired), unworked, in rectangles",4digit,142.0
+540,1104,6646,"Bricks, tiles, etc of pressed or moulded glass, used in building",4digit,142.0
+541,1105,6647,"Safety glass consisting of toughened or laminated glass, cut or not",4digit,142.0
+542,1106,6648,"Glass mirror, unframed, framed or backed",4digit,142.0
+543,1107,6649,"Glass, nes",4digit,142.0
+544,1108,6651,Bottles etc of glass,4digit,142.0
+545,1109,6652,"Glassware (other than heading 66582), for indoor decoration",4digit,142.0
+546,1110,6658,"Articles made of glass, nes",4digit,142.0
+547,1111,6664,Porcelain or china house ware,4digit,142.0
+548,1112,6665,"Articles of domestic or toilet purposes, of other kind of pottery",4digit,142.0
+549,1113,6666,"Ornaments, personal articles of porcelain, china, or ceramic, nes",4digit,142.0
+550,1114,6671,"Pearls, not mounted, set or strung",4digit,142.0
+551,1115,6672,"Diamonds (non-industrial), not mounted or set",4digit,142.0
+552,1116,6673,"Precious and semi-precious stones, not mounted, set or strung",4digit,142.0
+553,1117,6674,Synthetic or reconstructed precious or semi-precious stones,4digit,142.0
+554,1118,6712,"Pig iron, cast iron, spiegeleisen, in pigs, blocks, lumps, etc",4digit,143.0
+555,1119,6713,"Iron and steel powders, shot or sponge",4digit,143.0
+556,1120,6716,Ferro-alloys,4digit,143.0
+557,1121,6724,"Puddled bars, pilings; ingots, blocks, lumps, etc, of iron or steel",4digit,143.0
+558,1122,6725,"Blooms, billets, slabs and sheet bars, of iron or steel",4digit,143.0
+559,1123,6727,Iron or steel coils for re-rolling,4digit,143.0
+560,1124,6731,Wire rod of iron or steel,4digit,143.0
+561,1125,6732,"Bars, rods (not wire rod), from iron or steel; hollow mining drill",4digit,143.0
+562,1126,6733,"Angles, shapes, sections and sheet piling, of iron or steel",4digit,143.0
+563,1127,6741,Universal plates of iron or steel,4digit,143.0
+564,1128,6744,"Sheet, plates, rolled of thickness 4,75mm plus, of iron or steel",4digit,143.0
+565,1129,6745,"Sheet, plates, rolled of thickness 3mm to 4,75mm, of iron or steel",4digit,143.0
+566,1130,6746,"Sheet, plates, rolled of thickness less 3mm, of iron or steel",4digit,143.0
+567,1131,6747,"Tinned sheets, plates of steel (not of high carbon or alloy steel)",4digit,143.0
+568,1132,6749,"Other sheet and plates, of iron or steel, worked",4digit,143.0
+569,1133,6750,"Hoop and strip of iron or steel, hot-rolled or cold-rolled",4digit,143.0
+570,1134,6760,"Rails and railway track construction materials, of iron or steel",4digit,143.0
+571,1135,6770,"Iron or steel wire (excluding wire rod), not insulated",4digit,143.0
+572,1136,6781,"Tubes and pipes, of cast iron",4digit,143.0
+573,1137,6782,"Seamless tubes, pipes; blanks for tubes and pipes, of iron or steel",4digit,143.0
+574,1138,6783,"Other tubes and pipes, of iron or steel",4digit,143.0
+575,1139,6784,High-pressure hydro-electric conduit of steel,4digit,143.0
+576,1140,6785,"Tube and pipes fittings, of iron or steel",4digit,143.0
+577,1141,6793,"Steel and iron forging and stampings, in the rough state",4digit,143.0
+578,1142,6794,"Castings of iron or steel, in rough state",4digit,143.0
+579,1143,6811,"Silver, unwrought, unworked, or semi-manufactured",4digit,144.0
+580,1144,6812,"Metals of platinum group, unwrought, unworked, or semi-manufactured",4digit,144.0
+581,1145,6821,"Copper and copper alloys, refined or not, unwrought",4digit,144.0
+582,1146,6822,"Copper and copper alloys, worked",4digit,144.0
+583,1147,6831,"Nickel and nickel alloys, unwrought",4digit,144.0
+584,1148,6832,"Nickel and nickel alloys, worked",4digit,144.0
+585,1149,6841,"Aluminium and aluminium alloys, unwrought",4digit,144.0
+586,1150,6842,"Aluminium and aluminium alloys, worked",4digit,144.0
+587,1151,6851,"Lead, and lead alloys, unwrought",4digit,144.0
+588,1152,6852,"Lead and lead alloys, worked",4digit,144.0
+589,1153,6861,"Zinc and zinc alloys, unwrought",4digit,144.0
+590,1154,6863,Zinc and zinc alloys worked,4digit,144.0
+591,1155,6871,"Tin and tin alloys, unwrought",4digit,144.0
+592,1156,6872,Tin and tin alloys worked,4digit,144.0
+593,1157,6880,"Uranium depleted in U235, thorium, and alloys, nes; waste and scrap",4digit,144.0
+594,1158,6891,"Tungsten, molybdenum, tantalum, magnesium, unwrought; waste, scrap",4digit,144.0
+595,1159,6899,"Base metals, nes and cermets, unwrought (including waste and scrap)",4digit,144.0
+596,1160,6911,"Structures and parts of, of iron, steel; plates, rods, and the like",4digit,145.0
+597,1161,6912,"Structures and parts of, of aluminium; plates, rods, and the like",4digit,145.0
+598,1162,6921,"Iron, steel, aluminium reservoirs, tanks, etc, capacity 300 lt plus",4digit,145.0
+599,1163,6924,"Cask, drums, etc, of iron, steel, aluminium, for packing goods",4digit,145.0
+600,1164,6931,"Wire, cables, cordage, ropes, plaited bans, sling and the like",4digit,145.0
+601,1165,6932,Barbed iron or steel wire: fencing wire,4digit,145.0
+602,1166,6935,"Gauze, cloth, grill, netting, reinforced fabric and the like",4digit,145.0
+603,1167,6940,"Nails, screws, nuts, bolts, rivets, etc, of iron, steel or copper",4digit,145.0
+604,1168,6951,"Hand tools, used in agriculture, horticulture or forestry",4digit,145.0
+605,1169,6953,Other hand tools,4digit,145.0
+606,1170,6954,"Interchangeable tools for hand or machine tools (tips, blades, etc)",4digit,145.0
+607,1171,6960,Cutlery,4digit,145.0
+608,1172,6973,"Domestic, non-electric, heating, cooking apparatus, and parts, nes",4digit,145.0
+609,1173,6974,"Base metal domestic articles, nes, and parts thereof, nes",4digit,145.0
+610,1174,6975,"Base metal indoors sanitary ware, and parts thereof, nes",4digit,145.0
+611,1175,6978,"Household appliances, decorative article, etc, of base metal, nes",4digit,145.0
+612,1176,6991,"Locksmiths wares, safes, etc, and hardware, nes, of base metal",4digit,145.0
+613,1177,6992,"Chain and parts thereof, of iron or steel",4digit,145.0
+614,1178,6993,"Pins, needles, etc, of iron, steel; metal fittings for clothing",4digit,145.0
+615,1179,6994,"Springs and leaves for springs, of iron, steel or copper",4digit,145.0
+616,1180,6996,Miscellaneous articles of base metal,4digit,145.0
+617,1181,6997,"Articles of iron or steel, nes",4digit,145.0
+618,1182,6998,"Articles, nes, of copper, nickel, aluminium, lead, zinc and tin",4digit,145.0
+619,1183,6999,"Other base metal manufactures, nes; and of cermets",4digit,145.0
+620,1184,7111,Steam and other vapour-generated boilers; super-heated water boiler,4digit,146.0
+621,1185,7112,Auxiliary plant for boilers of heading 7111; condensers,4digit,146.0
+622,1186,7119,"Parts, nes of boilers and auxiliary plant of headings 7111 and 7112",4digit,146.0
+623,1187,7126,"Steam power units (mobile engines but not steam tractors, etc)",4digit,146.0
+624,1188,7129,"Parts, nes of steam power units",4digit,146.0
+625,1189,7131,"Internal combustion piston engines, for aircraft, and parts, nes",4digit,146.0
+626,1190,7132,"Motor vehicles piston engines, headings: 722; 78; 74411 and 95101",4digit,146.0
+627,1191,7133,"Internal combustion piston engines, marine propulsion",4digit,146.0
+628,1192,7138,"Internal combustion piston engines, nes",4digit,146.0
+629,1193,7139,"Piston engines parts, nes, falling in headings: 7132, 7133 and 7138",4digit,146.0
+630,1194,7144,Reaction engines,4digit,146.0
+631,1195,7148,"Gas turbines, nes",4digit,146.0
+632,1196,7149,"Parts, nes of the engines and motors of group 714 and item 71888",4digit,146.0
+633,1197,7161,"Motors and generators, direct current",4digit,146.0
+634,1198,7162,"Electric motors, generators (not direct current); generating sets",4digit,146.0
+635,1199,7163,Rotary converters,4digit,146.0
+636,1200,7169,"Parts, nes, of rotating electric plant",4digit,146.0
+637,1201,7187,"Nuclear reactors, and parts thereof, nes",4digit,146.0
+638,1202,7188,"Engines and motors, nes (wind, hot air engines, water wheel, etc)",4digit,146.0
+639,1203,7211,"Agricultural and horticultural machinery for soil preparation, etc",4digit,147.0
+640,1204,7212,"Harvesting and threshing machines; fodder presses, etc; parts nes",4digit,147.0
+641,1205,7213,"Dairy machinery, nes (including milking machines), and parts nes",4digit,147.0
+642,1206,7219,"Agricultural machinery and appliances, nes, and parts thereof, nes",4digit,147.0
+643,1207,7223,Track-laying tractors,4digit,147.0
+644,1208,7224,"Wheeled tractors (other than those falling in heading 74411, 7832)",4digit,147.0
+645,1209,7233,"Road rollers, mechanically propelled",4digit,147.0
+646,1210,7234,"Construction and mining machinery, nes",4digit,147.0
+647,1211,7239,"Parts, nes of machinery and equipment of headings 72341 to 72346",4digit,147.0
+648,1212,7243,"Sewing machines, furniture, needles etc, and parts thereof, nes",4digit,147.0
+649,1213,7244,Machines for extruding man-made textile; other textile machinery,4digit,147.0
+650,1214,7245,"Weaving, knitting, etc, machines, machines for preparing yarns, etc",4digit,147.0
+651,1215,7246,Auxiliary machinery for use with those of headings 72451 to 72453,4digit,147.0
+652,1216,7247,"Textile machinery, nes for cleaning, cutting, etc, and parts nes",4digit,147.0
+653,1217,7248,"Machinery for preparing, tanning, working leather, etc; parts nes",4digit,147.0
+654,1218,7251,"Machinery for making, finishing cellulose pulp, paper or paperboard",4digit,147.0
+655,1219,7252,"Machinery for making paper pulp, paper, paperboard; cutting machines",4digit,147.0
+656,1220,7259,"Parts, nes of the machines falling within heading 725",4digit,147.0
+657,1221,7263,"Machinery, accessories for type-setting, for printing blocks, etc",4digit,147.0
+658,1222,7264,Printing presses,4digit,147.0
+659,1223,7267,Other printing machinery; machines for uses ancilliary to printing,4digit,147.0
+660,1224,7268,"Bookbinding machinery; parts thereof, nes",4digit,147.0
+661,1225,7269,"Parts, nes of machines falling within headings 72631, 7264, 7267",4digit,147.0
+662,1226,7271,"Machinery for the grain milling industry; working cereals, parts",4digit,147.0
+663,1227,7272,"Other food-processing machinery and parts thereof, nes",4digit,147.0
+664,1228,7281,"Machine-tools for specialized industries; parts or accessories, nes",4digit,147.0
+665,1229,7283,"Other mineral working machinery; and parts thereof, nes",4digit,147.0
+666,1230,7284,"Machinery for specialized industries and parts thereof, nes",4digit,147.0
+667,1231,7361,Metal cutting machine-tools,4digit,148.0
+668,1232,7362,Metal forming machine-tool,4digit,148.0
+669,1233,7367,"Other machines-tools for working metal or metal carbides, nes",4digit,148.0
+670,1234,7368,"Work holders, dividing heads for machine-tools, etc; tool holders",4digit,148.0
+671,1235,7369,"Parts, nes of and accessories for machine-tools of heading 736",4digit,148.0
+672,1236,7371,"Metallurgy and metal foundry equipment, and parts thereof, nes",4digit,148.0
+673,1237,7372,"Rolling mills, rolls therefor, and parts, nes of rolling mills",4digit,148.0
+674,1238,7373,"Welding, brazing, cutting, etc machines and appliances, parts, nes",4digit,148.0
+675,1239,7411,"Gas generators, and parts, nes of gas generators",4digit,149.0
+676,1240,7412,"Furnace burners; mechanical stokers, etc, and parts thereof, nes",4digit,149.0
+677,1241,7413,"Industrial and laboratory furnaces and ovens, etc, parts, nes",4digit,149.0
+678,1242,7414,"Non-domestic refrigerators and refrigerating equipment, parts, nes",4digit,149.0
+679,1243,7415,"Air conditioning machines and parts thereof, nes",4digit,149.0
+680,1244,7416,"Machinery, plant, laboratory equipment for heating and cooling, nes",4digit,149.0
+681,1245,7421,Reciprocating pumps (other than those of heading 74281),4digit,149.0
+682,1246,7422,Centrifugal pumps (other than those of heading 74281),4digit,149.0
+683,1247,7423,Rotary pumps (other than those of heading 74281),4digit,149.0
+684,1248,7428,Other pumps for liquids and liquid elevators,4digit,149.0
+685,1249,7429,"Parts, nes of pumps and liquids elevators falling in heading 742",4digit,149.0
+686,1250,7431,"Air pumps, vacuum pumps and air or gas compressors",4digit,149.0
+687,1251,7432,"Parts, nes of the pumps and compressor falling within heading 7431",4digit,149.0
+688,1252,7433,"Free-piston generators for gas turbines and parts thereof, nes",4digit,149.0
+689,1253,7434,"Fans, blowers and the like, and parts thereof, nes",4digit,149.0
+690,1254,7435,Centrifuges,4digit,149.0
+691,1255,7436,"Filtering and purifying machinery, apparatus for liquids and gases",4digit,149.0
+692,1256,7439,"Parts, nes of the machines falling within headings 7435 and 7436",4digit,149.0
+693,1257,7441,"Work trucks, of the type use in factories, dock areas, etc",4digit,149.0
+694,1258,7442,"Lifting, handling, loading machinery, telphers and conveyors",4digit,149.0
+695,1259,7449,"Parts, nes of the machinery falling within heading 7442",4digit,149.0
+696,1260,7451,"Power hand tools, pneumatic or non-electric, and parts thereof, nes",4digit,149.0
+697,1261,7452,"Other non-electrical machines and parts thereof, nes",4digit,149.0
+698,1262,7491,"Ball, roller or needle roller bearings",4digit,149.0
+699,1263,7492,"Cocks, valves and similar appliances, for pipes boiler shells, etc",4digit,149.0
+700,1264,7493,"Shaft, crank, bearing housing, pulley and pulley blocks, etc",4digit,149.0
+701,1265,7499,"Other non-electric parts and accessories of machinery, nes",4digit,149.0
+702,1266,7511,Typewriters; cheque-writing machines,4digit,150.0
+703,1267,7512,"Calculating, accounting, cash registers, ticketing, etc, machines",4digit,150.0
+704,1268,7518,"Office machines, nes",4digit,150.0
+705,1269,7521,Analogue and hybrid data processing machines,4digit,150.0
+706,1270,7522,Complete digital data processing machines,4digit,150.0
+707,1271,7523,Complete digital central processing units; digital processors,4digit,150.0
+708,1272,7524,"Digital central storage units, separately consigned",4digit,150.0
+709,1273,7525,"Peripheral units, including control and adapting units",4digit,150.0
+710,1274,7528,"Off-line data processing equipment, nes",4digit,150.0
+711,1275,7591,"Parts, nes of and accessories for machines of headings 7511 or 7518",4digit,150.0
+712,1276,7599,"Parts, nes of and accessories for machines of headings 7512 and 752",4digit,150.0
+713,1277,7611,"Television receivers, colour",4digit,151.0
+714,1278,7612,"Television receivers, monochrome",4digit,151.0
+715,1279,7621,Radio receivers for motor-vehicles,4digit,151.0
+716,1280,7622,Portable radio receivers,4digit,151.0
+717,1281,7628,Other radio receivers,4digit,151.0
+718,1282,7631,"Gramophones and record players, electric",4digit,151.0
+719,1283,7638,"Other sound recording and reproducer, nes; video recorders",4digit,151.0
+720,1284,7641,Electrical line telephonic and telegraphic apparatus,4digit,151.0
+721,1285,7642,Microphones; loud-speakers; audio-frequency electric amplifiers,4digit,151.0
+722,1286,7643,"Television, radio-broadcasting; transmitters, etc",4digit,151.0
+723,1287,7648,"Telecommunications equipment, nes",4digit,151.0
+724,1288,7649,"Parts, nes of and accessories for apparatus falling in heading 76",4digit,151.0
+725,1289,7711,"Transformers, electrical",4digit,152.0
+726,1290,7712,"Other electric power machinery, parts, nes",4digit,152.0
+727,1291,7721,"Switches, relays, fuses, etc; switchboards and control panels, nes",4digit,152.0
+728,1292,7722,"Printed circuits, and parts thereof, nes",4digit,152.0
+729,1293,7723,"Fixed, variable resistors, other than heating resistors, parts, nes",4digit,152.0
+730,1294,7731,"Insulated electric wire, cable, bars, etc",4digit,152.0
+731,1295,7732,Electrical insulating equipment,4digit,152.0
+732,1296,7741,Electro-medical equipment,4digit,152.0
+733,1297,7742,"X-ray apparatus and equipment; accessories; and parts, nes",4digit,152.0
+734,1298,7751,"Household laundry equipment, nes",4digit,152.0
+735,1299,7752,Domestic refrigerators and freezers,4digit,152.0
+736,1300,7753,Domestic dishwashing machines,4digit,152.0
+737,1301,7754,"Electric shavers and hair clippers, parts thereof, nes",4digit,152.0
+738,1302,7757,"Domestic electro-mechanical appliances; and parts thereof, nes",4digit,152.0
+739,1303,7758,"Electro-thermic appliances, nes",4digit,152.0
+740,1304,7761,"Television picture tubes, cathode ray",4digit,152.0
+741,1305,7762,Other electronic valves and tubes,4digit,152.0
+742,1306,7763,"Diodes, transistors, photocells, etc",4digit,152.0
+743,1307,7764,Electronic microcircuits,4digit,152.0
+744,1308,7768,"Crystals, and parts, nes of electronic components of heading 776",4digit,152.0
+745,1309,7781,"Batteries and electric accumulators, and parts thereof, nes",4digit,152.0
+746,1310,7782,Electric filament lamps and discharge lamps; arc-lamps,4digit,152.0
+747,1311,7783,"Automotive electrical equipment; and parts thereof, nes",4digit,152.0
+748,1312,7784,"Electro-mechanical hand tools, and parts thereof, nes",4digit,152.0
+749,1313,7788,"Other electrical machinery and equipment, nes",4digit,152.0
+750,1314,7810,Passenger motor vehicles (excluding buses),4digit,153.0
+751,1315,7821,Motor vehicles for the transport of goods or materials,4digit,153.0
+752,1316,7822,Special purpose motor lorries and vans,4digit,153.0
+753,1317,7831,Public service type passenger motor vehicles,4digit,153.0
+754,1318,7832,Road tractors for semi-trailers,4digit,153.0
+755,1319,7841,"Chassis fitted with engines, for vehicles of headings 722, 781-783",4digit,153.0
+756,1320,7842,"Bodies, for vehicles of headings 722, 781-783",4digit,153.0
+757,1321,7849,"Other parts and accessories, for vehicles of headings 722, 781-783",4digit,153.0
+758,1322,7851,"Motorcycles, auto-cycles; side-cars of all kind, etc",4digit,153.0
+759,1323,7852,"Cycles, not motorized",4digit,153.0
+760,1324,7853,"Invalid carriages; parts, nes of articles of heading 785",4digit,153.0
+761,1325,7861,Trailers and transports containers,4digit,153.0
+762,1326,7868,"Other not mechanically propelled vehicles; and parts, nes",4digit,153.0
+763,1327,7911,"Rail locomotives, electric",4digit,154.0
+764,1328,7912,Other rail locomotives; tenders,4digit,154.0
+765,1329,7913,"Mechanically propelled railway, tramway, trolleys, etc",4digit,154.0
+766,1330,7914,"Railway, tramway passenger coaches, etc, not mechanically propelled",4digit,154.0
+767,1331,7915,"Railway and tramway freight, etc, not mechanically propelled",4digit,154.0
+768,1332,7919,"Railway track fixtures, and fittings, etc, parts nes of heading 791",4digit,154.0
+769,1333,7921,Helicopters,4digit,154.0
+770,1334,7922,Aircraft of an unladen weight not exceeding 2000 kg,4digit,154.0
+771,1335,7923,Aircraft of an unladen weight from 2000 kg to 15000 kg,4digit,154.0
+772,1336,7924,Aircraft of an unladen weight exceeding 15000 kg,4digit,154.0
+773,1337,7928,"Aircraft, nes and associated equipment",4digit,154.0
+774,1338,7929,"Parts, nes of the aircraft of heading 792",4digit,154.0
+775,1339,7931,Warships,4digit,154.0
+776,1340,7932,"Ships, boats and other vessels",4digit,154.0
+777,1341,7933,"Ships, boats and other vessels for breaking up",4digit,154.0
+778,1342,7938,"Tugs, special purpose vessels and floating structures",4digit,154.0
+779,1343,8121,"Central heating equipment, not electrically heated, parts, nes",4digit,155.0
+780,1344,8122,Ceramic plumbing fixtures,4digit,155.0
+781,1345,8124,"Lighting fixture and fittings, lamps, lanterns, and parts, nes",4digit,155.0
+782,1346,8211,"Chairs and other seats; and parts thereof, nes",4digit,156.0
+783,1347,8212,"Furniture for medical, surgical, dental or veterinary practice",4digit,156.0
+784,1348,8219,"Other furniture and parts thereof, nes",4digit,156.0
+785,1349,8310,"Travel goods, handbags etc, of leather, plastics, textile, others",4digit,157.0
+786,1350,8421,"Men's and boys' outerwear, textile fabrics not knitted or crocheted; overcoats and other coats",4digit,158.0
+787,1351,8422,"Men's and boys' outerwear, textile fabrics not knitted or crocheted; suits",4digit,158.0
+788,1352,8423,"Men's and boys' outerwear, textile fabrics not knitted or crocheted; trousers, breeches and the like",4digit,158.0
+789,1353,8424,"Men's and boys' outerwear, textile fabrics not knitted or crocheted; jackets, blazers and the like",4digit,158.0
+790,1354,8429,"Men's and boys' outerwear, textile fabrics not knitted or crocheted; other outer garments",4digit,158.0
+791,1355,8431,"Womens, girls, infants outerwear, textile, not knitted or crocheted; coats and jackets",4digit,158.0
+792,1356,8432,"Womens, girls, infants outerwear, textile, not knitted or crocheted; suits and costumes",4digit,158.0
+793,1357,8433,"Womens, girls, infants outerwear, textile, not knitted or crocheted; dresses",4digit,158.0
+794,1358,8434,"Womens, girls, infants outerwear, textile, not knitted or crocheted; skirts",4digit,158.0
+795,1359,8435,"Womens, girls, infants outerwear, textile, not knitted or crocheted; blouses",4digit,158.0
+796,1360,8439,"Womens, girls, infants outerwear, textile, not knitted or crocheted; other outer garments of textile fabrics, not knitted, crocheted",4digit,158.0
+797,1361,8441,"Under garments of textile fabrics, not knitted or crocheted; mens and boys shirts",4digit,158.0
+798,1362,8442,"Under garments of textile fabrics, not knitted or crocheted; mens, boys under garments; other than shirts",4digit,158.0
+799,1363,8443,"Under garments of textile fabrics, not knitted or crocheted; womens, girls, infants under garments, textile, not knitted, etc",4digit,158.0
+800,1364,8451,"Outerwear knitted or crocheted, not elastic nor rubberized; jerseys, pullovers, slip-overs, cardigans, etc",4digit,158.0
+801,1365,8452,"Outerwear knitted or crocheted, not elastic nor rubberized; womens, girls, infants, suits, dresses, etc, knitted, crocheted",4digit,158.0
+802,1366,8459,"Outerwear knitted or crocheted, not elastic nor rubberized; other, clothing accessories, non-elastic, knitted or crocheted",4digit,158.0
+803,1367,8461,"Under-garments, knitted or crocheted; of wool or fine animal hair, not elastic nor rubberized",4digit,158.0
+804,1368,8462,"Under-garments, knitted or crocheted; of cotton, not elastic nor rubberized",4digit,158.0
+805,1369,8463,"Under-garments, knitted or crocheted; of synthetic fibres not elastic nor rubberized",4digit,158.0
+806,1370,8464,"Under-garments, knitted or crocheted; of other fibres, not elastic nor rubberized",4digit,158.0
+807,1371,8465,"Corsets, garters, etc, not knitted or crocheted, elastic or not",4digit,158.0
+808,1372,8471,"Clothing accessories, of textile fabrics, not knitted or crocheted",4digit,158.0
+809,1373,8472,"Clothing accessories, knitted or crocheted, nes",4digit,158.0
+810,1374,8481,"Articles of apparel, clothing accessories of leather",4digit,158.0
+811,1375,8482,"Articles of apparel, clothing accessories of plastic or rubber",4digit,158.0
+812,1376,8483,Fur clothing (not headgear) and other articles made of furskins,4digit,158.0
+813,1377,8484,"Headgear and fitting thereof, nes",4digit,158.0
+814,1378,8510,Footwear,4digit,159.0
+815,1379,8710,Optical instruments and apparatus,4digit,160.0
+816,1380,8720,"Medical instruments and appliances, nes",4digit,160.0
+817,1381,8731,"Gas, liquid and electricity supply or production meters; etc",4digit,160.0
+818,1382,8732,Counting devices non-electrical; stroboscopes,4digit,160.0
+819,1383,8741,"Surveying, navigational, compasses, etc, instruments, nonelectrical",4digit,160.0
+820,1384,8742,"Drawing, marking-out and mathematical calculating instruments, etc",4digit,160.0
+821,1385,8743,"Gas, liquid control instruments and apparatus, non-electrical",4digit,160.0
+822,1386,8744,"Nonmechanical or electrical instruments for physical, etc, analysis",4digit,160.0
+823,1387,8745,"Measuring, controlling and scientific instruments, nes",4digit,160.0
+824,1388,8748,"Electrical measuring, controlling, etc, instruments, apparatus, nes",4digit,160.0
+825,1389,8749,"Parts, nes, and accessories of headings 873, 8743, 87454 or 8748",4digit,160.0
+826,1390,8811,"Photographic cameras, flashlight apparatus, parts, accessories, nes",4digit,161.0
+827,1391,8812,"Cinematographic cameras, projectors, etc, parts, accessories, nes",4digit,161.0
+828,1392,8813,"Photographic and cinematographic apparatus and equipment, nes",4digit,161.0
+829,1393,8821,Chemical products and flashlight materials for use in photografy,4digit,161.0
+830,1394,8822,"Photographic film, plates and paper (other than cinematograph film)",4digit,161.0
+831,1395,8830,"Cinematograph film, exposed and developed",4digit,161.0
+832,1396,8841,Lenses and other optical elements of any material,4digit,161.0
+833,1397,8842,Spectacles and spectacle frames,4digit,161.0
+834,1398,8851,"Watches, watch movements and case",4digit,161.0
+835,1399,8852,"Clocks, clock movements and parts",4digit,161.0
+836,1400,8921,"Printed books, pamphlets, maps and globes",4digit,162.0
+837,1401,8922,"Newspapers, journals and periodicals",4digit,162.0
+838,1402,8924,"Picture postcards, decalcomanias, etc, printed",4digit,162.0
+839,1403,8928,"Printed matter, nes",4digit,162.0
+840,1404,8931,"Plastic packing containers, lids, stoppers and other closures",4digit,162.0
+841,1405,8932,Plastic sanitary and toilet articles,4digit,162.0
+842,1406,8933,Personal adornments and ornaments articles of plastic,4digit,162.0
+843,1407,8935,Articles of electric lighting of plastic,4digit,162.0
+844,1408,8939,Miscellaneous articles of plastic,4digit,162.0
+845,1409,8941,"Baby carriages and parts thereof, nes",4digit,162.0
+846,1410,8942,"Children's toys, indoor games, etc",4digit,162.0
+847,1411,8946,Non-military arms and ammunition therefor,4digit,162.0
+848,1412,8947,"Other sporting goods and fairground amusements, etc",4digit,162.0
+849,1413,8951,"Office and stationary supplies, of base metal",4digit,162.0
+850,1414,8952,"Pens, pencils and, fountain pens",4digit,162.0
+851,1415,8959,Other office and stationary supplies,4digit,162.0
+852,1416,8960,"Works of art, collectors' pieces and antiques",4digit,162.0
+853,1417,8972,Imitation jewellery,4digit,162.0
+854,1418,8973,"Precious jewellery, goldsmiths' or silversmiths' wares",4digit,162.0
+855,1419,8974,"Other articles of precious metals or rolled precious metals, nes",4digit,162.0
+856,1420,8981,"Pianos, other string musical instruments",4digit,162.0
+857,1421,8982,"Musical instruments, nes",4digit,162.0
+858,1422,8983,"Sound recording tape, discs",4digit,162.0
+859,1423,8989,"Parts, nes of and accessories for musical instruments; metronomes",4digit,162.0
+860,1424,8991,"Articles and manufacture of carving, moulding materials, nes",4digit,162.0
+861,1425,8993,"Candles, matches, combustible products, etc",4digit,162.0
+862,1426,8994,"Umbrellas, canes and similar articles and parts thereof",4digit,162.0
+863,1427,8996,"Orthopaedic appliances, hearing aids, artificial parts of the body",4digit,162.0
+864,1428,8997,"Basketwork, wickerwork; brooms, paint rollers, etc",4digit,162.0
+865,1429,8998,"Small-wares and toilet articles, nes; sieves; tailors' dummies, etc",4digit,162.0
+866,1430,8999,"Manufactured goods, nes",4digit,162.0
+867,1431,9110,Postal packages not classified according to kind,4digit,163.0
+868,1432,9310,"Special transactions, commodity not classified according to class",4digit,164.0
+869,1433,9410,"Animals, live, nes, (including zoo animals, pets, insects, etc)",4digit,165.0
+870,1434,9510,"Armoured fighting vehicles, war firearms, ammunition, parts, nes",4digit,166.0
+871,1435,9610,"Coin (other than gold coin), not being legal tender",4digit,167.0
+872,1436,9710,"Gold, non-monetary (excluding gold ores and concentrates)",4digit,168.0
+873,1437,ZZZZ,Unknown,4digit,169.0
+874,2000,unspecified,Unspecified,4digit,200.0
+875,2001,travel,Travel and tourism,4digit,201.0
+876,2002,transport,Transport,4digit,202.0
+877,2003,ict,ICT,4digit,203.0
+878,2004,financial,Insurance and finance,4digit,204.0

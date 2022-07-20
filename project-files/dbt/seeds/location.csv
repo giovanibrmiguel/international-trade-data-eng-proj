@@ -1,0 +1,259 @@
+,location_id,location_code,location_name_short_en,level,parent_id
+0,0,ABW,Aruba,country,356.0
+1,1,AFG,Afghanistan,country,353.0
+2,2,AGO,Angola,country,352.0
+3,3,AIA,Anguilla,country,356.0
+4,4,ALB,Albania,country,355.0
+5,5,AND,Andorra,country,355.0
+6,6,ANT,Netherlands Antilles,country,356.0
+7,7,ARE,United Arab Emirates,country,353.0
+8,8,ARG,Argentina,country,357.0
+9,9,ARM,Armenia,country,353.0
+10,10,ASM,American Samoa,country,358.0
+11,11,ATA,Antarctica,country,358.0
+12,12,ATF,French Southern and Antarctic Lands,country,358.0
+13,13,ATG,Antigua and Barbuda,country,356.0
+14,14,AUS,Australia,country,354.0
+15,15,AUT,Austria,country,355.0
+16,16,AZE,Azerbaijan,country,353.0
+17,17,BDI,Burundi,country,352.0
+18,18,BEL,Belgium,country,355.0
+19,19,BEN,Benin,country,352.0
+20,20,BES,Bonaire,country,357.0
+21,21,BFA,Burkina Faso,country,352.0
+22,22,BGD,Bangladesh,country,353.0
+23,23,BGR,Bulgaria,country,355.0
+24,24,BHR,Bahrain,country,353.0
+25,25,BHS,Bahamas,country,356.0
+26,26,BIH,Bosnia and Herzegovina,country,355.0
+27,27,BLM,Saint Barthélemy,country,356.0
+28,28,BLR,Belarus,country,355.0
+29,29,BLZ,Belize,country,356.0
+30,30,BMU,Bermuda,country,356.0
+31,31,BOL,Bolivia,country,357.0
+32,32,BRA,Brazil,country,357.0
+33,33,BRB,Barbados,country,356.0
+34,34,BRN,Brunei Darussalam,country,353.0
+35,35,BTN,Bhutan,country,353.0
+36,36,BVT,Bouvet Island,country,358.0
+37,37,BWA,Botswana,country,352.0
+38,38,CAF,Central African Republic,country,352.0
+39,39,CAN,Canada,country,356.0
+40,40,CCK,Cocos (Keeling) Islands,country,354.0
+41,41,CHE,Switzerland,country,355.0
+42,42,CHL,Chile,country,357.0
+43,43,CHN,China,country,353.0
+44,44,CIV,Côte d'Ivoire,country,352.0
+45,45,CMR,Cameroon,country,352.0
+46,46,COD,Congo (Democratic Republic of the),country,352.0
+47,47,COG,Congo,country,352.0
+48,48,COK,Cook Islands,country,354.0
+49,49,COL,Colombia,country,357.0
+50,50,COM,Comoros,country,352.0
+51,51,CPV,Cabo Verde,country,352.0
+52,52,CRI,Costa Rica,country,356.0
+53,53,CSK,Czechoslovakia,country,355.0
+54,54,CUB,Cuba,country,356.0
+55,55,CUW,Curaçao,country,356.0
+56,56,CXR,Christmas Island,country,354.0
+57,57,CYM,Cayman Islands,country,356.0
+58,58,CYP,Cyprus,country,353.0
+59,59,CZE,Czech Republic,country,355.0
+60,60,DDR,Fmr Dem. Rep. of Germany,country,355.0
+61,61,DEU,Germany,country,355.0
+62,62,DJI,Djibouti,country,352.0
+63,63,DMA,Dominica,country,356.0
+64,64,DNK,Denmark,country,355.0
+65,65,DOM,Dominican Republic,country,356.0
+66,66,DZA,Algeria,country,352.0
+67,67,ECU,Ecuador,country,357.0
+68,68,EGY,Egypt,country,352.0
+69,69,ERI,Eritrea,country,352.0
+70,70,ESH,Western Sahara,country,352.0
+71,71,ESP,Spain,country,355.0
+72,72,EST,Estonia,country,355.0
+73,73,ETH,Ethiopia,country,352.0
+74,74,FIN,Finland,country,355.0
+75,75,FJI,Fiji,country,354.0
+76,76,FLK,Falkland Islands,country,356.0
+77,77,FRA,France,country,355.0
+78,78,FRO,Faroe Islands,country,355.0
+79,79,FSM,Micronesia,country,354.0
+80,80,GAB,Gabon,country,352.0
+81,81,GBR,United Kingdom,country,355.0
+82,82,GEO,Georgia,country,353.0
+83,83,GHA,Ghana,country,352.0
+84,84,GIB,Gibraltar,country,355.0
+85,85,GIN,Guinea,country,352.0
+86,86,GLP,Guadeloupe,country,356.0
+87,87,GMB,Gambia,country,352.0
+88,88,GNB,Guinea-Bissau,country,352.0
+89,89,GNQ,Equatorial Guinea,country,352.0
+90,90,GRC,Greece,country,355.0
+91,91,GRD,Grenada,country,356.0
+92,92,GRL,Greenland,country,356.0
+93,93,GTM,Guatemala,country,356.0
+94,94,GUF,French Guiana,country,357.0
+95,95,GUM,Guam,country,354.0
+96,96,GUY,Guyana,country,357.0
+97,97,HKG,Hong Kong,country,353.0
+98,98,HMD,Heard and McDonald Islands,country,358.0
+99,99,HND,Honduras,country,356.0
+100,100,HRV,Croatia,country,355.0
+101,101,HTI,Haiti,country,356.0
+102,102,HUN,Hungary,country,355.0
+103,103,IDN,Indonesia,country,353.0
+104,104,IND,India,country,353.0
+105,105,IOT,British Indian Ocean Territory,country,358.0
+106,106,IRL,Ireland,country,355.0
+107,107,IRN,Iran,country,353.0
+108,108,IRQ,Iraq,country,353.0
+109,109,ISL,Iceland,country,355.0
+110,110,ISR,Israel,country,353.0
+111,111,ITA,Italy,country,355.0
+112,112,JAM,Jamaica,country,356.0
+113,113,JOR,Jordan,country,353.0
+114,114,JPN,Japan,country,353.0
+115,115,KAZ,Kazakhstan,country,353.0
+116,116,KEN,Kenya,country,352.0
+117,117,KGZ,Kyrgyzstan,country,353.0
+118,118,KHM,Cambodia,country,353.0
+119,119,KIR,Kiribati,country,354.0
+120,120,KNA,Saint Kitts and Nevis,country,356.0
+121,121,KOR,South Korea,country,353.0
+122,122,KWT,Kuwait,country,353.0
+123,123,LAO,Laos,country,353.0
+124,124,LBN,Lebanon,country,353.0
+125,125,LBR,Liberia,country,352.0
+126,126,LBY,Libya,country,352.0
+127,127,LCA,Saint Lucia,country,356.0
+128,128,LKA,Sri Lanka,country,353.0
+129,129,LSO,Lesotho,country,352.0
+130,130,LTU,Lithuania,country,355.0
+131,131,LUX,Luxembourg,country,355.0
+132,132,LVA,Latvia,country,355.0
+133,133,MAC,Macao,country,353.0
+134,134,MAR,Morocco,country,352.0
+135,135,MDA,Moldova,country,355.0
+136,136,MDG,Madagascar,country,352.0
+137,137,MDV,Maldives,country,353.0
+138,138,MEX,Mexico,country,356.0
+139,139,MHL,Marshall Islands,country,354.0
+140,140,MKD,North Macedonia,country,355.0
+141,141,MLI,Mali,country,352.0
+142,142,MLT,Malta,country,355.0
+143,143,MMR,Myanmar,country,353.0
+144,144,MNE,Montenegro,country,355.0
+145,145,MNG,Mongolia,country,353.0
+146,146,MNP,Northern Mariana Islands,country,354.0
+147,147,MOZ,Mozambique,country,352.0
+148,148,MRT,Mauritania,country,352.0
+149,149,MSR,Montserrat,country,356.0
+150,150,MTQ,Martinique,country,356.0
+151,151,MUS,Mauritius,country,352.0
+152,152,MWI,Malawi,country,352.0
+153,153,MYS,Malaysia,country,353.0
+154,154,MYT,Mayotte,country,352.0
+155,155,NAM,Namibia,country,352.0
+156,156,NCL,New Caledonia,country,354.0
+157,157,NER,Niger,country,352.0
+158,158,NFK,Norfolk Island,country,354.0
+159,159,NGA,Nigeria,country,352.0
+160,160,NIC,Nicaragua,country,356.0
+161,161,NIU,Niue,country,354.0
+162,162,NLD,Netherlands,country,355.0
+163,163,NOR,Norway,country,355.0
+164,164,NPL,Nepal,country,353.0
+165,165,NRU,Nauru,country,354.0
+166,166,NZL,New Zealand,country,354.0
+167,167,OMN,Oman,country,353.0
+168,168,PAK,Pakistan,country,353.0
+169,169,PAN,Panama,country,356.0
+170,170,PCI,Fmr. Pacific Islands,country,354.0
+171,171,PCN,Pitcairn,country,354.0
+172,172,PCZ,Panama Canal Zone,country,356.0
+173,173,PER,Peru,country,357.0
+174,174,PHL,Philippines,country,353.0
+175,175,PLW,Palau,country,354.0
+176,176,PNG,Papua New Guinea,country,354.0
+177,177,POL,Poland,country,355.0
+178,178,PRK,North Korea,country,353.0
+179,179,PRT,Portugal,country,355.0
+180,180,PRY,Paraguay,country,357.0
+181,181,PSE,Palestine,country,353.0
+182,182,PYF,French Polynesia,country,354.0
+183,183,QAT,Qatar,country,353.0
+184,184,REU,Réunion,country,352.0
+185,185,ROU,Romania,country,355.0
+186,186,RUS,Russian Federation,country,355.0
+187,187,RWA,Rwanda,country,352.0
+188,188,SAU,Saudi Arabia,country,353.0
+189,189,SCG,Serbia and Montenegro,country,355.0
+190,190,SDN,Sudan,country,352.0
+191,191,SEN,Senegal,country,352.0
+192,192,SGP,Singapore,country,353.0
+193,193,SGS,South Georgia and South Sandwich Islds.,country,358.0
+194,194,SHN,"Saint Helena, Ascension and Tristan da Cunha",country,352.0
+195,195,SLB,Solomon Islands,country,354.0
+196,196,SLE,Sierra Leone,country,352.0
+197,197,SLV,El Salvador,country,356.0
+198,198,SMR,San Marino,country,355.0
+199,199,SOM,Somalia,country,352.0
+200,200,SPM,Saint Pierre and Miquelon,country,356.0
+201,201,SRB,Serbia,country,355.0
+202,202,SSD,South Sudan,country,352.0
+203,203,STP,Sao Tome and Principe,country,352.0
+204,204,SUN,Former USSR,country,355.0
+205,205,SUR,Suriname,country,357.0
+206,206,SVK,Slovakia,country,355.0
+207,207,SVN,Slovenia,country,355.0
+208,208,SWE,Sweden,country,355.0
+209,209,SWZ,Eswatini,country,352.0
+210,210,SXM,St-Martin / St Maarten,country,356.0
+211,211,SYC,Seychelles,country,352.0
+212,212,SYR,Syrian Arab Republic,country,353.0
+213,213,TCA,Turks and Caicos Islands,country,356.0
+214,214,TCD,Chad,country,352.0
+215,215,TGO,Togo,country,352.0
+216,216,THA,Thailand,country,353.0
+217,217,TJK,Tajikistan,country,353.0
+218,218,TKL,Tokelau,country,354.0
+219,219,TKM,Turkmenistan,country,353.0
+220,220,TLS,Timor-Leste,country,353.0
+221,221,TON,Tonga,country,354.0
+222,222,TTO,Trinidad and Tobago,country,356.0
+223,223,TUN,Tunisia,country,352.0
+224,224,TUR,Turkey,country,353.0
+225,225,TUV,Tuvalu,country,354.0
+226,226,TZA,Tanzania,country,352.0
+227,227,UGA,Uganda,country,352.0
+228,228,UKR,Ukraine,country,355.0
+229,229,UMI,United States Minor Outlying Islands,country,358.0
+230,230,URY,Uruguay,country,357.0
+231,231,USA,United States of America,country,356.0
+232,232,UZB,Uzbekistan,country,353.0
+233,233,VAT,Vatican City,country,355.0
+234,234,VCT,Saint Vincent and the Grenadines,country,356.0
+235,235,VDR,Fmr Dem. Rep. of Vietnam,country,353.0
+236,236,VEN,Venezuela,country,357.0
+237,237,VGB,Virgin Islands (British),country,356.0
+238,238,VIR,Virgin Islands (U.S.),country,356.0
+239,239,VNM,Vietnam,country,353.0
+240,240,VUT,Vanuatu,country,354.0
+241,241,WLF,Wallis and Futuna,country,354.0
+242,242,WSM,Samoa,country,354.0
+243,243,YEM,Yemen,country,353.0
+244,244,YMD,Fmr Dem. Yemen,country,353.0
+245,245,YUG,Yugoslavia,country,355.0
+246,246,ZAF,South Africa,country,352.0
+247,247,ZMB,Zambia,country,352.0
+248,248,ZWE,Zimbabwe,country,352.0
+249,249,TWN,Taiwan,country,353.0
+250,250,ANS,Undeclared Countries,country,358.0
+251,352,1,Africa,region,
+252,353,2,Asia,region,
+253,354,3,Oceania,region,
+254,355,4,Europe,region,
+255,356,5,North America,region,
+256,357,6,South America,region,
+257,358,7,Other,region,
