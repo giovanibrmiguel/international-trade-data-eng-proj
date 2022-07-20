@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+    - name: data_lake
+      # For bigquery:
+      database: united-electron-351323
+      schema: international_economics_data_lake
+
+      # loaded_at_field: record_loaded_at
+      tables:
+        - name: country_product_trade
+         # freshness:
+           # error_after: {count: 6, period: hour}
+
+models:
+    - name: stg_country_product_trade
+      description: >
+        International economic transactions made by countries from 1999 to 2019, as well as their complexity index.
+    #   columns:
+    #       - name: trip_id
+    #         description: Primary key for this table, generated with a concatenation of vendorid+pickup_datetime
+    #         tests:
+    #             - unique:
+    #                 severity: warn
+    #             - not_null:
+    #                 severity: warn
