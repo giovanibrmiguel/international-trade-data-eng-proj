@@ -1,0 +1,20 @@
+version: 2
+
+seeds: 
+  - name: location
+    description: "This is a look-up table returning the countries name based on their id."
+    config:
+        column_types:
+            parent_id: FLOAT64
+
+  - name: hs_product
+    description: "This is a look-up table returning the products name based on their id"
+    config:
+        column_types:
+            parent_id: FLOAT64
+                
+  - name: sitc_product
+    description: "This is a look-up table returning the sitc products name based on their id"
+    config:
+        column_types:
+            parent_id: FLOAT64
