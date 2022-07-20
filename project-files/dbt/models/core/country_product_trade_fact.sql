@@ -32,6 +32,3 @@ LEFT JOIN
 LEFT JOIN
     {{ ref('sitc_product') }} AS product_section
         ON product_type.parent_id = product_section.product_id
-WHERE
-    DATE(transaction_date) = '1999-01-01'
-LIMIT 1000
