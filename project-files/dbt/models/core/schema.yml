@@ -2,15 +2,13 @@ version: 2
 
 models:
   - name: country_product_trade_fact
-    description: >
-      International economic transactions made by countries from 1999 to 2019, as well as their complexity index.
-      In this table you'll find the origin and destination country regarding each product, a 3-layer detailed description of each product, and the sitc index (Standard International Trade Classification).
+    description: "International economic transactions made by countries from 1999 to 2019, as well as their complexity index. In this table you'll find the origin and destination country regarding each product, a 3-layer detailed description of each product, and the sitc index (Standard International Trade Classification)"
     columns:
       - name: transaction_id
-        description: Unique identifier of transaction, based on origin and destination country, as well as year and product
+        description: "Unique identifier of transaction, based on origin and destination country, as well as year and product"
         tests:
             - not_null:
-                severity: warning
+                severity: warn
       - name: product_id
         description: "Unique identifier of product" 
       - name: country_id
