@@ -4,15 +4,40 @@ models:
   - name: country_product_trade_fact
     description: >
       International economic transactions made by countries from 1999 to 2019, as well as their complexity index.
-      
-#   - name: dm_monthly_zone_revenue
-#     description: >
-#       Aggregated table of all taxi trips corresponding to both service zones (Green and yellow) per pickup zone, month and service.
-#       The table contains monthly sums of the fare elements used to calculate the monthly revenue. 
-#       The table contains also monthly indicators like number of trips, and average trip distance. 
-#     # columns:
-#     #   - name: revenue_monthly_total_amount
-#     #     description: Monthly sum of the the total_amount of the fare charged for the trip per pickup zone, month and service.
-#     #     tests:
-#     #         - not_null:
-#     #             severity: error
+      In this table you'll find the origin and destination country regarding each product, a 3-layer detailed description of each product, and the sitc index (Standard International Trade Classification).
+    columns:
+      - name: transaction_id
+        description: Unique identifier of transaction, based on origin and destination country, as well as year and product
+        tests:
+            - not_null:
+                severity: warning
+      - name: product_id
+        description: "Unique identifier of product" 
+      - name: country_id
+        description: "Unique identifier of country"
+      - name: partner_country_id
+        description: "Unique identifier of trade partner country"
+      - name: country_code
+        description: "Unique code of country"
+      - name: partner_country_code
+        description: "Unique code of trade partner country"
+      - name: country_name
+        description: "Name of country"
+      - name: partner_country_name
+        description: "Name of trade partner country"
+      - name: product_section
+        description: "Name of the product category / section"
+      - name: product_type
+        description: "Description of product type"
+      - name: product_detail
+        description: "Detailed description of traded product"
+      - name: export_value
+        description: "Exported value in USD per country transaction with partner"
+      - name: import_value
+        description: "Imported value in USD per country transaction with partner"
+      - name: sitc_eci
+        description: "Economic Complexity Index computed using SITC (Standard International Trade Classification) product data. Variable applicable to the respective country-year, independent of individual product."
+      - name: sitc_coi
+        description: "Complexity Outlook Index computed using SITC product data. Variable applicable to the respective country-year, independent of individual product."
+      - name: transaction_date
+        description: "indicates the year in which the transaction happened."
