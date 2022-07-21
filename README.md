@@ -20,7 +20,7 @@ Final project for Data Engineering Zoomcamp / Bootcamp from DataTalksClub and Dp
 
 Pipeline architecture:
 
-<p align="center"><img src=https://user-images.githubusercontent.com/19210522/115540283-9b609100-a2a6-11eb-9f48-08f3a17528d8.png></p>
+<p align="center"><img src=https://user-images.githubusercontent.com/77297705/180217542-cb22a0be-39bc-44ea-ab76-a85a52d31eb1.png></p>
 
 ## Context
 Harvard University's Growth Lab has provided access to their Atlas of Economic Complexity database, which consists of massive and complete data regarding importations and exportations from multiple countries taking into consideration multiple detailed products, as well as SITC (Standard International Trade Classification) complexity metrics and details. The goal of this project was to build an end-to-end data engineering pipeline to allow proactive data analysis insights and visualizations based on this vast dataset.
