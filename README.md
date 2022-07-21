@@ -38,7 +38,7 @@ Via Airflow dags orchestration, the data is moved from the Data Lake to the Data
 <p align="center"><img src=https://user-images.githubusercontent.com/77297705/180204141-df31af50-1f1a-4a91-b49b-768d8b092e2f.png></p>
 
 #### DBT for Data Transformation
-The data is transformed using DBT (Data Transform Tool) by building a data transformation pipeline using modularization (software engineering best practices). Initial simple transformations were made on a staging layer (renaming columns, casting data types), small CSV look-up files were ingested directly as dbt "seeds", and the final data transformations following business-rules were implemented on the fact table.
+The analytics engineering steps were made by transforming data using DBT (Data Transform Tool), by building a data transformation pipeline using modularization (software engineering best practices). Initial simple transformations were made on a staging layer (renaming columns, casting data types), small CSV look-up files were ingested directly as dbt "seeds", and the final data transformations following business-rules were implemented on the fact table.
 
 <p align="center"><img src=https://user-images.githubusercontent.com/77297705/180204519-fa49997c-d577-45f6-9eb8-37ebb5a96247.png></p>
 
@@ -48,6 +48,6 @@ A DBT job to implement the data transformations on the Big Query Data Warehouse 
 <p align="center"><img src=https://user-images.githubusercontent.com/77297705/180204579-56943ca4-a0ac-4aaa-8f5b-e4568f4ba907.png></p>
 
 #### Data Studio Dashboard
-The outcome fact table was fed into Data Studio as a source, and a dashboard was built based on it.
+The outcome fact table was fed into Data Studio as a source, and a dashboard was built based on it. Find the dashboard [here](https://datastudio.google.com/u/1/reporting/8264b415-b239-4f33-9992-700f1266e001/page/f6JyC)
 
 <p align="center"><img src=https://user-images.githubusercontent.com/77297705/180205757-ab0bc011-0d2d-48cc-afb0-fc46aa158210.gif></p>
