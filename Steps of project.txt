@@ -1,7 +1,0 @@
-STEPS: (REMOVE GOOGLE CREDENTIALS BEFORE PR!)
-
-- Raw ingestion to GCS: Airflow Python DAG to convert cdv to parquet and upload all local files to GCS on RAW folder, considering files from 1999 to 2019 (files initially stored inside DAGS folder on virtual machine)
-- Load to BigQuery data lake: Airflow Python DAG to move all files to data lake folder, create a BigQuery external table, and create a partitioned BigQuery table
-- Transformation on DBT and including seeds
-- Google Data Studio charts
-- Upload to GitHub and explain stuff
