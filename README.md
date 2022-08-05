@@ -21,12 +21,12 @@ Final project for Data Engineering Zoomcamp / Bootcamp from DataTalksClub and Dp
 
 Pipeline architecture:
 
-<p align="center"><img src=https://user-images.githubusercontent.com/77297705/180217542-cb22a0be-39bc-44ea-ab76-a85a52d31eb1.png></p>
+<p align="center"><img width="700" src=https://user-images.githubusercontent.com/77297705/180217542-cb22a0be-39bc-44ea-ab76-a85a52d31eb1.png></p>
 
 ## Context
-Harvard University's Growth Lab has provided access to their Atlas of Economic Complexity database, which consists of massive and complete data regarding importations and exportations from multiple countries taking into consideration multiple detailed products, as well as SITC (Standard International Trade Classification) complexity metrics and details. The goal of this project was to build an end-to-end data engineering pipeline to allow proactive data analysis insights and visualizations based on this vast dataset.
+Harvard University's Growth Lab has provided access to their Atlas of Economic Complexity database, which consists of massive and complete data regarding importations and exportations from multiple countries taking into consideration multiple detailed products, as well as SITC (Standard International Trade Classification) complexity metrics and details. The goal of this project was to build an end-to-end data engineering pipeline to allow proactive data analysis insights and visualizations based on this vast dataset. The source data is available on Harvard's [dataverse for the atlas of economic complexity](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/H8SFD2).
 
-With the [dashboard created](https://datastudio.google.com/u/1/reporting/8264b415-b239-4f33-9992-700f1266e001/page/f6JyC) at the end of the project, resulting of our data engineering project, we are able to globallly track countries regarding their main product exportations from 1999 to 2019, as well as identify their trade partners, dig deeper into product detailing, and identify time-series trends.
+With the [dashboard built](https://datastudio.google.com/u/1/reporting/8264b415-b239-4f33-9992-700f1266e001/page/f6JyC), as a consequence of the data engineering project, we are able to explore the data by globallly tracking countries regarding their main product exportations from 1999 to 2019, as well as identify their trade partners, dig deeper into product detailing, and identify time-series trends.
 
 ## Detailed Project Overview
 
